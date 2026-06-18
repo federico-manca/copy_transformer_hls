@@ -1,0 +1,1437 @@
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:1472:7: warning: Added loop label VITIS_LOOP_1211_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1211_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:1472:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:2446:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:2446:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:2460:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:2460:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:2474:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:2474:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:4073:7: warning: Added loop label VITIS_LOOP_1245_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1245_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:4073:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:7875:5: warning: Added loop label VITIS_LOOP_72_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < M * N; i += PE) {
+    ^~~
+    VITIS_LOOP_72_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:7875:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:7881:9: warning: Added loop label VITIS_LOOP_78_2:   [xilinx-label-all-loops]
+        for (int pe = 0; pe < PE; pe++) {
+        ^~~
+        VITIS_LOOP_78_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:7881:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8130:9: warning: Added loop label VITIS_LOOP_327_1:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; ++l)
+        ^~~
+        VITIS_LOOP_327_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8130:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8137:9: warning: Added loop label VITIS_LOOP_334_2:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_334_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8137:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8146:9: warning: Added loop label VITIS_LOOP_343_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_343_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8146:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8155:9: warning: Added loop label VITIS_LOOP_352_4:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_352_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8155:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8168:9: warning: Added loop label VITIS_LOOP_365_5:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_365_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8168:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8171:13: warning: Added loop label VITIS_LOOP_368_6:   [xilinx-label-all-loops]
+            for (int l = 0; l < L; l++) {
+            ^~~
+            VITIS_LOOP_368_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8171:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8226:5: warning: Added loop label VITIS_LOOP_423_7:   [xilinx-label-all-loops]
+    for(int a = 0; a < A; a++){
+    ^~~
+    VITIS_LOOP_423_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8226:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8228:6: warning: Added loop label VITIS_LOOP_425_8:   [xilinx-label-all-loops]
+     for(int j=0; j < J; j++){
+     ^~~
+     VITIS_LOOP_425_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8228:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8241:9: warning: Added loop label VITIS_LOOP_438_9:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_438_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8241:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8242:13: warning: Added loop label VITIS_LOOP_439_10:   [xilinx-label-all-loops]
+            for (int j = 0; j < J; j++) {
+            ^~~
+            VITIS_LOOP_439_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8242:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8257:9: warning: Added loop label VITIS_LOOP_454_11:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_454_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8257:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8279:2: warning: Added loop label VITIS_LOOP_476_1:   [xilinx-label-all-loops]
+ for(int a=0; a<A;a++){
+ ^~~
+ VITIS_LOOP_476_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8279:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8281:3: warning: Added loop label VITIS_LOOP_478_2:   [xilinx-label-all-loops]
+  for(int l=0; l<L;l++){
+  ^~~
+  VITIS_LOOP_478_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8281:3: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8305:5: warning: Added loop label VITIS_LOOP_502_1:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a+= Ta) {
+    ^~~
+    VITIS_LOOP_502_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8305:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8306:6: warning: Added loop label VITIS_LOOP_503_2:   [xilinx-label-all-loops]
+     for(int ta =0; ta < Ta; ta++){
+     ^~~
+     VITIS_LOOP_503_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8306:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8307:7: warning: Added loop label VITIS_LOOP_504_3:   [xilinx-label-all-loops]
+      for (int l = 0; l < L/PE; l++) {
+      ^~~
+      VITIS_LOOP_504_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8307:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8313:9: warning: Added loop label VITIS_LOOP_510_4:   [xilinx-label-all-loops]
+        for (int pe = 0; pe < PE; pe++) {
+        ^~~
+        VITIS_LOOP_510_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8313:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8366:2: warning: Added loop label VITIS_LOOP_563_1:   [xilinx-label-all-loops]
+ for (int m0 = 0; m0 < M; m0 += Tm) {
+ ^~~
+ VITIS_LOOP_563_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8366:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8368:9: warning: Added loop label VITIS_LOOP_565_2:   [xilinx-label-all-loops]
+        for (int tm = 0; tm < Tm; tm++) {
+        ^~~
+        VITIS_LOOP_565_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8368:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8377:9: warning: Added loop label VITIS_LOOP_574_3:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < N; n0 += Tn) {
+        ^~~
+        VITIS_LOOP_574_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8377:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8378:13: warning: Added loop label VITIS_LOOP_575_4:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_575_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8378:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8379:17: warning: Added loop label VITIS_LOOP_576_5:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn += PE) {
+                ^~~
+                VITIS_LOOP_576_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8379:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8384:21: warning: Added loop label VITIS_LOOP_581_6:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_581_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8384:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8409:9: warning: Added loop label VITIS_LOOP_606_7:   [xilinx-label-all-loops]
+        for (int tm = 0; tm < Tm; tm++) {
+        ^~~
+        VITIS_LOOP_606_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8409:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8412:13: warning: Added loop label VITIS_LOOP_609_8:   [xilinx-label-all-loops]
+            for (int n0 = 0; n0 < N; n0 += Tn) {
+            ^~~
+            VITIS_LOOP_609_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8412:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8413:17: warning: Added loop label VITIS_LOOP_610_9:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn++) {
+                ^~~
+                VITIS_LOOP_610_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8413:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8433:9: warning: Added loop label VITIS_LOOP_630_10:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < N; n0 += Tn) {
+        ^~~
+        VITIS_LOOP_630_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8433:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8434:13: warning: Added loop label VITIS_LOOP_631_11:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_631_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8434:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8435:17: warning: Added loop label VITIS_LOOP_632_12:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn += PE) {
+                ^~~
+                VITIS_LOOP_632_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8435:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8440:21: warning: Added loop label VITIS_LOOP_637_13:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_637_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8440:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8498:5: warning: Added loop label VITIS_LOOP_695_1:   [xilinx-label-all-loops]
+    for(int i=0; i < M*N; i+=PE){
+    ^~~
+    VITIS_LOOP_695_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8498:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8503:9: warning: Added loop label VITIS_LOOP_700_2:   [xilinx-label-all-loops]
+        for(int pe=0; pe < PE; pe++){
+        ^~~
+        VITIS_LOOP_700_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8503:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8586:5: warning: Added loop label VITIS_LOOP_802_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < M * N; i += PE) {
+    ^~~
+    VITIS_LOOP_802_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8586:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8593:9: warning: Added loop label VITIS_LOOP_809_2:   [xilinx-label-all-loops]
+        for (int pe = 0; pe < PE; pe++) {
+        ^~~
+        VITIS_LOOP_809_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8593:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8681:2: warning: Added loop label VITIS_LOOP_897_1:   [xilinx-label-all-loops]
+ for (int a = 0; a < A; a++) {
+ ^~~
+ VITIS_LOOP_897_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8681:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8688:5: warning: Added loop label VITIS_LOOP_904_2:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_904_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8688:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8689:9: warning: Added loop label VITIS_LOOP_905_3:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_905_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8689:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8697:5: warning: Added loop label VITIS_LOOP_913_4:   [xilinx-label-all-loops]
+    for (int l = 0; l < L; l++) {
+    ^~~
+    VITIS_LOOP_913_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8697:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8698:9: warning: Added loop label VITIS_LOOP_914_5:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_914_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8698:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8705:5: warning: Added loop label VITIS_LOOP_921_6:   [xilinx-label-all-loops]
+    for (int a = 0; a < J; a++) {
+    ^~~
+    VITIS_LOOP_921_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8705:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8706:13: warning: Added loop label VITIS_LOOP_922_7:   [xilinx-label-all-loops]
+            for (int l = 0; l < L; l++) {
+            ^~~
+            VITIS_LOOP_922_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8706:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8715:5: warning: Added loop label VITIS_LOOP_931_8:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_931_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8715:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8716:3: warning: Added loop label VITIS_LOOP_932_9:   [xilinx-label-all-loops]
+  for (int j = 0; j < J; j++) {
+  ^~~
+  VITIS_LOOP_932_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8716:3: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8719:4: warning: Added loop label VITIS_LOOP_935_10:   [xilinx-label-all-loops]
+   for (int l = 0; l < L; l++) {
+   ^~~
+   VITIS_LOOP_935_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8719:4: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8737:5: warning: Added loop label VITIS_LOOP_953_11:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_953_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8737:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8738:9: warning: Added loop label VITIS_LOOP_954_12:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_954_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8738:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8759:5: warning: Added loop label VITIS_LOOP_975_13:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_975_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8759:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8768:5: warning: Added loop label VITIS_LOOP_984_14:   [xilinx-label-all-loops]
+    for (int j = 0; j < J; j++) {
+    ^~~
+    VITIS_LOOP_984_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8768:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8769:9: warning: Added loop label VITIS_LOOP_985_15:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_985_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8769:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8772:13: warning: Added loop label VITIS_LOOP_988_16:   [xilinx-label-all-loops]
+            for (int a = 0; a < A; a++) {
+            ^~~
+            VITIS_LOOP_988_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8772:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8791:5: warning: Added loop label VITIS_LOOP_1007_17:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_1007_17: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8791:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8792:9: warning: Added loop label VITIS_LOOP_1008_18:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_1008_18: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8792:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8838:9: warning: Added loop label VITIS_LOOP_64_1:   [xilinx-label-all-loops]
+        for (int o = 0; o < C; o++) {
+        ^~~
+        VITIS_LOOP_64_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8838:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8844:9: warning: Added loop label VITIS_LOOP_70_2:   [xilinx-label-all-loops]
+        for (int e = 0; e < B; e++) {
+        ^~~
+        VITIS_LOOP_70_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8844:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8847:13: warning: Added loop label VITIS_LOOP_73_3:   [xilinx-label-all-loops]
+            for (int o = 0; o < C; o++) {
+            ^~~
+            VITIS_LOOP_73_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8847:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8856:9: warning: Added loop label VITIS_LOOP_82_4:   [xilinx-label-all-loops]
+        for (int p = 0; p < P; p++) {
+        ^~~
+        VITIS_LOOP_82_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8856:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8858:13: warning: Added loop label VITIS_LOOP_84_5:   [xilinx-label-all-loops]
+            for (int h = 0; h < D; h++) {
+            ^~~
+            VITIS_LOOP_84_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8858:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8897:9: warning: Added loop label VITIS_LOOP_123_1:   [xilinx-label-all-loops]
+        for (int o = 0; o < C; o++) {
+        ^~~
+        VITIS_LOOP_123_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8897:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8903:13: warning: Added loop label VITIS_LOOP_129_2:   [xilinx-label-all-loops]
+            for (int e = 0; e < B; e++) {
+            ^~~
+            VITIS_LOOP_129_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8903:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8906:17: warning: Added loop label VITIS_LOOP_132_3:   [xilinx-label-all-loops]
+                for (int o = 0; o < C; o++) {
+                ^~~
+                VITIS_LOOP_132_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8906:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8914:9: warning: Added loop label VITIS_LOOP_140_4:   [xilinx-label-all-loops]
+        for (int t = 0; t < A; t++) {
+        ^~~
+        VITIS_LOOP_140_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8914:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8915:13: warning: Added loop label VITIS_LOOP_141_5:   [xilinx-label-all-loops]
+            for (int h = 0; h < D; h++) {
+            ^~~
+            VITIS_LOOP_141_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8915:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8951:2: warning: Added loop label VITIS_LOOP_177_1:   [xilinx-label-all-loops]
+ for (int a = 0; a < A; a++) {
+ ^~~
+ VITIS_LOOP_177_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8951:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8952:9: warning: Added loop label VITIS_LOOP_178_2:   [xilinx-label-all-loops]
+        for (int b = 0; b < B; b++) {
+        ^~~
+        VITIS_LOOP_178_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8952:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8957:5: warning: Added loop label VITIS_LOOP_183_3:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_183_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8957:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8958:9: warning: Added loop label VITIS_LOOP_184_4:   [xilinx-label-all-loops]
+        for (int c = 0; c < C; c++) {
+        ^~~
+        VITIS_LOOP_184_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8958:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8963:5: warning: Added loop label VITIS_LOOP_189_5:   [xilinx-label-all-loops]
+    for (int c = 0; c < C; c++) {
+    ^~~
+    VITIS_LOOP_189_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8963:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8964:9: warning: Added loop label VITIS_LOOP_190_6:   [xilinx-label-all-loops]
+        for (int b = 0; b < B; b++) {
+        ^~~
+        VITIS_LOOP_190_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8964:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8966:13: warning: Added loop label VITIS_LOOP_192_7:   [xilinx-label-all-loops]
+            for (int a = 0; a < A; a++) {
+            ^~~
+            VITIS_LOOP_192_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8966:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8972:5: warning: Added loop label VITIS_LOOP_198_8:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_198_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8972:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8974:2: warning: Added loop label VITIS_LOOP_200_9:   [xilinx-label-all-loops]
+ for (int c = 0; c < C; c++) {
+ ^~~
+ VITIS_LOOP_200_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:8974:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9009:9: warning: Added loop label VITIS_LOOP_235_1:   [xilinx-label-all-loops]
+        for (int m = 0; m < M; m++) {
+        ^~~
+        VITIS_LOOP_235_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9009:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9044:9: warning: Added loop label VITIS_LOOP_270_1:   [xilinx-label-all-loops]
+        for (int o = 0; o < C; o++) {
+        ^~~
+        VITIS_LOOP_270_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9044:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9050:9: warning: Added loop label VITIS_LOOP_276_2:   [xilinx-label-all-loops]
+        for (int e = 0; e < B; e++) {
+        ^~~
+        VITIS_LOOP_276_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9050:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9052:13: warning: Added loop label VITIS_LOOP_278_3:   [xilinx-label-all-loops]
+            for (int o = 0; o < C; o++) {
+            ^~~
+            VITIS_LOOP_278_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9052:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9059:9: warning: Added loop label VITIS_LOOP_285_4:   [xilinx-label-all-loops]
+        for (int t = 0; t < C; t++) {
+        ^~~
+        VITIS_LOOP_285_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9059:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9101:2: warning: Added loop label VITIS_LOOP_327_1:   [xilinx-label-all-loops]
+ for(int m=0; m < M; m+=Tm){
+ ^~~
+ VITIS_LOOP_327_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9101:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9103:9: warning: Added loop label VITIS_LOOP_329_2:   [xilinx-label-all-loops]
+        for(int tm=0; tm < Tm; tm++){
+        ^~~
+        VITIS_LOOP_329_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9103:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9104:13: warning: Added loop label VITIS_LOOP_330_3:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_330_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9104:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9106:17: warning: Added loop label VITIS_LOOP_332_4:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_332_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9106:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9116:9: warning: Added loop label VITIS_LOOP_342_5:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_342_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9116:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9118:4: warning: Added loop label VITIS_LOOP_344_6:   [xilinx-label-all-loops]
+   for(int tn=0; tn < Tn/PE; tn++){
+   ^~~
+   VITIS_LOOP_344_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9118:4: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9120:5: warning: Added loop label VITIS_LOOP_346_7:   [xilinx-label-all-loops]
+    for(int tm=0; tm < Tm; tm++){
+    ^~~
+    VITIS_LOOP_346_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9120:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9121:12: warning: Added loop label VITIS_LOOP_347_8:   [xilinx-label-all-loops]
+           for(int pe=0; pe < PE; pe++){
+           ^~~
+           VITIS_LOOP_347_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9121:12: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9131:13: warning: Added loop label VITIS_LOOP_357_9:   [xilinx-label-all-loops]
+            for(int k=0; k<K; k+=Tk){
+            ^~~
+            VITIS_LOOP_357_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9131:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9132:5: warning: Added loop label VITIS_LOOP_358_10:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_358_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9132:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9133:6: warning: Added loop label VITIS_LOOP_359_11:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_359_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9133:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9135:7: warning: Added loop label VITIS_LOOP_361_12:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_361_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9135:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9136:29: warning: Added loop label VITIS_LOOP_362_13:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_362_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9136:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9138:33: warning: Added loop label VITIS_LOOP_364_14:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_364_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9138:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9155:13: warning: Added loop label VITIS_LOOP_381_15:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_381_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9155:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9156:17: warning: Added loop label VITIS_LOOP_382_16:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_382_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9156:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9162:21: warning: Added loop label VITIS_LOOP_388_17:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_388_17: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9162:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9212:13: warning: Added loop label VITIS_LOOP_438_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_438_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9212:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9224:9: warning: Added loop label VITIS_LOOP_450_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_450_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9224:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9240:5: warning: Added loop label VITIS_LOOP_466_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_466_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9240:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9241:6: warning: Added loop label VITIS_LOOP_467_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_467_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9241:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9243:7: warning: Added loop label VITIS_LOOP_469_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_469_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9243:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9244:29: warning: Added loop label VITIS_LOOP_470_6:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_470_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9244:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9246:33: warning: Added loop label VITIS_LOOP_472_7:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_472_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9246:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9263:13: warning: Added loop label VITIS_LOOP_489_8:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_489_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9263:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9264:17: warning: Added loop label VITIS_LOOP_490_9:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_490_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9264:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9270:21: warning: Added loop label VITIS_LOOP_496_10:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_496_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9270:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9311:5: warning: Added loop label VITIS_LOOP_537_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+=Tm){
+    ^~~
+    VITIS_LOOP_537_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9311:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9312:9: warning: Added loop label VITIS_LOOP_538_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_538_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9312:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9313:13: warning: Added loop label VITIS_LOOP_539_3:   [xilinx-label-all-loops]
+            for(int k=0; k<K; k+=Tk){
+            ^~~
+            VITIS_LOOP_539_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9313:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9314:5: warning: Added loop label VITIS_LOOP_540_4:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_540_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9314:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9315:6: warning: Added loop label VITIS_LOOP_541_5:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_541_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9315:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9316:7: warning: Added loop label VITIS_LOOP_542_6:   [xilinx-label-all-loops]
+      for(int kk=0; kk< SIMD; kk++){
+      ^~~
+      VITIS_LOOP_542_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9316:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9318:8: warning: Added loop label VITIS_LOOP_544_7:   [xilinx-label-all-loops]
+       for(int pe=0; pe < PE; pe++){
+       ^~~
+       VITIS_LOOP_544_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9318:8: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9343:2: warning: Added loop label VITIS_LOOP_569_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < N_beats; i++) {
+ ^~~
+ VITIS_LOOP_569_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9343:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9365:5: warning: Added loop label VITIS_LOOP_591_1:   [xilinx-label-all-loops]
+    for (int produced = 0; produced < N_out_words; ) {
+    ^~~
+    VITIS_LOOP_591_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9365:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9421:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9428:13: warning: Added loop label VITIS_LOOP_654_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_654_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9428:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9440:9: warning: Added loop label VITIS_LOOP_666_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_666_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9440:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9478:5: warning: Added loop label VITIS_LOOP_713_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_713_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9478:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9479:6: warning: Added loop label VITIS_LOOP_714_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_714_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9479:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9482:7: warning: Added loop label VITIS_LOOP_717_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_717_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9482:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9487:2: warning: Added loop label VITIS_LOOP_722_6:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_722_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9487:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9492:29: warning: Added loop label VITIS_LOOP_727_7:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_727_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9492:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9496:33: warning: Added loop label VITIS_LOOP_731_8:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_731_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9496:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9512:29: warning: Added loop label VITIS_LOOP_747_9:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_747_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9512:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9524:13: warning: Added loop label VITIS_LOOP_759_10:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_759_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9524:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9525:17: warning: Added loop label VITIS_LOOP_760_11:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_760_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9525:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9531:21: warning: Added loop label VITIS_LOOP_766_12:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_766_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9531:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9568:5: warning: Added loop label VITIS_LOOP_803_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+=Tm){
+    ^~~
+    VITIS_LOOP_803_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9568:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9569:9: warning: Added loop label VITIS_LOOP_804_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_804_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9569:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9570:13: warning: Added loop label VITIS_LOOP_805_3:   [xilinx-label-all-loops]
+            for(int tn=0; tn < Tn/PE; tn++){
+            ^~~
+            VITIS_LOOP_805_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9570:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9571:17: warning: Added loop label VITIS_LOOP_806_4:   [xilinx-label-all-loops]
+                for(int pe=0; pe < PE; pe++){
+                ^~~
+                VITIS_LOOP_806_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9571:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9637:5: warning: Added loop label VITIS_LOOP_912_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+= Tm){
+    ^~~
+    VITIS_LOOP_912_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9637:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9638:9: warning: Added loop label VITIS_LOOP_913_2:   [xilinx-label-all-loops]
+        for(int n=0; n < N; n+= Tn){
+        ^~~
+        VITIS_LOOP_913_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9638:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9639:13: warning: Added loop label VITIS_LOOP_914_3:   [xilinx-label-all-loops]
+            for(int k=0; k < K; k+= Tk){
+            ^~~
+            VITIS_LOOP_914_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9639:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9675:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9682:13: warning: Added loop label VITIS_LOOP_957_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_957_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9682:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9694:9: warning: Added loop label VITIS_LOOP_969_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_969_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9694:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9712:5: warning: Added loop label VITIS_LOOP_999_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_999_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9712:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9713:6: warning: Added loop label VITIS_LOOP_1000_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_1000_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9713:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9716:7: warning: Added loop label VITIS_LOOP_1003_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_1003_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9716:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9721:2: warning: Added loop label VITIS_LOOP_1008_6:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1008_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9721:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9726:29: warning: Added loop label VITIS_LOOP_1013_7:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_1013_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9726:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9730:33: warning: Added loop label VITIS_LOOP_1017_8:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1017_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9730:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9746:29: warning: Added loop label VITIS_LOOP_1033_9:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1033_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9746:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9758:13: warning: Added loop label VITIS_LOOP_1045_10:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1045_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9758:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9759:17: warning: Added loop label VITIS_LOOP_1046_11:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_1046_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9759:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9765:21: warning: Added loop label VITIS_LOOP_1052_12:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_1052_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9765:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9813:13: warning: Added loop label VITIS_LOOP_1100_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_1100_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9813:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9825:9: warning: Added loop label VITIS_LOOP_1112_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_1112_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9825:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9845:5: warning: Added loop label VITIS_LOOP_1145_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_1145_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9845:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9846:6: warning: Added loop label VITIS_LOOP_1146_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_1146_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9846:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9849:7: warning: Added loop label VITIS_LOOP_1149_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_1149_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9849:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9855:2: warning: Added loop label VITIS_LOOP_1155_6:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1155_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9855:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9860:29: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_1160_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9860:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9864:33: warning: Added loop label VITIS_LOOP_1164_8:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1164_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9864:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9879:29: warning: Added loop label VITIS_LOOP_1179_9:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1179_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9879:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9891:13: warning: Added loop label VITIS_LOOP_1191_10:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1191_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9891:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9892:17: warning: Added loop label VITIS_LOOP_1192_11:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_1192_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9892:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9898:21: warning: Added loop label VITIS_LOOP_1198_12:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_1198_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9898:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9937:5: warning: Added loop label VITIS_LOOP_1237_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+= Tm){
+    ^~~
+    VITIS_LOOP_1237_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9937:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9938:9: warning: Added loop label VITIS_LOOP_1238_2:   [xilinx-label-all-loops]
+        for(int k=0; k < K; k+= Tk){
+        ^~~
+        VITIS_LOOP_1238_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9938:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9939:13: warning: Added loop label VITIS_LOOP_1239_3:   [xilinx-label-all-loops]
+            for(int n=0; n < N; n+= Tn){
+            ^~~
+            VITIS_LOOP_1239_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9939:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9984:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9992:2: warning: Added loop label VITIS_LOOP_1292_1:   [xilinx-label-all-loops]
+ for(int m=0; m < M; m+=Tm){
+ ^~~
+ VITIS_LOOP_1292_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9992:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9995:9: warning: Added loop label VITIS_LOOP_1295_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_1295_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9995:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9996:13: warning: Added loop label VITIS_LOOP_1296_3:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1296_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9996:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9998:17: warning: Added loop label VITIS_LOOP_1298_4:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1298_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9998:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9999:21: warning: Added loop label VITIS_LOOP_1299_5:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1299_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:9999:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10008:9: warning: Added loop label VITIS_LOOP_1308_6:   [xilinx-label-all-loops]
+        for(int k=0; k<K; k+=Tk){
+        ^~~
+        VITIS_LOOP_1308_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10008:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10010:13: warning: Added loop label VITIS_LOOP_1310_7:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1310_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10010:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10011:17: warning: Added loop label VITIS_LOOP_1311_8:   [xilinx-label-all-loops]
+                for(int tk=0; tk < Tk/SIMD; tk++){
+                ^~~
+                VITIS_LOOP_1311_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10011:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10023:13: warning: Added loop label VITIS_LOOP_1323_9:   [xilinx-label-all-loops]
+            for(int n=0; n<N; n +=Tn){
+            ^~~
+            VITIS_LOOP_1323_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10023:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10024:17: warning: Added loop label VITIS_LOOP_1324_10:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1324_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10024:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10025:21: warning: Added loop label VITIS_LOOP_1325_11:   [xilinx-label-all-loops]
+                    for(int tk=0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1325_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10025:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10030:25: warning: Added loop label VITIS_LOOP_1330_12:   [xilinx-label-all-loops]
+                        for(int tm=0; tm < Tm; tm++){
+                        ^~~
+                        VITIS_LOOP_1330_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10030:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10036:2: warning: Added loop label VITIS_LOOP_1336_13:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1336_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10036:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10041:29: warning: Added loop label VITIS_LOOP_1341_14:   [xilinx-label-all-loops]
+                            for(int s=0; s< SIMD; s++){
+                            ^~~
+                            VITIS_LOOP_1341_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10041:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10045:33: warning: Added loop label VITIS_LOOP_1345_15:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1345_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10045:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10060:29: warning: Added loop label VITIS_LOOP_1360_16:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1360_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10060:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10071:13: warning: Added loop label VITIS_LOOP_1371_17:   [xilinx-label-all-loops]
+            for(int n=0; n < N; n+=Tn){
+            ^~~
+            VITIS_LOOP_1371_17: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10071:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10072:17: warning: Added loop label VITIS_LOOP_1372_18:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_1372_18: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10072:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10073:21: warning: Added loop label VITIS_LOOP_1373_19:   [xilinx-label-all-loops]
+                    for (int tn = 0; tn < Tn/PE; tn++) {
+                    ^~~
+                    VITIS_LOOP_1373_19: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10073:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10076:25: warning: Added loop label VITIS_LOOP_1376_20:   [xilinx-label-all-loops]
+                        for (int pe = 0; pe < PE; pe++) {
+                        ^~~
+                        VITIS_LOOP_1376_20: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10076:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10157:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10165:2: warning: Added loop label VITIS_LOOP_1509_1:   [xilinx-label-all-loops]
+ for(int m=0; m < M; m+=Tm){
+ ^~~
+ VITIS_LOOP_1509_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10165:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10168:9: warning: Added loop label VITIS_LOOP_1512_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_1512_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10168:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10169:13: warning: Added loop label VITIS_LOOP_1513_3:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1513_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10169:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10171:17: warning: Added loop label VITIS_LOOP_1515_4:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1515_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10171:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10172:21: warning: Added loop label VITIS_LOOP_1516_5:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1516_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10172:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10181:9: warning: Added loop label VITIS_LOOP_1525_6:   [xilinx-label-all-loops]
+        for(int k=0; k<K; k+=Tk){
+        ^~~
+        VITIS_LOOP_1525_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10181:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10183:13: warning: Added loop label VITIS_LOOP_1527_7:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1527_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10183:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10184:17: warning: Added loop label VITIS_LOOP_1528_8:   [xilinx-label-all-loops]
+                for(int tk=0; tk < Tk/SIMD; tk++){
+                ^~~
+                VITIS_LOOP_1528_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10184:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10196:13: warning: Added loop label VITIS_LOOP_1540_9:   [xilinx-label-all-loops]
+            for(int n=0; n<N; n +=Tn){
+            ^~~
+            VITIS_LOOP_1540_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10196:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10197:17: warning: Added loop label VITIS_LOOP_1541_10:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1541_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10197:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10198:21: warning: Added loop label VITIS_LOOP_1542_11:   [xilinx-label-all-loops]
+                    for(int tk=0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1542_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10198:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10203:25: warning: Added loop label VITIS_LOOP_1547_12:   [xilinx-label-all-loops]
+                        for(int tm=0; tm < Tm; tm++){
+                        ^~~
+                        VITIS_LOOP_1547_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10203:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10209:2: warning: Added loop label VITIS_LOOP_1553_13:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1553_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10209:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10214:29: warning: Added loop label VITIS_LOOP_1558_14:   [xilinx-label-all-loops]
+                            for(int s=0; s< SIMD; s++){
+                            ^~~
+                            VITIS_LOOP_1558_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10214:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10218:33: warning: Added loop label VITIS_LOOP_1562_15:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1562_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10218:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10233:29: warning: Added loop label VITIS_LOOP_1577_16:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1577_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10233:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10244:13: warning: Added loop label VITIS_LOOP_1588_17:   [xilinx-label-all-loops]
+            for(int n=0; n < N; n+=Tn){
+            ^~~
+            VITIS_LOOP_1588_17: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10244:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10245:17: warning: Added loop label VITIS_LOOP_1589_18:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_1589_18: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10245:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10246:21: warning: Added loop label VITIS_LOOP_1590_19:   [xilinx-label-all-loops]
+                    for (int tn = 0; tn < Tn/PE; tn++) {
+                    ^~~
+                    VITIS_LOOP_1590_19: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10246:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10249:25: warning: Added loop label VITIS_LOOP_1593_20:   [xilinx-label-all-loops]
+                        for (int pe = 0; pe < PE; pe++) {
+                        ^~~
+                        VITIS_LOOP_1593_20: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10249:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10312:2: warning: Added loop label VITIS_LOOP_1656_1:   [xilinx-label-all-loops]
+ for (int n = 0; n < N; n++) {
+ ^~~
+ VITIS_LOOP_1656_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10312:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10313:9: warning: Added loop label VITIS_LOOP_1657_2:   [xilinx-label-all-loops]
+        for (int k = 0; k < K; k += SIMD) {
+        ^~~
+        VITIS_LOOP_1657_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10313:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10317:13: warning: Added loop label VITIS_LOOP_1661_3:   [xilinx-label-all-loops]
+            for (int s = 0; s < SIMD; s++) {
+            ^~~
+            VITIS_LOOP_1661_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10317:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10334:5: warning: Added loop label VITIS_LOOP_1678_4:   [xilinx-label-all-loops]
+    for (int m = 0; m < M; m += Tm) {
+    ^~~
+    VITIS_LOOP_1678_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10334:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10337:9: warning: Added loop label VITIS_LOOP_1681_5:   [xilinx-label-all-loops]
+        for (int tm = 0; tm < Tm; tm++) {
+        ^~~
+        VITIS_LOOP_1681_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10337:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10338:13: warning: Added loop label VITIS_LOOP_1682_6:   [xilinx-label-all-loops]
+            for (int k = 0; k < K; k += SIMD) {
+            ^~~
+            VITIS_LOOP_1682_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10338:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10342:17: warning: Added loop label VITIS_LOOP_1686_7:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_1686_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10342:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10357:9: warning: Added loop label VITIS_LOOP_1701_8:   [xilinx-label-all-loops]
+        for (int n = 0; n < N; n += Tn) {
+        ^~~
+        VITIS_LOOP_1701_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10357:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10360:13: warning: Added loop label VITIS_LOOP_1704_9:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1704_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10360:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10361:17: warning: Added loop label VITIS_LOOP_1705_10:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn++) {
+                ^~~
+                VITIS_LOOP_1705_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10361:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10368:13: warning: Added loop label VITIS_LOOP_1712_11:   [xilinx-label-all-loops]
+            for (int k = 0; k < K; k += SIMD) {
+            ^~~
+            VITIS_LOOP_1712_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10368:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10369:17: warning: Added loop label VITIS_LOOP_1713_12:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_1713_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10369:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10370:21: warning: Added loop label VITIS_LOOP_1714_13:   [xilinx-label-all-loops]
+                    for (int tn = 0; tn < Tn; tn += PE) {
+                    ^~~
+                    VITIS_LOOP_1714_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10370:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10372:2: warning: Added loop label VITIS_LOOP_1716_14:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_1716_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10372:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10376:29: warning: Added loop label VITIS_LOOP_1720_15:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1720_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10376:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10389:13: warning: Added loop label VITIS_LOOP_1733_16:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1733_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10389:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10390:17: warning: Added loop label VITIS_LOOP_1734_17:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn += PE) {
+                ^~~
+                VITIS_LOOP_1734_17: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10390:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10394:21: warning: Added loop label VITIS_LOOP_1738_18:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_1738_18: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10394:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10452:9: warning: Added loop label VITIS_LOOP_1796_1:   [xilinx-label-all-loops]
+        for (int n = 0; n < N; n+=Tn) {
+        ^~~
+        VITIS_LOOP_1796_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10452:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10453:13: warning: Added loop label VITIS_LOOP_1797_2:   [xilinx-label-all-loops]
+            for(int tk=0; tk < Tk; tk++){
+            ^~~
+            VITIS_LOOP_1797_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10453:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10454:17: warning: Added loop label VITIS_LOOP_1798_3:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1798_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10454:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10456:21: warning: Added loop label VITIS_LOOP_1800_4:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1800_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10456:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10474:13: warning: Added loop label VITIS_LOOP_1818_5:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_1818_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10474:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10487:9: warning: Added loop label VITIS_LOOP_1831_6:   [xilinx-label-all-loops]
+        for(int n=0; n < N; n+=Tn){
+        ^~~
+        VITIS_LOOP_1831_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10487:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10494:2: warning: Added loop label VITIS_LOOP_1838_7:   [xilinx-label-all-loops]
+ for(int pe=0; pe < PE; pe++){
+ ^~~
+ VITIS_LOOP_1838_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10494:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10503:13: warning: Added loop label VITIS_LOOP_1847_8:   [xilinx-label-all-loops]
+            for(int k=0; k < K; k+=Tk){
+            ^~~
+            VITIS_LOOP_1847_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10503:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10505:17: warning: Added loop label VITIS_LOOP_1849_9:   [xilinx-label-all-loops]
+                for(int tm=0; tm < Tm; tm++){
+                ^~~
+                VITIS_LOOP_1849_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10505:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10507:21: warning: Added loop label VITIS_LOOP_1851_10:   [xilinx-label-all-loops]
+                    for(int tk = 0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1851_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10507:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10509:25: warning: Added loop label VITIS_LOOP_1853_11:   [xilinx-label-all-loops]
+                        for(int tn = 0; tn < Tn/PE; tn++){
+                        ^~~
+                        VITIS_LOOP_1853_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10509:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10511:2: warning: Added loop label VITIS_LOOP_1855_12:   [xilinx-label-all-loops]
+ for(int s=0; s < SIMD; s++){
+ ^~~
+ VITIS_LOOP_1855_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10511:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10512:33: warning: Added loop label VITIS_LOOP_1856_13:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1856_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10512:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10523:13: warning: Added loop label VITIS_LOOP_1867_14:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1867_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10523:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10524:17: warning: Added loop label VITIS_LOOP_1868_15:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_1868_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10524:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10528:21: warning: Added loop label VITIS_LOOP_1872_16:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_1872_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10528:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10581:9: warning: Added loop label VITIS_LOOP_1940_1:   [xilinx-label-all-loops]
+        for (int n = 0; n < N; n+=Tn) {
+        ^~~
+        VITIS_LOOP_1940_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10581:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10582:13: warning: Added loop label VITIS_LOOP_1941_2:   [xilinx-label-all-loops]
+            for(int tk=0; tk < Tk; tk++){
+            ^~~
+            VITIS_LOOP_1941_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10582:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10583:17: warning: Added loop label VITIS_LOOP_1942_3:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1942_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10583:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10585:21: warning: Added loop label VITIS_LOOP_1944_4:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1944_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10585:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10603:13: warning: Added loop label VITIS_LOOP_1962_5:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_1962_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10603:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10616:9: warning: Added loop label VITIS_LOOP_1975_6:   [xilinx-label-all-loops]
+        for(int n=0; n < N; n+=Tn){
+        ^~~
+        VITIS_LOOP_1975_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10616:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10623:2: warning: Added loop label VITIS_LOOP_1982_7:   [xilinx-label-all-loops]
+ for(int pe=0; pe < PE; pe++){
+ ^~~
+ VITIS_LOOP_1982_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10623:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10632:13: warning: Added loop label VITIS_LOOP_1991_8:   [xilinx-label-all-loops]
+            for(int k=0; k < K; k+=Tk){
+            ^~~
+            VITIS_LOOP_1991_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10632:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10634:17: warning: Added loop label VITIS_LOOP_1993_9:   [xilinx-label-all-loops]
+                for(int tm=0; tm < Tm; tm++){
+                ^~~
+                VITIS_LOOP_1993_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10634:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10636:21: warning: Added loop label VITIS_LOOP_1995_10:   [xilinx-label-all-loops]
+                    for(int tk = 0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1995_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10636:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10638:25: warning: Added loop label VITIS_LOOP_1997_11:   [xilinx-label-all-loops]
+                        for(int tn = 0; tn < Tn/PE; tn++){
+                        ^~~
+                        VITIS_LOOP_1997_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10638:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10640:2: warning: Added loop label VITIS_LOOP_1999_12:   [xilinx-label-all-loops]
+ for(int s=0; s < SIMD; s++){
+ ^~~
+ VITIS_LOOP_1999_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10640:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10641:33: warning: Added loop label VITIS_LOOP_2000_13:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_2000_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10641:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10652:13: warning: Added loop label VITIS_LOOP_2011_14:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_2011_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10652:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10653:17: warning: Added loop label VITIS_LOOP_2012_15:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_2012_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10653:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10657:21: warning: Added loop label VITIS_LOOP_2016_16:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_2016_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10657:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10753:9: warning: Added loop label VITIS_LOOP_2112_1:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < N; n0 += Tn) {
+        ^~~
+        VITIS_LOOP_2112_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10753:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10754:13: warning: Added loop label VITIS_LOOP_2113_2:   [xilinx-label-all-loops]
+            for (int tk = 0; tk < Tk; tk++) {
+            ^~~
+            VITIS_LOOP_2113_2: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10754:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10755:17: warning: Added loop label VITIS_LOOP_2114_3:   [xilinx-label-all-loops]
+                for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                ^~~
+                VITIS_LOOP_2114_3: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10755:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10759:21: warning: Added loop label VITIS_LOOP_2118_4:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_2118_4: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10759:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10781:9: warning: Added loop label VITIS_LOOP_2140_5:   [xilinx-label-all-loops]
+        for (int tn = 0; tn < Tn; tn++) {
+        ^~~
+        VITIS_LOOP_2140_5: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10781:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10782:13: warning: Added loop label VITIS_LOOP_2141_6:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2141_6: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10782:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10786:17: warning: Added loop label VITIS_LOOP_2145_7:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_2145_7: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10786:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10811:13: warning: Added loop label VITIS_LOOP_2170_8:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2170_8: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10811:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10815:17: warning: Added loop label VITIS_LOOP_2174_9:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_2174_9: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10815:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10841:13: warning: Added loop label VITIS_LOOP_2200_10:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2200_10: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10841:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10843:2: warning: Added loop label VITIS_LOOP_2202_11:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2202_11: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10843:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10861:17: warning: Added loop label VITIS_LOOP_2220_12:   [xilinx-label-all-loops]
+                for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                ^~~
+                VITIS_LOOP_2220_12: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10861:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10863:2: warning: Added loop label VITIS_LOOP_2222_13:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_2222_13: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10863:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10875:17: warning: Added loop label VITIS_LOOP_2234_14:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_2234_14: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10875:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10876:21: warning: Added loop label VITIS_LOOP_2235_15:   [xilinx-label-all-loops]
+                    for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                    ^~~
+                    VITIS_LOOP_2235_15: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10876:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10877:25: warning: Added loop label VITIS_LOOP_2236_16:   [xilinx-label-all-loops]
+                        for (int tk_pack = 0; tk_pack < Tk / SIMD; tk_pack++) {
+                        ^~~
+                        VITIS_LOOP_2236_16: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10877:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10879:2: warning: Added loop label VITIS_LOOP_2238_17:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2238_17: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10879:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10884:33: warning: Added loop label VITIS_LOOP_2243_18:   [xilinx-label-all-loops]
+                                for (int pe = 0; pe < PE; pe++) {
+                                ^~~
+                                VITIS_LOOP_2243_18: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10884:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10945:21: warning: Added loop label VITIS_LOOP_2304_19:   [xilinx-label-all-loops]
+                    for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+                    ^~~
+                    VITIS_LOOP_2304_19: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10945:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10947:2: warning: Added loop label VITIS_LOOP_2306_20:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2306_20: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10947:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10963:17: warning: Added loop label VITIS_LOOP_2329_21:   [xilinx-label-all-loops]
+                for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                ^~~
+                VITIS_LOOP_2329_21: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10963:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10969:2: warning: Added loop label VITIS_LOOP_2335_22:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_2335_22: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10969:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10982:21: warning: Added loop label VITIS_LOOP_2348_23:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_2348_23: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10982:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10988:21: warning: Added loop label VITIS_LOOP_2354_24:   [xilinx-label-all-loops]
+                    for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+                    ^~~
+                    VITIS_LOOP_2354_24: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10988:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10990:2: warning: Added loop label VITIS_LOOP_2356_25:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2356_25: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10990:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10996:29: warning: Added loop label VITIS_LOOP_2362_26:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_2362_26: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:10996:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11022:13: warning: Added loop label VITIS_LOOP_2388_27:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2388_27: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11022:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11026:17: warning: Added loop label VITIS_LOOP_2392_28:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_2392_28: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11026:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11826:5: warning: Added loop label VITIS_LOOP_72_1:   [xilinx-label-all-loops]
+    for(int i=0; i < input_words; i++){
+    ^~~
+    VITIS_LOOP_72_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11826:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11836:5: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+    for(int i=0; i < output_words; i++){
+    ^~~
+    VITIS_LOOP_82_1: 
+/home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp:11836:5: note: FIX-IT applied suggested code changes

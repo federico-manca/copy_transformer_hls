@@ -1,0 +1,303 @@
+
+
+================================================================
+== Vitis HLS Report for 'ViT_Block_Core'
+================================================================
+* Date:           Thu Jun 18 11:11:43 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        ViT_Block
+* Solution:       ViT_Block (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.300 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|  dataflow|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 18
+* Pipeline : 0
+* Dataflow Pipeline: 1
+  DF-Pipeline-0: Size = 18, States = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 }
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 18 
+18 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%res = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:199]   --->   Operation 19 'alloca' 'res' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%res_rq = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:200]   --->   Operation 20 'alloca' 'res_rq' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%x1 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:202]   --->   Operation 21 'alloca' 'x1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%norm_out = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:203]   --->   Operation 22 'alloca' 'norm_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%Q_in = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:205]   --->   Operation 23 'alloca' 'Q_in' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%K_in = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:206]   --->   Operation 24 'alloca' 'K_in' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%V_in = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:207]   --->   Operation 25 'alloca' 'V_in' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%out_mha = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:209]   --->   Operation 26 'alloca' 'out_mha' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%out_res_0 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:211]   --->   Operation 27 'alloca' 'out_res_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%res_1 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:216]   --->   Operation 28 'alloca' 'res_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%res_1_rq = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:217]   --->   Operation 29 'alloca' 'res_1_rq' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 3072> <FIFO>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%x2 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:219]   --->   Operation 30 'alloca' 'x2' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%norm_out_1 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:220]   --->   Operation 31 'alloca' 'norm_out_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%mlp_out = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:222]   --->   Operation 32 'alloca' 'mlp_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 33 [2/2] (0.00ns)   --->   "%call_ln254 = call void @duplicate_stream<ap_int<8>, 17, 192, 1>, i8 %input_stream1, i8 %res, i8 %x1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:254]   --->   Operation 33 'call' 'call_ln254' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 34 [1/2] (0.00ns)   --->   "%call_ln254 = call void @duplicate_stream<ap_int<8>, 17, 192, 1>, i8 %input_stream1, i8 %res, i8 %x1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:254]   --->   Operation 34 'call' 'call_ln254' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 35 [2/2] (0.00ns)   --->   "%call_ln277 = call void @BatchNorm_tiled_0, i8 %x1, i8 %norm_out, i15 %bn0_mul_1, i23 %bn0_add_1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:277]   --->   Operation 35 'call' 'call_ln277' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 36 [2/2] (0.00ns)   --->   "%call_ln336 = call void @requant<ap_int<8>, ap_int<8>, 17, 192, 23553, 16, 1>, i8 %res, i8 %res_rq" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:336]   --->   Operation 36 'call' 'call_ln336' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln277 = call void @BatchNorm_tiled_0, i8 %x1, i8 %norm_out, i15 %bn0_mul_1, i23 %bn0_add_1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:277]   --->   Operation 37 'call' 'call_ln277' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 38 [1/2] (0.00ns)   --->   "%call_ln336 = call void @requant<ap_int<8>, ap_int<8>, 17, 192, 23553, 16, 1>, i8 %res, i8 %res_rq" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:336]   --->   Operation 38 'call' 'call_ln336' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 39 [2/2] (0.00ns)   --->   "%call_ln286 = call void @triplicate_stream<ap_int<8>, 17, 192, 1>, i8 %norm_out, i8 %Q_in, i8 %K_in, i8 %V_in" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:286]   --->   Operation 39 'call' 'call_ln286' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 40 [1/2] (0.00ns)   --->   "%call_ln286 = call void @triplicate_stream<ap_int<8>, 17, 192, 1>, i8 %norm_out, i8 %Q_in, i8 %K_in, i8 %V_in" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:286]   --->   Operation 40 'call' 'call_ln286' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 41 [1/1] (0.00ns)   --->   "%in_o_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_o"   --->   Operation 41 'read' 'in_o_read' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 42 [1/1] (0.00ns)   --->   "%in_v_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_v"   --->   Operation 42 'read' 'in_v_read' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 43 [1/1] (0.00ns)   --->   "%in_k_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_k"   --->   Operation 43 'read' 'in_k_read' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 44 [1/1] (0.00ns)   --->   "%in_q_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_q"   --->   Operation 44 'read' 'in_q_read' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 45 [2/2] (0.00ns)   --->   "%call_ln313 = call void @MultiHeadAttention_tiled, i8 %Q, i64 %in_q_read, i8 %K, i64 %in_k_read, i8 %V, i64 %in_v_read, i8 %OUT_M, i64 %in_o_read, i8 %Q_in, i8 %K_in, i8 %V_in, i8 %out_mha, i13 %bias_q_0_V, i13 %bias_k_0_V, i14 %bias_v_0_V, i8 %exp_lut_V, i14 %bias_h_0_V" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:313]   --->   Operation 45 'call' 'call_ln313' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 0.00>
+ST_8 : Operation 46 [1/2] (0.00ns)   --->   "%call_ln313 = call void @MultiHeadAttention_tiled, i8 %Q, i64 %in_q_read, i8 %K, i64 %in_k_read, i8 %V, i64 %in_v_read, i8 %OUT_M, i64 %in_o_read, i8 %Q_in, i8 %K_in, i8 %V_in, i8 %out_mha, i13 %bias_q_0_V, i13 %bias_k_0_V, i14 %bias_v_0_V, i8 %exp_lut_V, i14 %bias_h_0_V" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:313]   --->   Operation 46 'call' 'call_ln313' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 9 <SV = 8> <Delay = 0.00>
+ST_9 : Operation 47 [2/2] (0.00ns)   --->   "%call_ln363 = call void @ResidualAddRequantSameScale<17, 192, 1, 43293, 16, 0, ap_int<8>, ap_int<16> >, i8 %out_mha, i8 %res_rq, i8 %out_res_0" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:363]   --->   Operation 47 'call' 'call_ln363' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 0.00>
+ST_10 : Operation 48 [1/2] (0.00ns)   --->   "%call_ln363 = call void @ResidualAddRequantSameScale<17, 192, 1, 43293, 16, 0, ap_int<8>, ap_int<16> >, i8 %out_mha, i8 %res_rq, i8 %out_res_0" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:363]   --->   Operation 48 'call' 'call_ln363' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 11 <SV = 10> <Delay = 0.00>
+ST_11 : Operation 49 [2/2] (0.00ns)   --->   "%call_ln397 = call void @duplicate_stream<ap_int<8>, 17, 192, 1>.1, i8 %out_res_0, i8 %res_1, i8 %x2" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:397]   --->   Operation 49 'call' 'call_ln397' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 12 <SV = 11> <Delay = 0.00>
+ST_12 : Operation 50 [1/2] (0.00ns)   --->   "%call_ln397 = call void @duplicate_stream<ap_int<8>, 17, 192, 1>.1, i8 %out_res_0, i8 %res_1, i8 %x2" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:397]   --->   Operation 50 'call' 'call_ln397' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 13 <SV = 12> <Delay = 0.00>
+ST_13 : Operation 51 [2/2] (0.00ns)   --->   "%call_ln418 = call void @BatchNorm_tiled_1, i8 %x2, i8 %norm_out_1, i16 %bn1_mul_1, i23 %bn1_add_1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:418]   --->   Operation 51 'call' 'call_ln418' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_13 : Operation 52 [2/2] (0.00ns)   --->   "%call_ln456 = call void @requant<ap_int<8>, ap_int<8>, 17, 192, 68366, 16, 1>, i8 %res_1, i8 %res_1_rq" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:456]   --->   Operation 52 'call' 'call_ln456' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 14 <SV = 13> <Delay = 0.00>
+ST_14 : Operation 53 [1/2] (0.00ns)   --->   "%call_ln418 = call void @BatchNorm_tiled_1, i8 %x2, i8 %norm_out_1, i16 %bn1_mul_1, i23 %bn1_add_1" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:418]   --->   Operation 53 'call' 'call_ln418' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_14 : Operation 54 [1/2] (0.00ns)   --->   "%call_ln456 = call void @requant<ap_int<8>, ap_int<8>, 17, 192, 68366, 16, 1>, i8 %res_1, i8 %res_1_rq" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:456]   --->   Operation 54 'call' 'call_ln456' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 15 <SV = 14> <Delay = 0.00>
+ST_15 : Operation 55 [1/1] (0.00ns)   --->   "%in_w_down_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_w_down"   --->   Operation 55 'read' 'in_w_down_read' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 56 [1/1] (0.00ns)   --->   "%in_w_up_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_w_up"   --->   Operation 56 'read' 'in_w_up_read' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 57 [2/2] (0.00ns)   --->   "%call_ln437 = call void @MLP_tiled_oc, i8 %gmem0, i64 %in_w_up_read, i8 %gmem1, i64 %in_w_down_read, i8 %norm_out_1, i8 %mlp_out, i13 %bias_1_0_V, i13 %bias_2_0_V" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:437]   --->   Operation 57 'call' 'call_ln437' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 16 <SV = 15> <Delay = 0.00>
+ST_16 : Operation 58 [1/2] (0.00ns)   --->   "%call_ln437 = call void @MLP_tiled_oc, i8 %gmem0, i64 %in_w_up_read, i8 %gmem1, i64 %in_w_down_read, i8 %norm_out_1, i8 %mlp_out, i13 %bias_1_0_V, i13 %bias_2_0_V" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:437]   --->   Operation 58 'call' 'call_ln437' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 17 <SV = 16> <Delay = 0.00>
+ST_17 : Operation 59 [2/2] (0.00ns)   --->   "%call_ln481 = call void @ResidualAddRequantSameScale<17, 192, 1, 36296, 16, 0, ap_int<8>, ap_int<16> >, i8 %mlp_out, i8 %res_1_rq, i8 %output_stream2" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:481]   --->   Operation 59 'call' 'call_ln481' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 18 <SV = 17> <Delay = 0.00>
+ST_18 : Operation 60 [1/1] (0.00ns)   --->   "%specdataflowpipeline_ln233 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @empty_26" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:233]   --->   Operation 60 'specdataflowpipeline' 'specdataflowpipeline_ln233' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 61 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %output_stream2, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 61 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 62 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %input_stream1, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 62 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 63 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %gmem1, void @empty_25, i32 0, i32 0, void @empty_26, i32 0, i32 147456, void @empty_28, void @empty_6, void @empty_26, i32 16, i32 16, i32 64, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 63 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 64 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %gmem0, void @empty_25, i32 0, i32 0, void @empty_26, i32 0, i32 147456, void @empty_30, void @empty_6, void @empty_26, i32 16, i32 16, i32 64, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 64 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 65 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %OUT_M, void @empty_25, i32 0, i32 0, void @empty_26, i32 0, i32 36864, void @empty_20, void @empty_6, void @empty_26, i32 16, i32 16, i32 64, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 65 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 66 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %V, void @empty_25, i32 0, i32 0, void @empty_26, i32 0, i32 36864, void @empty_2, void @empty_6, void @empty_26, i32 16, i32 16, i32 64, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 66 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 67 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %K, void @empty_25, i32 0, i32 0, void @empty_26, i32 0, i32 36864, void @empty_29, void @empty_6, void @empty_26, i32 16, i32 16, i32 64, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 67 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 68 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %Q, void @empty_25, i32 0, i32 0, void @empty_26, i32 0, i32 36864, void @empty_41, void @empty_6, void @empty_26, i32 16, i32 16, i32 64, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 68 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 69 [1/1] (0.00ns)   --->   "%empty = specchannel i32 @_ssdm_op_SpecChannel, void @res_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %res, i8 %res"   --->   Operation 69 'specchannel' 'empty' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 70 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %res, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 70 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 71 [1/1] (0.00ns)   --->   "%empty_194 = specchannel i32 @_ssdm_op_SpecChannel, void @res_rq_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %res_rq, i8 %res_rq"   --->   Operation 71 'specchannel' 'empty_194' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 72 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %res_rq, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 72 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 73 [1/1] (0.00ns)   --->   "%empty_195 = specchannel i32 @_ssdm_op_SpecChannel, void @x1_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %x1, i8 %x1"   --->   Operation 73 'specchannel' 'empty_195' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 74 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %x1, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 74 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 75 [1/1] (0.00ns)   --->   "%empty_196 = specchannel i32 @_ssdm_op_SpecChannel, void @norm_out_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %norm_out, i8 %norm_out"   --->   Operation 75 'specchannel' 'empty_196' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 76 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %norm_out, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 76 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 77 [1/1] (0.00ns)   --->   "%empty_197 = specchannel i32 @_ssdm_op_SpecChannel, void @Q_in_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %Q_in, i8 %Q_in"   --->   Operation 77 'specchannel' 'empty_197' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 78 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %Q_in, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 78 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 79 [1/1] (0.00ns)   --->   "%empty_198 = specchannel i32 @_ssdm_op_SpecChannel, void @K_in_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %K_in, i8 %K_in"   --->   Operation 79 'specchannel' 'empty_198' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 80 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %K_in, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 80 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 81 [1/1] (0.00ns)   --->   "%empty_199 = specchannel i32 @_ssdm_op_SpecChannel, void @V_in_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %V_in, i8 %V_in"   --->   Operation 81 'specchannel' 'empty_199' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 82 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %V_in, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 82 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 83 [1/1] (0.00ns)   --->   "%empty_200 = specchannel i32 @_ssdm_op_SpecChannel, void @out_mha_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %out_mha, i8 %out_mha"   --->   Operation 83 'specchannel' 'empty_200' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 84 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %out_mha, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 84 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 85 [1/1] (0.00ns)   --->   "%empty_201 = specchannel i32 @_ssdm_op_SpecChannel, void @out_res_0_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %out_res_0, i8 %out_res_0"   --->   Operation 85 'specchannel' 'empty_201' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 86 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %out_res_0, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 86 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 87 [1/1] (0.00ns)   --->   "%empty_202 = specchannel i32 @_ssdm_op_SpecChannel, void @res_1_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %res_1, i8 %res_1"   --->   Operation 87 'specchannel' 'empty_202' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 88 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %res_1, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 88 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 89 [1/1] (0.00ns)   --->   "%empty_203 = specchannel i32 @_ssdm_op_SpecChannel, void @res_1_rq_str, i32 1, void @p_str, void @p_str, i32 3072, i32 3072, i8 %res_1_rq, i8 %res_1_rq"   --->   Operation 89 'specchannel' 'empty_203' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 90 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %res_1_rq, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 90 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 91 [1/1] (0.00ns)   --->   "%empty_204 = specchannel i32 @_ssdm_op_SpecChannel, void @x2_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %x2, i8 %x2"   --->   Operation 91 'specchannel' 'empty_204' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 92 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %x2, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 92 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 93 [1/1] (0.00ns)   --->   "%empty_205 = specchannel i32 @_ssdm_op_SpecChannel, void @norm_out_1_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %norm_out_1, i8 %norm_out_1"   --->   Operation 93 'specchannel' 'empty_205' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 94 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %norm_out_1, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 94 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 95 [1/1] (0.00ns)   --->   "%empty_206 = specchannel i32 @_ssdm_op_SpecChannel, void @mlp_out_str, i32 1, void @p_str, void @p_str, i32 2, i32 2, i8 %mlp_out, i8 %mlp_out"   --->   Operation 95 'specchannel' 'empty_206' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 96 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %mlp_out, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 96 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 97 [1/2] (0.00ns)   --->   "%call_ln481 = call void @ResidualAddRequantSameScale<17, 192, 1, 36296, 16, 0, ap_int<8>, ap_int<16> >, i8 %mlp_out, i8 %res_1_rq, i8 %output_stream2" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:481]   --->   Operation 97 'call' 'call_ln481' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_18 : Operation 98 [1/1] (0.00ns)   --->   "%ret_ln496 = ret" [/home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp:496]   --->   Operation 98 'ret' 'ret_ln496' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 0ns
+The critical path consists of the following:
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+ <State 5>: 0ns
+The critical path consists of the following:
+
+ <State 6>: 0ns
+The critical path consists of the following:
+
+ <State 7>: 0ns
+The critical path consists of the following:
+
+ <State 8>: 0ns
+The critical path consists of the following:
+
+ <State 9>: 0ns
+The critical path consists of the following:
+
+ <State 10>: 0ns
+The critical path consists of the following:
+
+ <State 11>: 0ns
+The critical path consists of the following:
+
+ <State 12>: 0ns
+The critical path consists of the following:
+
+ <State 13>: 0ns
+The critical path consists of the following:
+
+ <State 14>: 0ns
+The critical path consists of the following:
+
+ <State 15>: 0ns
+The critical path consists of the following:
+
+ <State 16>: 0ns
+The critical path consists of the following:
+
+ <State 17>: 0ns
+The critical path consists of the following:
+
+ <State 18>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

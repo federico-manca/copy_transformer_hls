@@ -1,0 +1,239 @@
+
+
+================================================================
+== Vitis HLS Report for 'WeightTiledStreaming_3_17_192_192_1_1_1_1_1_1_ap_int_8_16'
+================================================================
+* Date:           Thu Jun 18 11:11:51 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        ViT_Block
+* Solution:       ViT_Block (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.300 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +---------------------------------------------+----------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |                                             |                                  |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+        |                   Instance                  |              Module              |   min   |   max   |    min    |    max    | min | max |   Type  |
+        +---------------------------------------------+----------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |grp_burst_read_beats_1_ap_int_8_s_fu_112     |burst_read_beats_1_ap_int_8_s     |        8|        8|  80.000 ns|  80.000 ns|    8|    8|       no|
+        |grp_packer_to_packs_1_1_1_ap_int_8_s_fu_120  |packer_to_packs_1_1_1_ap_int_8_s  |        ?|        ?|          ?|          ?|    ?|    ?|       no|
+        +---------------------------------------------+----------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+
+        * Loop: 
+        +------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                        |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |        Loop Name       |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_1237_1     |        ?|        ?|         ?|          -|          -|    17|        no|
+        | + VITIS_LOOP_1238_2    |        ?|        ?|         ?|          -|          -|   192|        no|
+        |  ++ VITIS_LOOP_1239_3  |        ?|        ?|         ?|          -|          -|   192|        no|
+        +------------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|      195|     -|
+|FIFO                 |        -|      -|        9|       35|     -|
+|Instance             |        -|      -|      106|      446|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|      139|     -|
+|Register             |        -|      -|      130|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|      0|      245|      815|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|      0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|      0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    +---------------------------------------------+----------------------------------+---------+----+----+-----+-----+
+    |                   Instance                  |              Module              | BRAM_18K| DSP| FF | LUT | URAM|
+    +---------------------------------------------+----------------------------------+---------+----+----+-----+-----+
+    |grp_burst_read_beats_1_ap_int_8_s_fu_112     |burst_read_beats_1_ap_int_8_s     |        0|   0|  17|   81|    0|
+    |grp_packer_to_packs_1_1_1_ap_int_8_s_fu_120  |packer_to_packs_1_1_1_ap_int_8_s  |        0|   0|  89|  365|    0|
+    +---------------------------------------------+----------------------------------+---------+----+----+-----+-----+
+    |Total                                        |                                  |        0|   0| 106|  446|    0|
+    +---------------------------------------------+----------------------------------+---------+----+----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +--------------------+---------+---+----+-----+------+-----+---------+
+    |        Name        | BRAM_18K| FF| LUT| URAM| Depth| Bits| Size:D*B|
+    +--------------------+---------+---+----+-----+------+-----+---------+
+    |burst_reads_fifo_U  |        0|  9|   0|    -|    64|    8|      512|
+    +--------------------+---------+---+----+-----+------+-----+---------+
+    |Total               |        0|  9|   0|    0|    64|    8|      512|
+    +--------------------+---------+---+----+-----+------+-----+---------+
+
+    * Expression: 
+    +------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |add_ln1238_fu_153_p2    |         +|   0|  0|  15|           8|           1|
+    |add_ln1239_fu_207_p2    |         +|   0|  0|  15|           8|           1|
+    |add_ln1243_5_fu_213_p2  |         +|   0|  0|  25|          18|          18|
+    |add_ln1243_fu_222_p2    |         +|   0|  0|  71|          64|          64|
+    |m_10_fu_141_p2          |         +|   0|  0|  12|           5|           1|
+    |empty_188_fu_183_p2     |         -|   0|  0|  24|          17|          17|
+    |icmp_ln1237_fu_135_p2   |      icmp|   0|  0|   9|           5|           5|
+    |icmp_ln1238_fu_147_p2   |      icmp|   0|  0|  11|           8|           8|
+    |icmp_ln1239_fu_201_p2   |      icmp|   0|  0|  11|           8|           8|
+    |ap_block_state1         |        or|   0|  0|   2|           1|           1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |Total                   |          |   0|  0| 195|         142|         124|
+    +------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------+----+-----------+-----+-----------+
+    |        Name       | LUT| Input Size| Bits| Total Bits|
+    +-------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm          |  49|          9|    1|          9|
+    |ap_done            |   9|          2|    1|          2|
+    |burst_reads_read   |   9|          2|    1|          2|
+    |burst_reads_write  |   9|          2|    1|          2|
+    |k_reg_90           |   9|          2|    8|         16|
+    |m_axi_K_ARVALID    |   9|          2|    1|          2|
+    |m_axi_K_RREADY     |   9|          2|    1|          2|
+    |m_fu_76            |   9|          2|    5|         10|
+    |n_tile_reg_101     |   9|          2|    8|         16|
+    |out_w1_write       |   9|          2|    1|          2|
+    |real_start         |   9|          2|    1|          2|
+    +-------------------+----+-----------+-----+-----------+
+    |Total              | 139|         29|   29|         65|
+    +-------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------------------------------+----+----+-----+-----------+
+    |                           Name                           | FF | LUT| Bits| Const Bits|
+    +----------------------------------------------------------+----+----+-----+-----------+
+    |add_ln1238_reg_256                                        |   8|   0|    8|          0|
+    |add_ln1239_reg_269                                        |   8|   0|    8|          0|
+    |add_ln1243_reg_274                                        |  64|   0|   64|          0|
+    |ap_CS_fsm                                                 |   8|   0|    8|          0|
+    |ap_done_reg                                               |   1|   0|    1|          0|
+    |grp_burst_read_beats_1_ap_int_8_s_fu_112_ap_start_reg     |   1|   0|    1|          0|
+    |grp_packer_to_packs_1_1_1_ap_int_8_s_fu_120_ap_start_reg  |   1|   0|    1|          0|
+    |k_reg_90                                                  |   8|   0|    8|          0|
+    |m_10_reg_248                                              |   5|   0|    5|          0|
+    |m_fu_76                                                   |   5|   0|    5|          0|
+    |n_tile_reg_101                                            |   8|   0|    8|          0|
+    |sext_ln1239_reg_261                                       |  12|   0|   18|          6|
+    |start_once_reg                                            |   1|   0|    1|          0|
+    +----------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                     | 130|   0|  136|          6|
+    +----------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |                             Source Object                             |    C Type    |
++-----------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|ap_rst                 |   in|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|ap_start               |   in|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|start_full_n           |   in|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|ap_done                |  out|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|ap_continue            |   in|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|ap_idle                |  out|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|ap_ready               |  out|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|start_out              |  out|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|start_write            |  out|    1|  ap_ctrl_hs|  WeightTiledStreaming_3<17, 192, 192, 1, 1, 1, 1, 1, 1, ap_int<8> >.16|  return value|
+|m_axi_K_AWVALID        |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWREADY        |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWADDR         |  out|   64|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWID           |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWLEN          |  out|   32|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWSIZE         |  out|    3|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWBURST        |  out|    2|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWLOCK         |  out|    2|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWCACHE        |  out|    4|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWPROT         |  out|    3|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWQOS          |  out|    4|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWREGION       |  out|    4|       m_axi|                                                                      K|       pointer|
+|m_axi_K_AWUSER         |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WVALID         |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WREADY         |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WDATA          |  out|    8|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WSTRB          |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WLAST          |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WID            |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_WUSER          |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARVALID        |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARREADY        |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARADDR         |  out|   64|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARID           |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARLEN          |  out|   32|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARSIZE         |  out|    3|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARBURST        |  out|    2|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARLOCK         |  out|    2|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARCACHE        |  out|    4|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARPROT         |  out|    3|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARQOS          |  out|    4|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARREGION       |  out|    4|       m_axi|                                                                      K|       pointer|
+|m_axi_K_ARUSER         |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RVALID         |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RREADY         |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RDATA          |   in|    8|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RLAST          |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RID            |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RFIFONUM       |   in|   13|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RUSER          |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_RRESP          |   in|    2|       m_axi|                                                                      K|       pointer|
+|m_axi_K_BVALID         |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_BREADY         |  out|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_BRESP          |   in|    2|       m_axi|                                                                      K|       pointer|
+|m_axi_K_BID            |   in|    1|       m_axi|                                                                      K|       pointer|
+|m_axi_K_BUSER          |   in|    1|       m_axi|                                                                      K|       pointer|
+|W_ddr_tile             |   in|   64|     ap_none|                                                             W_ddr_tile|        scalar|
+|out_w1_din             |  out|    8|     ap_fifo|                                                                 out_w1|       pointer|
+|out_w1_num_data_valid  |   in|    5|     ap_fifo|                                                                 out_w1|       pointer|
+|out_w1_fifo_cap        |   in|    5|     ap_fifo|                                                                 out_w1|       pointer|
+|out_w1_full_n          |   in|    1|     ap_fifo|                                                                 out_w1|       pointer|
+|out_w1_write           |  out|    1|     ap_fifo|                                                                 out_w1|       pointer|
++-----------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+

@@ -1,0 +1,203 @@
+
+
+================================================================
+== Vitis HLS Report for 'V_linear_tiled'
+================================================================
+* Date:           Thu Jun 18 11:11:52 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        ViT_Block
+* Solution:       ViT_Block (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.300 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|  dataflow|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +--------------------------------------------------------------+-----------------------------------------------------------+---------+---------+----------+----------+--------+--------+---------+
+        |                                                              |                                                           |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+        |                           Instance                           |                           Module                          |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+        +--------------------------------------------------------------+-----------------------------------------------------------+---------+---------+----------+----------+--------+--------+---------+
+        |WeightTiledStreaming_3_17_192_192_1_1_1_1_1_1_ap_int_8_17_U0  |WeightTiledStreaming_3_17_192_192_1_1_1_1_1_1_ap_int_8_17  |        ?|        ?|         ?|         ?|       ?|       ?|       no|
+        |Linear_Layer_3_U0                                             |Linear_Layer_3                                             |   659482|   659482|  6.595 ms|  6.595 ms|  659482|  659482|       no|
+        +--------------------------------------------------------------+-----------------------------------------------------------+---------+---------+----------+----------+--------+--------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|        2|     -|
+|FIFO                 |        -|      -|        9|       35|     -|
+|Instance             |        2|      2|      427|     1469|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|        9|     -|
+|Register             |        -|      -|        1|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        2|      2|      437|     1515|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |       ~0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |       ~0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    +--------------------------------------------------------------+-----------------------------------------------------------+---------+----+-----+-----+-----+
+    |                           Instance                           |                           Module                          | BRAM_18K| DSP|  FF | LUT | URAM|
+    +--------------------------------------------------------------+-----------------------------------------------------------+---------+----+-----+-----+-----+
+    |Linear_Layer_3_U0                                             |Linear_Layer_3                                             |        2|   2|  182|  654|    0|
+    |WeightTiledStreaming_3_17_192_192_1_1_1_1_1_1_ap_int_8_17_U0  |WeightTiledStreaming_3_17_192_192_1_1_1_1_1_1_ap_int_8_17  |        0|   0|  245|  815|    0|
+    +--------------------------------------------------------------+-----------------------------------------------------------+---------+----+-----+-----+-----+
+    |Total                                                         |                                                           |        2|   2|  427| 1469|    0|
+    +--------------------------------------------------------------+-----------------------------------------------------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +---------+---------+---+----+-----+------+-----+---------+
+    |   Name  | BRAM_18K| FF| LUT| URAM| Depth| Bits| Size:D*B|
+    +---------+---------+---+----+-----+------+-----+---------+
+    |out_w_U  |        0|  9|   0|    -|    64|    8|      512|
+    +---------+---------+---+----+-----+------+-----+---------+
+    |Total    |        0|  9|   0|    0|    64|    8|      512|
+    +---------+---------+---+----+-----+------+-----+---------+
+
+    * Expression: 
+    +--------------+----------+----+---+----+------------+------------+
+    | Variable Name| Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------+----------+----+---+----+------------+------------+
+    |ap_idle       |       and|   0|  0|   2|           1|           1|
+    +--------------+----------+----+---+----+------------+------------+
+    |Total         |          |   0|  0|   2|           1|           1|
+    +--------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------+----+-----------+-----+-----------+
+    |    Name    | LUT| Input Size| Bits| Total Bits|
+    +------------+----+-----------+-----+-----------+
+    |real_start  |   9|          2|    1|          2|
+    +------------+----+-----------+-----+-----------+
+    |Total       |   9|          2|    1|          2|
+    +------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+---+----+-----+-----------+
+    |      Name      | FF| LUT| Bits| Const Bits|
+    +----------------+---+----+-----+-----------+
+    |start_once_reg  |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+    |Total           |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------+-----+-----+------------+----------------+--------------+
+|     RTL Ports    | Dir | Bits|  Protocol  |  Source Object |    C Type    |
++------------------+-----+-----+------------+----------------+--------------+
+|ap_start          |   in|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|start_full_n      |   in|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|start_out         |  out|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|start_write       |  out|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|ap_clk            |   in|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|ap_rst            |   in|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|ap_done           |  out|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|ap_ready          |  out|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|ap_idle           |  out|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|ap_continue       |   in|    1|  ap_ctrl_hs|  V_linear_tiled|  return value|
+|m_axi_V_AWVALID   |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_AWREADY   |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_AWADDR    |  out|   64|       m_axi|               V|       pointer|
+|m_axi_V_AWID      |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_AWLEN     |  out|   32|       m_axi|               V|       pointer|
+|m_axi_V_AWSIZE    |  out|    3|       m_axi|               V|       pointer|
+|m_axi_V_AWBURST   |  out|    2|       m_axi|               V|       pointer|
+|m_axi_V_AWLOCK    |  out|    2|       m_axi|               V|       pointer|
+|m_axi_V_AWCACHE   |  out|    4|       m_axi|               V|       pointer|
+|m_axi_V_AWPROT    |  out|    3|       m_axi|               V|       pointer|
+|m_axi_V_AWQOS     |  out|    4|       m_axi|               V|       pointer|
+|m_axi_V_AWREGION  |  out|    4|       m_axi|               V|       pointer|
+|m_axi_V_AWUSER    |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_WVALID    |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_WREADY    |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_WDATA     |  out|    8|       m_axi|               V|       pointer|
+|m_axi_V_WSTRB     |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_WLAST     |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_WID       |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_WUSER     |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_ARVALID   |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_ARREADY   |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_ARADDR    |  out|   64|       m_axi|               V|       pointer|
+|m_axi_V_ARID      |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_ARLEN     |  out|   32|       m_axi|               V|       pointer|
+|m_axi_V_ARSIZE    |  out|    3|       m_axi|               V|       pointer|
+|m_axi_V_ARBURST   |  out|    2|       m_axi|               V|       pointer|
+|m_axi_V_ARLOCK    |  out|    2|       m_axi|               V|       pointer|
+|m_axi_V_ARCACHE   |  out|    4|       m_axi|               V|       pointer|
+|m_axi_V_ARPROT    |  out|    3|       m_axi|               V|       pointer|
+|m_axi_V_ARQOS     |  out|    4|       m_axi|               V|       pointer|
+|m_axi_V_ARREGION  |  out|    4|       m_axi|               V|       pointer|
+|m_axi_V_ARUSER    |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_RVALID    |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_RREADY    |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_RDATA     |   in|    8|       m_axi|               V|       pointer|
+|m_axi_V_RLAST     |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_RID       |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_RFIFONUM  |   in|   13|       m_axi|               V|       pointer|
+|m_axi_V_RUSER     |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_RRESP     |   in|    2|       m_axi|               V|       pointer|
+|m_axi_V_BVALID    |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_BREADY    |  out|    1|       m_axi|               V|       pointer|
+|m_axi_V_BRESP     |   in|    2|       m_axi|               V|       pointer|
+|m_axi_V_BID       |   in|    1|       m_axi|               V|       pointer|
+|m_axi_V_BUSER     |   in|    1|       m_axi|               V|       pointer|
+|in_w              |   in|   64|     ap_none|            in_w|        scalar|
+|in_w_ap_vld       |   in|    1|     ap_none|            in_w|        scalar|
+|V_in7_dout        |   in|    8|     ap_fifo|           V_in7|       pointer|
+|V_in7_empty_n     |   in|    1|     ap_fifo|           V_in7|       pointer|
+|V_in7_read        |  out|    1|     ap_fifo|           V_in7|       pointer|
+|v_lin3_din        |  out|    8|     ap_fifo|          v_lin3|       pointer|
+|v_lin3_full_n     |   in|    1|     ap_fifo|          v_lin3|       pointer|
+|v_lin3_write      |  out|    1|     ap_fifo|          v_lin3|       pointer|
++------------------+-----+-----+------------+----------------+--------------+
+

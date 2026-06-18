@@ -1,0 +1,2571 @@
+---
+MainSourceFile:  /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /home/fede/PhD/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          56294
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /home/fede/PhD/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          263422
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /home/fede/PhD/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          263861
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /home/fede/PhD/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          264301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /home/fede/PhD/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          525758
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_72_1:  '
+    FileOffset:      72
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          934856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_72_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          935028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_327_1:  '
+    FileOffset:      327
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          946029
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_327_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_334_2:  '
+    FileOffset:      334
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          946157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_334_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_343_3:  '
+    FileOffset:      343
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          946308
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_343_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_352_4:  '
+    FileOffset:      352
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          946459
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_352_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_365_5:  '
+    FileOffset:      365
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          946617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_365_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_6:  '
+    FileOffset:      368
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          946703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_423_7:  '
+    FileOffset:      423
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          947670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_423_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_425_8:  '
+    FileOffset:      425
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          947704
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_425_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_438_9:  '
+    FileOffset:      438
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          947808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_438_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_439_10:  '
+    FileOffset:      439
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          947850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_439_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_454_11:  '
+    FileOffset:      454
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_454_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_476_1:  '
+    FileOffset:      476
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948367
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_476_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948393
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_1:  '
+    FileOffset:      502
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_503_2:  '
+    FileOffset:      503
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948774
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_503_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_504_3:  '
+    FileOffset:      504
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_504_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_510_4:  '
+    FileOffset:      510
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          948956
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_510_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_563_1:  '
+    FileOffset:      563
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          949991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_563_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_565_2:  '
+    FileOffset:      565
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          950037
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_565_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_574_3:  '
+    FileOffset:      574
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          950159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_574_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_4:  '
+    FileOffset:      575
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          950208
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_576_5:  '
+    FileOffset:      576
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          950258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_576_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_581_6:  '
+    FileOffset:      581
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          950384
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_581_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_606_7:  '
+    FileOffset:      606
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951009
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_606_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_609_8:  '
+    FileOffset:      609
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_609_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_610_9:  '
+    FileOffset:      610
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951138
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_610_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_10:  '
+    FileOffset:      630
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_631_11:  '
+    FileOffset:      631
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_631_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_632_12:  '
+    FileOffset:      632
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951616
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_632_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_637_13:  '
+    FileOffset:      637
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          951735
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_637_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_695_1:  '
+    FileOffset:      695
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          952969
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_695_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_700_2:  '
+    FileOffset:      700
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          953159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_700_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_802_1:  '
+    FileOffset:      802
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          955127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_802_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_809_2:  '
+    FileOffset:      809
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          955366
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_809_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_897_1:  '
+    FileOffset:      897
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957337
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_897_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_904_2:  '
+    FileOffset:      904
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957454
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_904_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_905_3:  '
+    FileOffset:      905
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957492
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_905_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_913_4:  '
+    FileOffset:      913
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957622
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_913_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_5:  '
+    FileOffset:      914
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957660
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_6:  '
+    FileOffset:      921
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_922_7:  '
+    FileOffset:      922
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_922_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_931_8:  '
+    FileOffset:      931
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957914
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_931_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_932_9:  '
+    FileOffset:      932
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          957946
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_932_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_935_10:  '
+    FileOffset:      935
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          958000
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_935_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_953_11:  '
+    FileOffset:      953
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          958425
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_953_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_954_12:  '
+    FileOffset:      954
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          958463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_954_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_975_13:  '
+    FileOffset:      975
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          959057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_975_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_984_14:  '
+    FileOffset:      984
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          959244
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_984_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_985_15:  '
+    FileOffset:      985
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          959282
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_985_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_988_16:  '
+    FileOffset:      988
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          959374
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_988_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1007_17:  '
+    FileOffset:      1007
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          959825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1007_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1008_18:  '
+    FileOffset:      1008
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/activations.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          959863
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1008_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_64_1:  '
+    FileOffset:      64
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          961333
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_64_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_70_2:  '
+    FileOffset:      70
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          961460
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_70_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_3:  '
+    FileOffset:      73
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          961543
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_4:  '
+    FileOffset:      82
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          961698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_5:  '
+    FileOffset:      84
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          961741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          962478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_129_2:  '
+    FileOffset:      129
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          962609
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_129_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_132_3:  '
+    FileOffset:      132
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          962700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_132_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_4:  '
+    FileOffset:      140
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          962871
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_5:  '
+    FileOffset:      141
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          962913
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_177_1:  '
+    FileOffset:      177
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_177_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_2:  '
+    FileOffset:      178
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963564
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_3:  '
+    FileOffset:      183
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963660
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_184_4:  '
+    FileOffset:      184
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_184_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_5:  '
+    FileOffset:      189
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963783
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_6:  '
+    FileOffset:      190
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963821
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_192_7:  '
+    FileOffset:      192
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          963905
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_192_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_8:  '
+    FileOffset:      198
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          964028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_9:  '
+    FileOffset:      200
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          964085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_235_1:  '
+    FileOffset:      235
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          964787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_235_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_270_1:  '
+    FileOffset:      270
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          965452
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_270_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_2:  '
+    FileOffset:      276
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          965580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_3:  '
+    FileOffset:      278
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          965662
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_285_4:  '
+    FileOffset:      285
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          965816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_285_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_327_1:  '
+    FileOffset:      327
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          966518
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_327_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_2:  '
+    FileOffset:      329
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          966555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_3:  '
+    FileOffset:      330
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          966597
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_4:  '
+    FileOffset:      332
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          966709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_342_5:  '
+    FileOffset:      342
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          966967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_342_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_6:  '
+    FileOffset:      344
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          966998
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_7:  '
+    FileOffset:      346
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_347_8:  '
+    FileOffset:      347
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967134
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_347_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_357_9:  '
+    FileOffset:      357
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967383
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_357_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_10:  '
+    FileOffset:      358
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_11:  '
+    FileOffset:      359
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967451
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_361_12:  '
+    FileOffset:      361
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967553
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_361_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_362_13:  '
+    FileOffset:      362
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967611
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_362_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_364_14:  '
+    FileOffset:      364
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          967675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_364_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_381_15:  '
+    FileOffset:      381
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          968170
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_381_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_382_16:  '
+    FileOffset:      382
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          968220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_382_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_388_17:  '
+    FileOffset:      388
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          968344
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_388_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_438_1:  '
+    FileOffset:      438
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          969461
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_438_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_450_2:  '
+    FileOffset:      450
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          969847
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_450_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_466_3:  '
+    FileOffset:      466
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          970350
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_466_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_467_4:  '
+    FileOffset:      467
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          970388
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_467_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_469_5:  '
+    FileOffset:      469
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          970496
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_469_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_470_6:  '
+    FileOffset:      470
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          970554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_470_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_472_7:  '
+    FileOffset:      472
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          970618
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_472_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_8:  '
+    FileOffset:      489
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          971113
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_490_9:  '
+    FileOffset:      490
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          971163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_490_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_496_10:  '
+    FileOffset:      496
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          971287
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_496_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_537_1:  '
+    FileOffset:      537
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972045
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_537_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_538_2:  '
+    FileOffset:      538
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_538_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_3:  '
+    FileOffset:      539
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_540_4:  '
+    FileOffset:      540
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972150
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_540_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_5:  '
+    FileOffset:      541
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972188
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_542_6:  '
+    FileOffset:      542
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_542_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_544_7:  '
+    FileOffset:      544
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972268
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_544_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_569_1:  '
+    FileOffset:      569
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          972787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_569_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_591_1:  '
+    FileOffset:      591
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          973347
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_591_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      647
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_654_1:  '
+    FileOffset:      654
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          975288
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_654_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_666_2:  '
+    FileOffset:      666
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          975674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_666_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_713_3:  '
+    FileOffset:      713
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          976743
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_713_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_714_4:  '
+    FileOffset:      714
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          976781
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_714_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_717_5:  '
+    FileOffset:      717
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          976891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_717_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_722_6:  '
+    FileOffset:      722
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          977019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_722_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_727_7:  '
+    FileOffset:      727
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          977170
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_727_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_731_8:  '
+    FileOffset:      731
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          977298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_731_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_747_9:  '
+    FileOffset:      747
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          977837
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_747_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_759_10:  '
+    FileOffset:      759
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          978055
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_759_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_760_11:  '
+    FileOffset:      760
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          978105
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_760_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_766_12:  '
+    FileOffset:      766
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          978229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_766_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_803_1:  '
+    FileOffset:      803
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          978900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_803_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_804_2:  '
+    FileOffset:      804
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          978936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_804_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_805_3:  '
+    FileOffset:      805
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          978975
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_805_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_806_4:  '
+    FileOffset:      806
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          979024
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_806_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_912_1:  '
+    FileOffset:      912
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          980732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_912_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_913_2:  '
+    FileOffset:      913
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          980769
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_913_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_3:  '
+    FileOffset:      914
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          980810
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      950
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_957_1:  '
+    FileOffset:      957
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          982103
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_957_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_969_2:  '
+    FileOffset:      969
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          982489
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_969_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_999_3:  '
+    FileOffset:      999
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          983053
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_999_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1000_4:  '
+    FileOffset:      1000
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          983091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1000_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1003_5:  '
+    FileOffset:      1003
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          983201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1003_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1008_6:  '
+    FileOffset:      1008
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          983329
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1008_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1013_7:  '
+    FileOffset:      1013
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          983480
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1013_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1017_8:  '
+    FileOffset:      1017
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          983608
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1017_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1033_9:  '
+    FileOffset:      1033
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          984147
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1033_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1045_10:  '
+    FileOffset:      1045
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          984365
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1045_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1046_11:  '
+    FileOffset:      1046
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          984415
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1046_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1052_12:  '
+    FileOffset:      1052
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          984539
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1052_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1100_1:  '
+    FileOffset:      1100
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          985660
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1100_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1112_2:  '
+    FileOffset:      1112
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          986046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1112_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1145_3:  '
+    FileOffset:      1145
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          986526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1145_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1146_4:  '
+    FileOffset:      1146
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          986564
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1146_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1149_5:  '
+    FileOffset:      1149
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          986674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1149_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1155_6:  '
+    FileOffset:      1155
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          986803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          986954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1164_8:  '
+    FileOffset:      1164
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          987082
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1164_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1179_9:  '
+    FileOffset:      1179
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          987628
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1179_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1191_10:  '
+    FileOffset:      1191
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          987846
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1191_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1192_11:  '
+    FileOffset:      1192
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          987896
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1192_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1198_12:  '
+    FileOffset:      1198
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          988020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1198_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1237_1:  '
+    FileOffset:      1237
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          989032
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1237_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1238_2:  '
+    FileOffset:      1238
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          989069
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1238_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_3:  '
+    FileOffset:      1239
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          989110
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      1284
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1292_1:  '
+    FileOffset:      1292
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          990855
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1292_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1295_2:  '
+    FileOffset:      1295
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          990893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1296_3:  '
+    FileOffset:      1296
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          990932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1296_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1298_4:  '
+    FileOffset:      1298
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          990979
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1298_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1299_5:  '
+    FileOffset:      1299
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991032
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1299_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1308_6:  '
+    FileOffset:      1308
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1308_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1310_7:  '
+    FileOffset:      1310
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1310_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1311_8:  '
+    FileOffset:      1311
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991305
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1311_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1323_9:  '
+    FileOffset:      1323
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1323_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1324_10:  '
+    FileOffset:      1324
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991781
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1324_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1325_11:  '
+    FileOffset:      1325
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991834
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1325_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1330_12:  '
+    FileOffset:      1330
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          991982
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1330_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1336_13:  '
+    FileOffset:      1336
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          992111
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1336_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1341_14:  '
+    FileOffset:      1341
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          992266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1341_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_15:  '
+    FileOffset:      1345
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          992386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1360_16:  '
+    FileOffset:      1360
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          992931
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1360_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1371_17:  '
+    FileOffset:      1371
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          993181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1371_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1372_18:  '
+    FileOffset:      1372
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          993225
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1372_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1373_19:  '
+    FileOffset:      1373
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          993279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1373_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1376_20:  '
+    FileOffset:      1376
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          993408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1376_20: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      1501
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1509_1:  '
+    FileOffset:      1509
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996130
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1509_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1512_2:  '
+    FileOffset:      1512
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996168
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1512_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1513_3:  '
+    FileOffset:      1513
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996207
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1513_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1515_4:  '
+    FileOffset:      1515
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996254
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1515_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1516_5:  '
+    FileOffset:      1516
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996307
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1516_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1525_6:  '
+    FileOffset:      1525
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996495
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1525_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1527_7:  '
+    FileOffset:      1527
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996534
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1528_8:  '
+    FileOffset:      1528
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          996580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1528_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1540_9:  '
+    FileOffset:      1540
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997013
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1540_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1541_10:  '
+    FileOffset:      1541
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997056
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1541_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1542_11:  '
+    FileOffset:      1542
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997109
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1542_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1547_12:  '
+    FileOffset:      1547
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997257
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1547_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1553_13:  '
+    FileOffset:      1553
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1553_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1558_14:  '
+    FileOffset:      1558
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1558_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1562_15:  '
+    FileOffset:      1562
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          997661
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1562_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1577_16:  '
+    FileOffset:      1577
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          998206
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1577_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_17:  '
+    FileOffset:      1588
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          998456
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1589_18:  '
+    FileOffset:      1589
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          998500
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1589_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1590_19:  '
+    FileOffset:      1590
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          998554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1590_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1593_20:  '
+    FileOffset:      1593
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          998683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1593_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1656_1:  '
+    FileOffset:      1656
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000111
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1656_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1657_2:  '
+    FileOffset:      1657
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000149
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1657_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1661_3:  '
+    FileOffset:      1661
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000280
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1661_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1678_4:  '
+    FileOffset:      1678
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000656
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1678_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1681_5:  '
+    FileOffset:      1681
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1681_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1682_6:  '
+    FileOffset:      1682
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1682_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1686_7:  '
+    FileOffset:      1686
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1000881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1686_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1701_8:  '
+    FileOffset:      1701
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1701_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1704_9:  '
+    FileOffset:      1704
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001340
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1704_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1705_10:  '
+    FileOffset:      1705
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001390
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1705_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1712_11:  '
+    FileOffset:      1712
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1712_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1713_12:  '
+    FileOffset:      1713
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001569
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1713_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1714_13:  '
+    FileOffset:      1714
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001623
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1714_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1716_14:  '
+    FileOffset:      1716
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001688
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1716_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1720_15:  '
+    FileOffset:      1720
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1001805
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1720_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1733_16:  '
+    FileOffset:      1733
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1002134
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1733_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1734_17:  '
+    FileOffset:      1734
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1002184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1734_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1738_18:  '
+    FileOffset:      1738
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1002313
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1738_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1796_1:  '
+    FileOffset:      1796
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1003699
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1796_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1797_2:  '
+    FileOffset:      1797
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1003743
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1797_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1798_3:  '
+    FileOffset:      1798
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1003789
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1798_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1800_4:  '
+    FileOffset:      1800
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1003913
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1800_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1818_5:  '
+    FileOffset:      1818
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1004317
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1818_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1831_6:  '
+    FileOffset:      1831
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1004708
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1831_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1838_7:  '
+    FileOffset:      1838
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1004865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1838_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1847_8:  '
+    FileOffset:      1847
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005026
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1847_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1849_9:  '
+    FileOffset:      1849
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005071
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1849_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1851_10:  '
+    FileOffset:      1851
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1851_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1853_11:  '
+    FileOffset:      1853
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1853_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1855_12:  '
+    FileOffset:      1855
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005246
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1855_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1856_13:  '
+    FileOffset:      1856
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005307
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1856_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1867_14:  '
+    FileOffset:      1867
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005620
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1867_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1868_15:  '
+    FileOffset:      1868
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1868_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1872_16:  '
+    FileOffset:      1872
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1005798
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1872_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1940_1:  '
+    FileOffset:      1940
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1007190
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1940_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1941_2:  '
+    FileOffset:      1941
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1007234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1941_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1942_3:  '
+    FileOffset:      1942
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1007280
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1942_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1944_4:  '
+    FileOffset:      1944
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1007404
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1944_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1962_5:  '
+    FileOffset:      1962
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1007808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1962_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1975_6:  '
+    FileOffset:      1975
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1975_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1982_7:  '
+    FileOffset:      1982
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1982_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1991_8:  '
+    FileOffset:      1991
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1991_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1993_9:  '
+    FileOffset:      1993
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008562
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1993_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1995_10:  '
+    FileOffset:      1995
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1995_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1997_11:  '
+    FileOffset:      1997
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1997_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1999_12:  '
+    FileOffset:      1999
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1999_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2000_13:  '
+    FileOffset:      2000
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1008798
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2000_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2011_14:  '
+    FileOffset:      2011
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1009111
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2011_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2012_15:  '
+    FileOffset:      2012
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1009161
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2012_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2016_16:  '
+    FileOffset:      2016
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1009289
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2016_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2112_1:  '
+    FileOffset:      2112
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1011258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2112_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2113_2:  '
+    FileOffset:      2113
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1011307
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2113_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2114_3:  '
+    FileOffset:      2114
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1011357
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2114_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2118_4:  '
+    FileOffset:      2118
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1011499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2118_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2140_5:  '
+    FileOffset:      2140
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1011943
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2140_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2141_6:  '
+    FileOffset:      2141
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1011989
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2145_7:  '
+    FileOffset:      2145
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1012127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2145_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2170_8:  '
+    FileOffset:      2170
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1012590
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2170_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2174_9:  '
+    FileOffset:      2174
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1012728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2174_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_10:  '
+    FileOffset:      2200
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1013298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2202_11:  '
+    FileOffset:      2202
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1013377
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2202_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2220_12:  '
+    FileOffset:      2220
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1013659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2220_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2222_13:  '
+    FileOffset:      2222
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1013740
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2222_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2234_14:  '
+    FileOffset:      2234
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1013976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2234_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2235_15:  '
+    FileOffset:      2235
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1014030
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2235_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2236_16:  '
+    FileOffset:      2236
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1014108
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2236_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2238_17:  '
+    FileOffset:      2238
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1014191
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2238_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2243_18:  '
+    FileOffset:      2243
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1014381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2243_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2304_19:  '
+    FileOffset:      2304
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1015984
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2304_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2306_20:  '
+    FileOffset:      2306
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1016063
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2306_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2329_21:  '
+    FileOffset:      2329
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1016652
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2329_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_22:  '
+    FileOffset:      2335
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1016807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2348_23:  '
+    FileOffset:      2348
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1017177
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2348_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2354_24:  '
+    FileOffset:      2354
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1017302
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2354_24: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2356_25:  '
+    FileOffset:      2356
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1017381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2356_25: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2362_26:  '
+    FileOffset:      2362
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1017544
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2362_26: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2388_27:  '
+    FileOffset:      2388
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1018203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2388_27: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2392_28:  '
+    FileOffset:      2392
+    FilePath:        /home/fede/PhD/transformer-hls/hls/include/linear.h
+    Replacements:    
+      - FilePath:        /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp
+        Offset:          1018331
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2392_28: '
+...

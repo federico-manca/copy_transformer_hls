@@ -1,0 +1,8 @@
+In file included from /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:11:
+/home/fede/PhD/transformer-hls/hls/include/layers/MLP_tiled_oc.hpp:4:9: warning: 'AP_INT_MAX_W' macro redefined [-Wmacro-redefined]
+#define AP_INT_MAX_W 4096
+        ^
+/home/fede/PhD/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:136:9: note: previous definition is here
+#define AP_INT_MAX_W 1024
+        ^
+1 warning generated.

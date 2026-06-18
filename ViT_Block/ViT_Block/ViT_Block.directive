@@ -1,0 +1,30 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="ViT_Block" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="ViT_Block"/>
+            </pragma>
+        </directive>
+        <directive functionName="ViT_Block" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="ViT_Block"/>
+            </pragma>
+        </directive>
+        <directive functionName="ViT_Block" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="ViT_Block"/>
+            </pragma>
+        </directive>
+        <directive functionName="ViT_Block" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="ViT_Block"/>
+            </pragma>
+        </directive>
+        <directive functionName="ViT_Block" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="ViT_Block"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

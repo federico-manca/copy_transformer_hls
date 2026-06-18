@@ -1,0 +1,394 @@
+
+
+================================================================
+== Vitis HLS Report for 'MM_tiled_8'
+================================================================
+* Date:           Thu Jun 18 11:12:00 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        ViT_Block
+* Solution:       ViT_Block (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  4.190 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+----------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline |
+    |   min   |   max   |    min    |    max    |  min |  max |   Type   |
+    +---------+---------+-----------+-----------+------+------+----------+
+    |     2861|     2861|  28.610 us|  28.610 us|  2862|  2862|  dataflow|
+    +---------+---------+-----------+-----------+------+------+----------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
+        |                                                                      |                                                                   |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+        |                               Instance                               |                               Module                              |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+        +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
+        |MatMul_QK_tiled_17_48_17_1_1_1_1_1_137_16_0_ap_int_8_ap_int_32_20_U0  |MatMul_QK_tiled_17_48_17_1_1_1_1_1_137_16_0_ap_int_8_ap_int_32_20  |     2861|     2861|  28.610 us|  28.610 us|  2861|  2861|       no|
+        +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        -|        -|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |       15|     30|      928|     3710|     0|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|        9|     -|
+|Register             |        -|      -|        1|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |       15|     30|      929|     3719|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        1|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |       ~0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+-----+------+-----+
+    |                               Instance                               |                               Module                              | BRAM_18K| DSP|  FF |  LUT | URAM|
+    +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+-----+------+-----+
+    |MatMul_QK_tiled_17_48_17_1_1_1_1_1_137_16_0_ap_int_8_ap_int_32_20_U0  |MatMul_QK_tiled_17_48_17_1_1_1_1_1_137_16_0_ap_int_8_ap_int_32_20  |       15|  30|  928|  3710|    0|
+    +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+-----+------+-----+
+    |Total                                                                 |                                                                   |       15|  30|  928|  3710|    0|
+    +----------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+-----+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    +------------+----+-----------+-----+-----------+
+    |    Name    | LUT| Input Size| Bits| Total Bits|
+    +------------+----+-----------+-----+-----------+
+    |real_start  |   9|          2|    1|          2|
+    +------------+----+-----------+-----+-----------+
+    |Total       |   9|          2|    1|          2|
+    +------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+---+----+-----+-----------+
+    |      Name      | FF| LUT| Bits| Const Bits|
+    +----------------+---+----+-----+-----------+
+    |start_once_reg  |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+    |Total           |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------+-----+-----+------------+--------------+--------------+
+|   RTL Ports   | Dir | Bits|  Protocol  | Source Object|    C Type    |
++---------------+-----+-----+------------+--------------+--------------+
+|ap_start       |   in|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|start_full_n   |   in|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|start_out      |  out|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|start_write    |  out|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|ap_clk         |   in|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|ap_rst         |   in|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|ap_done        |  out|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|ap_ready       |  out|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|ap_idle        |  out|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|ap_continue    |   in|    1|  ap_ctrl_hs|    MM_tiled.8|  return value|
+|Q_1_2_dout     |   in|    8|     ap_fifo|         Q_1_2|       pointer|
+|Q_1_2_empty_n  |   in|    1|     ap_fifo|         Q_1_2|       pointer|
+|Q_1_2_read     |  out|    1|     ap_fifo|         Q_1_2|       pointer|
+|K_1_2_dout     |   in|    8|     ap_fifo|         K_1_2|       pointer|
+|K_1_2_empty_n  |   in|    1|     ap_fifo|         K_1_2|       pointer|
+|K_1_2_read     |  out|    1|     ap_fifo|         K_1_2|       pointer|
+|A_2_din        |  out|    8|     ap_fifo|           A_2|       pointer|
+|A_2_full_n     |   in|    1|     ap_fifo|           A_2|       pointer|
+|A_2_write      |  out|    1|     ap_fifo|           A_2|       pointer|
++---------------+-----+-----+------------+--------------+--------------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 1
+  DF-Pipeline-0: Size = 2, States = { 1 2 }
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 3 [2/2] (0.00ns)   --->   "%call_ln19 = call void @MatMul_QK_tiled<17, 48, 17, 1, 1, 1, 1, 1, 137, 16, 0, ap_int<8>, ap_int<32> >.20, i8 %Q_1_2, i8 %K_1_2, i8 %A_2" [/home/fede/PhD/transformer-hls/hls/src/layers/MM_tiled.cpp:19]   --->   Operation 3 'call' 'call_ln19' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 4 [1/1] (0.00ns)   --->   "%specdataflowpipeline_ln9 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @empty_26" [/home/fede/PhD/transformer-hls/hls/src/layers/MM_tiled.cpp:9]   --->   Operation 4 'specdataflowpipeline' 'specdataflowpipeline_ln9' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 5 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %A_2, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 5 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %K_1_2, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %Q_1_2, void @empty_0, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 8 [1/2] (0.00ns)   --->   "%call_ln19 = call void @MatMul_QK_tiled<17, 48, 17, 1, 1, 1, 1, 1, 137, 16, 0, ap_int<8>, ap_int<32> >.20, i8 %Q_1_2, i8 %K_1_2, i8 %A_2" [/home/fede/PhD/transformer-hls/hls/src/layers/MM_tiled.cpp:19]   --->   Operation 8 'call' 'call_ln19' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%ret_ln27 = ret" [/home/fede/PhD/transformer-hls/hls/src/layers/MM_tiled.cpp:27]   --->   Operation 9 'ret' 'ret_ln27' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+STG Binding: 
+---------------- STG Properties BEGIN ----------------
+- Is combinational: 0
+- Is one-state seq: 0
+- Is datapath-only: 0
+- Is pipelined: 0
+- Is top level: 0
+Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
+Port [ Q_1_2]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ K_1_2]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ A_2]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+---------------- STG Properties END ------------------
+
+---------------- Datapath Model BEGIN ----------------
+
+<LifeTime>
+<method=bitvector/>
+specdataflowpipeline_ln9 (specdataflowpipeline) [ 000]
+specinterface_ln0        (specinterface       ) [ 000]
+specinterface_ln0        (specinterface       ) [ 000]
+specinterface_ln0        (specinterface       ) [ 000]
+call_ln19                (call                ) [ 000]
+ret_ln27                 (ret                 ) [ 000]
+</LifeTime>
+
+<model>
+
+<comp_list>
+<comp id="0" class="1000" name="Q_1_2">
+<pin_list>
+<pin id="1" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="Q_1_2"/></StgValue>
+</bind>
+</comp>
+
+<comp id="2" class="1000" name="K_1_2">
+<pin_list>
+<pin id="3" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="K_1_2"/></StgValue>
+</bind>
+</comp>
+
+<comp id="4" class="1000" name="A_2">
+<pin_list>
+<pin id="5" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="A_2"/></StgValue>
+</bind>
+</comp>
+
+<comp id="6" class="1001" name="const_6">
+<pin_list>
+<pin id="7" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="MatMul_QK_tiled<17, 48, 17, 1, 1, 1, 1, 1, 137, 16, 0, ap_int<8>, ap_int<32> >.20"/></StgValue>
+</bind>
+</comp>
+
+<comp id="8" class="1001" name="const_8">
+<pin_list>
+<pin id="9" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecDataflowPipeline"/></StgValue>
+</bind>
+</comp>
+
+<comp id="10" class="1001" name="const_10">
+<pin_list>
+<pin id="11" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="12" class="1001" name="const_12">
+<pin_list>
+<pin id="13" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="14" class="1001" name="const_14">
+<pin_list>
+<pin id="15" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_26"/></StgValue>
+</bind>
+</comp>
+
+<comp id="16" class="1001" name="const_16">
+<pin_list>
+<pin id="17" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecInterface"/></StgValue>
+</bind>
+</comp>
+
+<comp id="18" class="1001" name="const_18">
+<pin_list>
+<pin id="19" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="20" class="1004" name="grp_MatMul_QK_tiled_17_48_17_1_1_1_1_1_137_16_0_ap_int_8_ap_int_32_20_fu_20">
+<pin_list>
+<pin id="21" dir="0" index="0" bw="0" slack="0"/>
+<pin id="22" dir="0" index="1" bw="8" slack="0"/>
+<pin id="23" dir="0" index="2" bw="8" slack="0"/>
+<pin id="24" dir="0" index="3" bw="8" slack="0"/>
+<pin id="25" dir="1" index="4" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="call(48) " fcode="call"/>
+<opset="call_ln19/1 "/>
+</bind>
+</comp>
+
+</comp_list>
+
+<net_list>
+<net id="26"><net_src comp="6" pin="0"/><net_sink comp="20" pin=0"/></net>
+
+<net id="27"><net_src comp="0" pin="0"/><net_sink comp="20" pin=1"/></net>
+
+<net id="28"><net_src comp="2" pin="0"/><net_sink comp="20" pin=2"/></net>
+
+<net id="29"><net_src comp="4" pin="0"/><net_sink comp="20" pin=3"/></net>
+
+</net_list>
+
+</model> 
+---------------- Datapath Model END ------------------
+
+* FSMD analyzer results:
+  - Output states:
+	Port: A_2 | {1 2 }
+ - Input state : 
+	Port: MM_tiled.8 : Q_1_2 | {1 2 }
+	Port: MM_tiled.8 : K_1_2 | {1 2 }
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+
+* Functional unit list:
+|----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|---------|---------|
+| Operation|                               Functional Unit                               |   BRAM  |   DSP   |  Delay  |    FF   |   LUT   |   URAM  |
+|----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|---------|---------|
+|   call   | grp_MatMul_QK_tiled_17_48_17_1_1_1_1_1_137_16_0_ap_int_8_ap_int_32_20_fu_20 |    15   |    30   | 45.2167 |   2927  |   3866  |    0    |
+|----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|---------|---------|
+|   Total  |                                                                             |    15   |    30   | 45.2167 |   2927  |   3866  |    0    |
+|----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|---------|---------|
+
+Memories:
+N/A
+
+* Register list:
+N/A
+
+* Multiplexer (MUX) list: 
+|--------|------|------|------|--------|
+|  Comp  |  Pin | Size |  BW  | S x BW |
+|--------|------|------|------|--------|
+|  Total |      |      |      |    0   |
+|--------|------|------|------|--------|
+
+
+
+* Summary:
++-----------+--------+--------+--------+--------+--------+--------+
+|           |  BRAM  |   DSP  |  Delay |   FF   |   LUT  |  URAM  |
++-----------+--------+--------+--------+--------+--------+--------+
+|  Function |   15   |   30   |   45   |  2927  |  3866  |    0   |
+|   Memory  |    -   |    -   |    -   |    -   |    -   |    -   |
+|Multiplexer|    -   |    -   |    -   |    -   |    -   |    -   |
+|  Register |    -   |    -   |    -   |    -   |    -   |    -   |
++-----------+--------+--------+--------+--------+--------+--------+
+|   Total   |   15   |   30   |   45   |  2927  |  3866  |    0   |
++-----------+--------+--------+--------+--------+--------+--------+

@@ -1,0 +1,12 @@
+---
+MainSourceFile:  /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/ViT_Block.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '111:5'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '112:5'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/model/ViT_Block.cpp
+...

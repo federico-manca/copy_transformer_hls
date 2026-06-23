@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MultiHeadAttention_tiled'" level="0">
-<item name = "Date">Fri Jun 19 14:57:28 2026
+<item name = "Date">Tue Jun 23 12:33:54 2026
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">ViT_Block</item>
 <item name = "Solution">ViT_Block (Vivado IP Flow Target)</item>
-<item name = "Product family">zynquplus</item>
-<item name = "Target device">xck26-sfvc784-2LV-c</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcu250-figd2104-2L-e</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -64,29 +64,31 @@
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 24, -</column>
-<column name="FIFO">-, -, 1782, 1206, -</column>
-<column name="Instance">54, 107, 59246, 56638, 0</column>
+<column name="FIFO">-, -, 360, 270, -</column>
+<column name="Instance">4, 107, 58423, 56215, 0</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 45, -</column>
 <column name="Register">-, -, 5, -, -</column>
-<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
-<specialColumn name="Utilization (%)">18, 8, 26, 49, 0</specialColumn>
+<specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
+<specialColumn name="Utilization SLR (%)">~0, 3, 6, 13, 0</specialColumn>
+<specialColumn name="Available">5376, 12288, 3456000, 1728000, 1280</specialColumn>
+<specialColumn name="Utilization (%)">~0, ~0, 1, 3, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="K_linear_tiled_U0">K_linear_tiled, 2, 17, 1190, 1942, 0</column>
-<column name="MM1_tiled_U0">MM1_tiled, 16, 12, 948, 1371, 0</column>
-<column name="MM1_tiled_7_U0">MM1_tiled_7, 16, 12, 947, 1362, 0</column>
-<column name="MM_tiled_U0">MM_tiled, 7, 6, 426, 1020, 0</column>
-<column name="MM_tiled_4_U0">MM_tiled_4, 7, 6, 426, 1020, 0</column>
-<column name="Out_linear_tiled_U0">Out_linear_tiled, 2, 18, 1190, 1994, 0</column>
-<column name="Q_linear_tiled_U0">Q_linear_tiled, 2, 17, 1189, 1996, 0</column>
-<column name="SOFTMAX_tile_U0">SOFTMAX_tile, 0, 0, 25800, 21277, 0</column>
-<column name="SOFTMAX_tile_5_U0">SOFTMAX_tile_5, 0, 0, 25800, 21277, 0</column>
-<column name="V_linear_tiled_U0">V_linear_tiled, 2, 17, 1191, 1997, 0</column>
+<column name="K_linear_tiled_U0">K_linear_tiled, 1, 17, 1010, 1829, 0</column>
+<column name="MM1_tiled_U0">MM1_tiled, 0, 12, 948, 1411, 0</column>
+<column name="MM1_tiled_7_U0">MM1_tiled_7, 0, 12, 947, 1402, 0</column>
+<column name="MM_tiled_U0">MM_tiled, 0, 6, 378, 1062, 0</column>
+<column name="MM_tiled_4_U0">MM_tiled_4, 0, 6, 378, 1062, 0</column>
+<column name="Out_linear_tiled_U0">Out_linear_tiled, 1, 18, 1013, 1841, 0</column>
+<column name="Q_linear_tiled_U0">Q_linear_tiled, 1, 17, 1013, 1844, 0</column>
+<column name="SOFTMAX_tile_U0">SOFTMAX_tile, 0, 0, 25792, 21269, 0</column>
+<column name="SOFTMAX_tile_5_U0">SOFTMAX_tile_5, 0, 0, 25792, 21269, 0</column>
+<column name="V_linear_tiled_U0">V_linear_tiled, 1, 17, 1013, 1844, 0</column>
 <column name="merge_heads_U0">merge_heads, 0, 0, 26, 247, 0</column>
 <column name="requant_ap_int_8_ap_int_8_17_17_170977_16_1_6_U0">requant_ap_int_8_ap_int_8_17_17_170977_16_1_6, 0, 1, 18, 215, 0</column>
 <column name="requant_ap_int_8_ap_int_8_17_17_170977_16_1_U0">requant_ap_int_8_ap_int_8_17_17_170977_16_1_s, 0, 1, 18, 215, 0</column>
@@ -105,24 +107,24 @@
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
 <keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
-<column name="A_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="A_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="A_s_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="A_s_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="A_sx_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="A_sx_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="K_1_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="K_1_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="Q_1_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="Q_1_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="V_1_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="V_1_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="head_out_0_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="head_out_1_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="k_lin_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="out_linear_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="q_lin_U">0, 99, 0, -, 2, 8, 16</column>
-<column name="v_lin_U">0, 99, 0, -, 2, 8, 16</column>
+<column name="A_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="A_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="A_s_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="A_s_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="A_sx_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="A_sx_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="K_1_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="K_1_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="Q_1_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="Q_1_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="V_1_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="V_1_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="head_out_0_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="head_out_1_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="k_lin_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="out_linear_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="q_lin_U">0, 20, 0, -, 2, 8, 16</column>
+<column name="v_lin_U">0, 20, 0, -, 2, 8, 16</column>
 </table>
 </item>
 <item name = "Expression"><table name="" hasTotal="1">

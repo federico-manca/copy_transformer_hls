@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="ViT_Block_ViT_Block,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xck26-sfvc784-2LV-c,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=7.300000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=72,HLS_SYN_DSP=0,HLS_SYN_FF=73429,HLS_SYN_LUT=80602,HLS_VERSION=2022_2}" *)
+(* CORE_GENERATION_INFO="ViT_Block_ViT_Block,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu250-figd2104-2L-e,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=7.300000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=13,HLS_SYN_DSP=0,HLS_SYN_FF=68615,HLS_SYN_LUT=70636,HLS_VERSION=2022_2}" *)
 
 module ViT_Block (
         s_axi_control_AWVALID,
@@ -2106,16 +2106,4 @@ assign out_r_TVALID = apuint_to_axis_U0_out_r_TVALID;
 
 assign start_for_apuint_to_axis_U0_din = 1'b1;
 
-
-reg find_df_deadlock = 0;
-// synthesis translate_off
-`include "ViT_Block_hls_deadlock_detector.vh"
-// synthesis translate_on
-
-reg find_kernel_block = 0;
-// synthesis translate_off
-`include "ViT_Block_hls_deadlock_kernel_monitor_top.vh"
-// synthesis translate_on
-
 endmodule //ViT_Block
-

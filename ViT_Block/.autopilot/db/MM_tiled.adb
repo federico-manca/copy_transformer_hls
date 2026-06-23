@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -160,7 +160,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3348641776</coreId>
+              <coreId>1340971040</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -219,7 +219,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3353626016</coreId>
+              <coreId>1397508187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -544,7 +544,7 @@
             <item_version>0</item_version>
             <item class_id="48" tracking_level="0" version="0">
               <first>BRAM</first>
-              <second>7</second>
+              <second>0</second>
             </item>
             <item>
               <first>DSP</first>
@@ -552,11 +552,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>425</second>
+              <second>377</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1011</second>
+              <second>1053</second>
             </item>
             <item>
               <first>URAM</first>

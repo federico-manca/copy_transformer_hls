@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s'
 ================================================================
-* Date:           Fri Jun 19 14:57:24 2026
+* Date:           Tue Jun 23 12:33:50 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
 * Solution:       ViT_Block (Vivado IP Flow Target)
-* Product family: zynquplus
-* Target device:  xck26-sfvc784-2LV-c
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
 
 
 ================================================================
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  5.345 ns|     2.70 ns|
+    |ap_clk  |  10.00 ns|  4.723 ns|     2.70 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -57,23 +57,27 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+-----------------+---------+------+--------+--------+-----+
-|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
-+-----------------+---------+------+--------+--------+-----+
-|DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|      23|    -|
-|FIFO             |        -|     -|       -|       -|    -|
-|Instance         |        -|    12|     770|     898|    -|
-|Memory           |       16|     -|      16|       3|    0|
-|Multiplexer      |        -|     -|       -|     438|    -|
-|Register         |        -|     -|     161|       -|    -|
-+-----------------+---------+------+--------+--------+-----+
-|Total            |       16|    12|     947|    1362|    0|
-+-----------------+---------+------+--------+--------+-----+
-|Available        |      288|  1248|  234240|  117120|   64|
-+-----------------+---------+------+--------+--------+-----+
-|Utilization (%)  |        5|    ~0|      ~0|       1|    0|
-+-----------------+---------+------+--------+--------+-----+
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|       23|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|     12|      770|      899|     -|
+|Memory               |        0|      -|       16|       42|     0|
+|Multiplexer          |        -|      -|        -|      438|     -|
+|Register             |        -|      -|      161|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|     12|      947|     1402|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
     * Instance: 
@@ -81,24 +85,24 @@
     |                           Instance                           |                       Module                      | BRAM_18K| DSP|  FF | LUT | URAM|
     +--------------------------------------------------------------+---------------------------------------------------+---------+----+-----+-----+-----+
     |grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1818_5_fu_222         |MatMul_KV_tiled_Pipeline_VITIS_LOOP_1818_5         |        0|   0|   13|   70|    0|
-    |grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6_fu_229         |MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6         |        0|  12|  737|  678|    0|
+    |grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6_fu_229         |MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6         |        0|  12|  737|  679|    0|
     |grp_MatMul_KV_tiled_Pipeline_load_B_VITIS_LOOP_1796_1_fu_214  |MatMul_KV_tiled_Pipeline_load_B_VITIS_LOOP_1796_1  |        0|   0|   20|  150|    0|
     +--------------------------------------------------------------+---------------------------------------------------+---------+----+-----+-----+-----+
-    |Total                                                         |                                                   |        0|  12|  770|  898|    0|
+    |Total                                                         |                                                   |        0|  12|  770|  899|    0|
     +--------------------------------------------------------------+---------------------------------------------------+---------+----+-----+-----+-----+
 
     * DSP: 
     N/A
 
     * Memory: 
-    +--------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
-    |    Memory    |                                      Module                                      | BRAM_18K| FF | LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
-    +--------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
-    |buff_B_V_U    |MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_buff_B_V_RAM_g8j  |       16|   0|   0|    0|   136|    8|     1|         1088|
-    |tile_A_V_0_U  |MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_tile_A_V_0_RAhbi  |        0|  16|   3|    0|    17|    8|     1|          136|
-    +--------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
-    |Total         |                                                                                  |       16|  16|   3|    0|   153|   16|     2|         1224|
-    +--------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    +--------------+----------------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |    Memory    |                                      Module                                      | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +--------------+----------------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |buff_B_V_U    |MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_buff_B_V_RAM_g8j  |        0|  8|  33|    0|   136|    8|     1|         1088|
+    |tile_A_V_0_U  |MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_tile_A_V_0_RAhbi  |        0|  8|   9|    0|    17|    8|     1|          136|
+    +--------------+----------------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total         |                                                                                  |        0| 16|  42|    0|   153|   16|     2|         1224|
+    +--------------+----------------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
 
     * FIFO: 
     N/A
@@ -265,13 +269,13 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 1.23>
+State 1 <SV = 0> <Delay = 0.66>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%m = alloca i32 1"   --->   Operation 17 'alloca' 'm' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 18 [1/1] (1.23ns)   --->   "%buff_B_V = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1781]   --->   Operation 18 'alloca' 'buff_B_V' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 19 [1/1] (0.67ns)   --->   "%tile_A_V_0 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1786]   --->   Operation 19 'alloca' 'tile_A_V_0' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_1 : Operation 18 [1/1] (0.62ns)   --->   "%buff_B_V = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1781]   --->   Operation 18 'alloca' 'buff_B_V' <Predicate = true> <Delay = 0.62>
+ST_1 : Operation 19 [1/1] (0.66ns)   --->   "%tile_A_V_0 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1786]   --->   Operation 19 'alloca' 'tile_A_V_0' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%empty = wait i32 @_ssdm_op_Wait"   --->   Operation 20 'wait' 'empty' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 21 [2/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_KV_tiled_Pipeline_load_B_VITIS_LOOP_1796_1, i8 %buff_B_V, i8 %V_1_0"   --->   Operation 21 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_1 : Operation 22 [1/1] (0.42ns)   --->   "%store_ln1813 = store i5 0, i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 22 'store' 'store_ln1813' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 22 [1/1] (0.38ns)   --->   "%store_ln1813 = store i5 0, i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 22 'store' 'store_ln1813' <Predicate = true> <Delay = 0.38>
 
 State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 23 [1/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_KV_tiled_Pipeline_load_B_VITIS_LOOP_1796_1, i8 %buff_B_V, i8 %V_1_0"   --->   Operation 23 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -300,75 +304,75 @@ ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%tile_A_V_0_addr_31 = getelementptr
 ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%tile_A_V_0_addr_32 = getelementptr i8 %tile_A_V_0, i64 0, i64 16"   --->   Operation 44 'getelementptr' 'tile_A_V_0_addr_32' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 45 [1/1] (0.00ns)   --->   "%br_ln1813 = br void %buff_init" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 45 'br' 'br_ln1813' <Predicate = true> <Delay = 0.00>
 
-State 4 <SV = 3> <Delay = 1.21>
+State 4 <SV = 3> <Delay = 1.09>
 ST_4 : Operation 46 [1/1] (0.00ns)   --->   "%m_18 = load i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 46 'load' 'm_18' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 47 [1/1] (0.75ns)   --->   "%icmp_ln1813 = icmp_eq  i5 %m_18, i5 17" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 47 'icmp' 'icmp_ln1813' <Predicate = true> <Delay = 0.75> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 47 [1/1] (0.63ns)   --->   "%icmp_ln1813 = icmp_eq  i5 %m_18, i5 17" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 47 'icmp' 'icmp_ln1813' <Predicate = true> <Delay = 0.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.63> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 48 [1/1] (0.00ns)   --->   "%empty_230 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 17, i64 17, i64 17"   --->   Operation 48 'speclooptripcount' 'empty_230' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 49 [1/1] (0.78ns)   --->   "%m_19 = add i5 %m_18, i5 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 49 'add' 'm_19' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 49 [1/1] (0.70ns)   --->   "%m_19 = add i5 %m_18, i5 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 49 'add' 'm_19' <Predicate = true> <Delay = 0.70> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.70> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 50 [1/1] (0.00ns)   --->   "%br_ln1813 = br i1 %icmp_ln1813, void %buff_init.split, void %for.end256" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 50 'br' 'br_ln1813' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 51 [1/1] (0.00ns)   --->   "%empty_231 = wait i32 @_ssdm_op_Wait"   --->   Operation 51 'wait' 'empty_231' <Predicate = (!icmp_ln1813)> <Delay = 0.00>
 ST_4 : Operation 52 [2/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_KV_tiled_Pipeline_VITIS_LOOP_1818_5, i8 %A_sx_0, i8 %tile_A_V_0"   --->   Operation 52 'call' 'call_ln0' <Predicate = (!icmp_ln1813)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_4 : Operation 53 [1/1] (0.42ns)   --->   "%store_ln1813 = store i5 %m_19, i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 53 'store' 'store_ln1813' <Predicate = (!icmp_ln1813)> <Delay = 0.42>
+ST_4 : Operation 53 [1/1] (0.38ns)   --->   "%store_ln1813 = store i5 %m_19, i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1813]   --->   Operation 53 'store' 'store_ln1813' <Predicate = (!icmp_ln1813)> <Delay = 0.38>
 ST_4 : Operation 54 [1/1] (0.00ns)   --->   "%ret_ln1896 = ret" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1896]   --->   Operation 54 'ret' 'ret_ln1896' <Predicate = (icmp_ln1813)> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 0.00>
 ST_5 : Operation 55 [1/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_KV_tiled_Pipeline_VITIS_LOOP_1818_5, i8 %A_sx_0, i8 %tile_A_V_0"   --->   Operation 55 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 6 <SV = 5> <Delay = 0.67>
+State 6 <SV = 5> <Delay = 0.66>
 ST_6 : Operation 56 [1/1] (0.00ns)   --->   "%empty_232 = wait i32 @_ssdm_op_Wait"   --->   Operation 56 'wait' 'empty_232' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 57 [2/2] (0.67ns)   --->   "%tile_A_V_0_load = load i5 %tile_A_V_0_addr"   --->   Operation 57 'load' 'tile_A_V_0_load' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_6 : Operation 57 [2/2] (0.66ns)   --->   "%tile_A_V_0_load = load i5 %tile_A_V_0_addr"   --->   Operation 57 'load' 'tile_A_V_0_load' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 7 <SV = 6> <Delay = 0.67>
-ST_7 : Operation 58 [1/2] (0.67ns)   --->   "%tile_A_V_0_load = load i5 %tile_A_V_0_addr"   --->   Operation 58 'load' 'tile_A_V_0_load' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_7 : Operation 59 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_17 = load i5 %tile_A_V_0_addr_17"   --->   Operation 59 'load' 'tile_A_V_0_load_17' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_7 : Operation 60 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_18 = load i5 %tile_A_V_0_addr_18"   --->   Operation 60 'load' 'tile_A_V_0_load_18' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 7 <SV = 6> <Delay = 0.66>
+ST_7 : Operation 58 [1/2] (0.66ns)   --->   "%tile_A_V_0_load = load i5 %tile_A_V_0_addr"   --->   Operation 58 'load' 'tile_A_V_0_load' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_7 : Operation 59 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_17 = load i5 %tile_A_V_0_addr_17"   --->   Operation 59 'load' 'tile_A_V_0_load_17' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_7 : Operation 60 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_18 = load i5 %tile_A_V_0_addr_18"   --->   Operation 60 'load' 'tile_A_V_0_load_18' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 ST_7 : Operation 61 [1/1] (0.00ns)   --->   "%empty_233 = wait i32 @_ssdm_op_Wait"   --->   Operation 61 'wait' 'empty_233' <Predicate = true> <Delay = 0.00>
 
-State 8 <SV = 7> <Delay = 0.67>
-ST_8 : Operation 62 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_17 = load i5 %tile_A_V_0_addr_17"   --->   Operation 62 'load' 'tile_A_V_0_load_17' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_8 : Operation 63 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_18 = load i5 %tile_A_V_0_addr_18"   --->   Operation 63 'load' 'tile_A_V_0_load_18' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_8 : Operation 64 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_19 = load i5 %tile_A_V_0_addr_19"   --->   Operation 64 'load' 'tile_A_V_0_load_19' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_8 : Operation 65 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_20 = load i5 %tile_A_V_0_addr_20"   --->   Operation 65 'load' 'tile_A_V_0_load_20' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 8 <SV = 7> <Delay = 0.66>
+ST_8 : Operation 62 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_17 = load i5 %tile_A_V_0_addr_17"   --->   Operation 62 'load' 'tile_A_V_0_load_17' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_8 : Operation 63 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_18 = load i5 %tile_A_V_0_addr_18"   --->   Operation 63 'load' 'tile_A_V_0_load_18' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_8 : Operation 64 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_19 = load i5 %tile_A_V_0_addr_19"   --->   Operation 64 'load' 'tile_A_V_0_load_19' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_8 : Operation 65 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_20 = load i5 %tile_A_V_0_addr_20"   --->   Operation 65 'load' 'tile_A_V_0_load_20' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 9 <SV = 8> <Delay = 0.67>
-ST_9 : Operation 66 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_19 = load i5 %tile_A_V_0_addr_19"   --->   Operation 66 'load' 'tile_A_V_0_load_19' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_9 : Operation 67 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_20 = load i5 %tile_A_V_0_addr_20"   --->   Operation 67 'load' 'tile_A_V_0_load_20' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_9 : Operation 68 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_21 = load i5 %tile_A_V_0_addr_21"   --->   Operation 68 'load' 'tile_A_V_0_load_21' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_9 : Operation 69 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_22 = load i5 %tile_A_V_0_addr_22"   --->   Operation 69 'load' 'tile_A_V_0_load_22' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 9 <SV = 8> <Delay = 0.66>
+ST_9 : Operation 66 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_19 = load i5 %tile_A_V_0_addr_19"   --->   Operation 66 'load' 'tile_A_V_0_load_19' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_9 : Operation 67 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_20 = load i5 %tile_A_V_0_addr_20"   --->   Operation 67 'load' 'tile_A_V_0_load_20' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_9 : Operation 68 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_21 = load i5 %tile_A_V_0_addr_21"   --->   Operation 68 'load' 'tile_A_V_0_load_21' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_9 : Operation 69 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_22 = load i5 %tile_A_V_0_addr_22"   --->   Operation 69 'load' 'tile_A_V_0_load_22' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 10 <SV = 9> <Delay = 0.67>
-ST_10 : Operation 70 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_21 = load i5 %tile_A_V_0_addr_21"   --->   Operation 70 'load' 'tile_A_V_0_load_21' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_10 : Operation 71 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_22 = load i5 %tile_A_V_0_addr_22"   --->   Operation 71 'load' 'tile_A_V_0_load_22' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_10 : Operation 72 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_23 = load i5 %tile_A_V_0_addr_23"   --->   Operation 72 'load' 'tile_A_V_0_load_23' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_10 : Operation 73 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_24 = load i5 %tile_A_V_0_addr_24"   --->   Operation 73 'load' 'tile_A_V_0_load_24' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 10 <SV = 9> <Delay = 0.66>
+ST_10 : Operation 70 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_21 = load i5 %tile_A_V_0_addr_21"   --->   Operation 70 'load' 'tile_A_V_0_load_21' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_10 : Operation 71 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_22 = load i5 %tile_A_V_0_addr_22"   --->   Operation 71 'load' 'tile_A_V_0_load_22' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_10 : Operation 72 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_23 = load i5 %tile_A_V_0_addr_23"   --->   Operation 72 'load' 'tile_A_V_0_load_23' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_10 : Operation 73 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_24 = load i5 %tile_A_V_0_addr_24"   --->   Operation 73 'load' 'tile_A_V_0_load_24' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 11 <SV = 10> <Delay = 0.67>
-ST_11 : Operation 74 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_23 = load i5 %tile_A_V_0_addr_23"   --->   Operation 74 'load' 'tile_A_V_0_load_23' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_11 : Operation 75 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_24 = load i5 %tile_A_V_0_addr_24"   --->   Operation 75 'load' 'tile_A_V_0_load_24' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_11 : Operation 76 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_25 = load i5 %tile_A_V_0_addr_25"   --->   Operation 76 'load' 'tile_A_V_0_load_25' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_11 : Operation 77 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_26 = load i5 %tile_A_V_0_addr_26"   --->   Operation 77 'load' 'tile_A_V_0_load_26' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 11 <SV = 10> <Delay = 0.66>
+ST_11 : Operation 74 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_23 = load i5 %tile_A_V_0_addr_23"   --->   Operation 74 'load' 'tile_A_V_0_load_23' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_11 : Operation 75 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_24 = load i5 %tile_A_V_0_addr_24"   --->   Operation 75 'load' 'tile_A_V_0_load_24' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_11 : Operation 76 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_25 = load i5 %tile_A_V_0_addr_25"   --->   Operation 76 'load' 'tile_A_V_0_load_25' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_11 : Operation 77 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_26 = load i5 %tile_A_V_0_addr_26"   --->   Operation 77 'load' 'tile_A_V_0_load_26' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 12 <SV = 11> <Delay = 0.67>
-ST_12 : Operation 78 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_25 = load i5 %tile_A_V_0_addr_25"   --->   Operation 78 'load' 'tile_A_V_0_load_25' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_12 : Operation 79 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_26 = load i5 %tile_A_V_0_addr_26"   --->   Operation 79 'load' 'tile_A_V_0_load_26' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_12 : Operation 80 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_27 = load i5 %tile_A_V_0_addr_27"   --->   Operation 80 'load' 'tile_A_V_0_load_27' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_12 : Operation 81 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_28 = load i5 %tile_A_V_0_addr_28"   --->   Operation 81 'load' 'tile_A_V_0_load_28' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 12 <SV = 11> <Delay = 0.66>
+ST_12 : Operation 78 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_25 = load i5 %tile_A_V_0_addr_25"   --->   Operation 78 'load' 'tile_A_V_0_load_25' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_12 : Operation 79 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_26 = load i5 %tile_A_V_0_addr_26"   --->   Operation 79 'load' 'tile_A_V_0_load_26' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_12 : Operation 80 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_27 = load i5 %tile_A_V_0_addr_27"   --->   Operation 80 'load' 'tile_A_V_0_load_27' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_12 : Operation 81 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_28 = load i5 %tile_A_V_0_addr_28"   --->   Operation 81 'load' 'tile_A_V_0_load_28' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 13 <SV = 12> <Delay = 0.67>
-ST_13 : Operation 82 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_27 = load i5 %tile_A_V_0_addr_27"   --->   Operation 82 'load' 'tile_A_V_0_load_27' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_13 : Operation 83 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_28 = load i5 %tile_A_V_0_addr_28"   --->   Operation 83 'load' 'tile_A_V_0_load_28' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_13 : Operation 84 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_29 = load i5 %tile_A_V_0_addr_29"   --->   Operation 84 'load' 'tile_A_V_0_load_29' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_13 : Operation 85 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_30 = load i5 %tile_A_V_0_addr_30"   --->   Operation 85 'load' 'tile_A_V_0_load_30' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 13 <SV = 12> <Delay = 0.66>
+ST_13 : Operation 82 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_27 = load i5 %tile_A_V_0_addr_27"   --->   Operation 82 'load' 'tile_A_V_0_load_27' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_13 : Operation 83 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_28 = load i5 %tile_A_V_0_addr_28"   --->   Operation 83 'load' 'tile_A_V_0_load_28' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_13 : Operation 84 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_29 = load i5 %tile_A_V_0_addr_29"   --->   Operation 84 'load' 'tile_A_V_0_load_29' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_13 : Operation 85 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_30 = load i5 %tile_A_V_0_addr_30"   --->   Operation 85 'load' 'tile_A_V_0_load_30' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 14 <SV = 13> <Delay = 0.67>
-ST_14 : Operation 86 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_29 = load i5 %tile_A_V_0_addr_29"   --->   Operation 86 'load' 'tile_A_V_0_load_29' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_14 : Operation 87 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_30 = load i5 %tile_A_V_0_addr_30"   --->   Operation 87 'load' 'tile_A_V_0_load_30' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_14 : Operation 88 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_31 = load i5 %tile_A_V_0_addr_31"   --->   Operation 88 'load' 'tile_A_V_0_load_31' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_14 : Operation 89 [2/2] (0.67ns)   --->   "%tile_A_V_0_load_32 = load i5 %tile_A_V_0_addr_32"   --->   Operation 89 'load' 'tile_A_V_0_load_32' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 14 <SV = 13> <Delay = 0.66>
+ST_14 : Operation 86 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_29 = load i5 %tile_A_V_0_addr_29"   --->   Operation 86 'load' 'tile_A_V_0_load_29' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_14 : Operation 87 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_30 = load i5 %tile_A_V_0_addr_30"   --->   Operation 87 'load' 'tile_A_V_0_load_30' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_14 : Operation 88 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_31 = load i5 %tile_A_V_0_addr_31"   --->   Operation 88 'load' 'tile_A_V_0_load_31' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_14 : Operation 89 [2/2] (0.66ns)   --->   "%tile_A_V_0_load_32 = load i5 %tile_A_V_0_addr_32"   --->   Operation 89 'load' 'tile_A_V_0_load_32' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 
-State 15 <SV = 14> <Delay = 0.67>
-ST_15 : Operation 90 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_31 = load i5 %tile_A_V_0_addr_31"   --->   Operation 90 'load' 'tile_A_V_0_load_31' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
-ST_15 : Operation 91 [1/2] (0.67ns)   --->   "%tile_A_V_0_load_32 = load i5 %tile_A_V_0_addr_32"   --->   Operation 91 'load' 'tile_A_V_0_load_32' <Predicate = true> <Delay = 0.67> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+State 15 <SV = 14> <Delay = 0.66>
+ST_15 : Operation 90 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_31 = load i5 %tile_A_V_0_addr_31"   --->   Operation 90 'load' 'tile_A_V_0_load_31' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
+ST_15 : Operation 91 [1/2] (0.66ns)   --->   "%tile_A_V_0_load_32 = load i5 %tile_A_V_0_addr_32"   --->   Operation 91 'load' 'tile_A_V_0_load_32' <Predicate = true> <Delay = 0.66> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 17> <RAM>
 ST_15 : Operation 92 [2/2] (0.00ns)   --->   "%call_ln186 = call void @MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6, i8 %buff_B_V, i8 %tile_A_V_0_load, i8 %tile_A_V_0_load_17, i8 %tile_A_V_0_load_18, i8 %tile_A_V_0_load_19, i8 %tile_A_V_0_load_20, i8 %tile_A_V_0_load_21, i8 %tile_A_V_0_load_22, i8 %tile_A_V_0_load_23, i8 %tile_A_V_0_load_24, i8 %tile_A_V_0_load_25, i8 %tile_A_V_0_load_26, i8 %tile_A_V_0_load_27, i8 %tile_A_V_0_load_28, i8 %tile_A_V_0_load_29, i8 %tile_A_V_0_load_30, i8 %tile_A_V_0_load_31, i8 %tile_A_V_0_load_32, i8 %head_out_0"   --->   Operation 92 'call' 'call_ln186' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 16 <SV = 15> <Delay = 0.00>
@@ -1831,23 +1835,23 @@ br_ln1813           (br               ) [ 00000000000000000]
 |----------|--------------------------------------------------------------|---------|---------|---------|---------|
 |          | grp_MatMul_KV_tiled_Pipeline_load_B_VITIS_LOOP_1796_1_fu_214 |    0    |    0    |    17   |    83   |
 |   call   |     grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1818_5_fu_222    |    0    |    0    |    10   |    21   |
-|          |     grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6_fu_229    |    12   |  12.495 |   953   |   836   |
+|          |     grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6_fu_229    |    12   | 11.1974 |   953   |   837   |
 |----------|--------------------------------------------------------------|---------|---------|---------|---------|
 |    add   |                          m_19_fu_269                         |    0    |    0    |    0    |    12   |
 |----------|--------------------------------------------------------------|---------|---------|---------|---------|
 |   icmp   |                      icmp_ln1813_fu_263                      |    0    |    0    |    0    |    9    |
 |----------|--------------------------------------------------------------|---------|---------|---------|---------|
-|   Total  |                                                              |    12   |  12.495 |   980   |   961   |
+|   Total  |                                                              |    12   | 11.1974 |   980   |   962   |
 |----------|--------------------------------------------------------------|---------|---------|---------|---------|
 
 Memories:
 +----------+--------+--------+--------+--------+
 |          |  BRAM  |   FF   |   LUT  |  URAM  |
 +----------+--------+--------+--------+--------+
-| buff_B_V |   16   |    0   |    0   |    0   |
-|tile_A_V_0|    0   |   16   |    3   |    0   |
+| buff_B_V |    0   |    8   |   33   |    0   |
+|tile_A_V_0|    0   |    8   |    9   |    0   |
 +----------+--------+--------+--------+--------+
-|   Total  |   16   |   16   |    3   |    0   |
+|   Total  |    0   |   16   |   42   |    0   |
 +----------+--------+--------+--------+--------+
 
 * Register list:
@@ -1902,7 +1906,7 @@ Memories:
 | grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6_fu_229 |  p17 |   2  |   8  |   16   ||    9    |
 | grp_MatMul_KV_tiled_Pipeline_VITIS_LOOP_1831_6_fu_229 |  p18 |   2  |   8  |   16   ||    9    |
 |-------------------------------------------------------|------|------|------|--------||---------||---------|
-|                         Total                         |      |      |      |   77   ||  2.345  ||   110   |
+|                         Total                         |      |      |      |   77   || 1.97514 ||   110   |
 |-------------------------------------------------------|------|------|------|--------||---------||---------|
 
 
@@ -1911,10 +1915,10 @@ Memories:
 +-----------+--------+--------+--------+--------+--------+--------+
 |           |  BRAM  |   DSP  |  Delay |   FF   |   LUT  |  URAM  |
 +-----------+--------+--------+--------+--------+--------+--------+
-|  Function |    -   |   12   |   12   |   980  |   961  |    -   |
-|   Memory  |   16   |    -   |    -   |   16   |    3   |    0   |
-|Multiplexer|    -   |    -   |    2   |    -   |   110  |    -   |
+|  Function |    -   |   12   |   11   |   980  |   962  |    -   |
+|   Memory  |    0   |    -   |    -   |   16   |   42   |    0   |
+|Multiplexer|    -   |    -   |    1   |    -   |   110  |    -   |
 |  Register |    -   |    -   |    -   |   226  |    -   |    -   |
 +-----------+--------+--------+--------+--------+--------+--------+
-|   Total   |   16   |   12   |   14   |  1222  |  1074  |    0   |
+|   Total   |    0   |   12   |   13   |  1222  |  1114  |    0   |
 +-----------+--------+--------+--------+--------+--------+--------+

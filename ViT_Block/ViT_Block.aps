@@ -8,13 +8,12 @@
     <flowTarget value="vivado"/>
     <config>
         <config_interface m_axi_latency="0"/>
-        <config_export format="ip_catalog"/>
     </config>
     <targetInfo>
-        <TargetInfo value="xck26:-sfvc784:-2LV-c"/>
+        <TargetInfo value="xcu250:-figd2104:-2L-e"/>
     </targetInfo>
     <libraryList>
-        <library value="xilinx/zynquplus/zynquplus" name="DefaultPlatform"/>
+        <library value="xilinx/virtexuplus/virtexuplus" name="DefaultPlatform"/>
     </libraryList>
     <clockList>
         <clock name="default" period="10" default="false"/>
@@ -26,8 +25,5 @@
             <Rtl name="vhdl" active="false"/>
         </SimFlow>
     </Simulation>
-    <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
-        <Format formatName="ip_catalog" description="" vendor="" library="" ipname="ViT_Block" version="" display_name="" taxonomy=""/>
-    </ExportDesign>
 </AutoPilot:solution>
 

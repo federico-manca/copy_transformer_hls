@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'burst_read_beats_1_ap_int_8_s'
 ================================================================
-* Date:           Fri Jun 19 14:57:19 2026
+* Date:           Tue Jun 23 12:33:43 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
 * Solution:       ViT_Block (Vivado IP Flow Target)
-* Product family: zynquplus
-* Target device:  xck26-sfvc784-2LV-c
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
 
 
 ================================================================
@@ -45,23 +45,27 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+-----------------+---------+------+--------+--------+-----+
-|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
-+-----------------+---------+------+--------+--------+-----+
-|DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       -|       -|    -|
-|FIFO             |        -|     -|       -|       -|    -|
-|Instance         |        -|     -|       -|       -|    -|
-|Memory           |        -|     -|       -|       -|    -|
-|Multiplexer      |        -|     -|       -|      81|    -|
-|Register         |        -|     -|      17|       -|    -|
-+-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|      17|      81|    0|
-+-----------------+---------+------+--------+--------+-----+
-|Available        |      288|  1248|  234240|  117120|   64|
-+-----------------+---------+------+--------+--------+-----+
-|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
-+-----------------+---------+------+--------+--------+-----+
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        -|        -|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|      -|        -|        -|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|       81|     -|
+|Register             |        -|      -|       17|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|      0|       17|       81|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|      0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|      0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
     * Instance: 
@@ -237,10 +241,10 @@ ST_7 : Operation 18 [1/7] (7.30ns)   --->   "%gmem1_load_req = readreq i1 @_ssdm
 State 8 <SV = 7> <Delay = 7.30>
 ST_8 : Operation 19 [1/1] (7.30ns)   --->   "%gmem1_addr_read = read i8 @_ssdm_op_Read.m_axi.i8P1A, i64 %gmem1_addr" [/home/fede/PhD/transformer-hls/hls/include/linear.h:571]   --->   Operation 19 'read' 'gmem1_addr_read' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
-State 9 <SV = 8> <Delay = 2.16>
+State 9 <SV = 8> <Delay = 1.35>
 ST_9 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %burst_reads2, void @empty_9, i32 0, i32 0, void @empty_28, i32 0, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_9 : Operation 21 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %gmem1, void @empty_12, i32 0, i32 0, void @empty_28, i32 0, i32 1024, void @empty_48, void @empty_44, void @empty_28, i32 16, i32 16, i32 64, i32 16, void @empty_28, void @empty_28, i32 4294967295, i32 0"   --->   Operation 21 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 22 [1/1] (2.16ns)   --->   "%write_ln571 = write void @_ssdm_op_Write.ap_fifo.volatile.i8P0A, i8 %burst_reads2, i8 %gmem1_addr_read" [/home/fede/PhD/transformer-hls/hls/include/linear.h:571]   --->   Operation 22 'write' 'write_ln571' <Predicate = true> <Delay = 2.16> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 64> <FIFO>
+ST_9 : Operation 22 [1/1] (1.35ns)   --->   "%write_ln571 = write void @_ssdm_op_Write.ap_fifo.volatile.i8P0A, i8 %burst_reads2, i8 %gmem1_addr_read" [/home/fede/PhD/transformer-hls/hls/include/linear.h:571]   --->   Operation 22 'write' 'write_ln571' <Predicate = true> <Delay = 1.35> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 64> <FIFO>
 ST_9 : Operation 23 [1/1] (0.00ns)   --->   "%ret_ln573 = ret" [/home/fede/PhD/transformer-hls/hls/include/linear.h:573]   --->   Operation 23 'ret' 'ret_ln573' <Predicate = true> <Delay = 0.00>
 
 
@@ -625,7 +629,7 @@ N/A
 |-------------------|------|------|------|--------||---------||---------|
 | grp_readreq_fu_44 |  p1  |   2  |   8  |   16   ||    9    |
 |-------------------|------|------|------|--------||---------||---------|
-|       Total       |      |      |      |   16   ||  0.427  ||    9    |
+|       Total       |      |      |      |   16   ||  0.387  ||    9    |
 |-------------------|------|------|------|--------||---------||---------|
 
 

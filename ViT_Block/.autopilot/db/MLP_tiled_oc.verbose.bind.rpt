@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'MLP_tiled_oc'
 ================================================================
-* Date:           Fri Jun 19 14:57:16 2026
+* Date:           Tue Jun 23 12:33:35 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
 * Solution:       ViT_Block (Vivado IP Flow Target)
-* Product family: zynquplus
-* Target device:  xck26-sfvc784-2LV-c
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
 
 
 ================================================================
@@ -89,8 +89,8 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%in_w_up_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_w_up"   --->   Operation 7 'read' 'in_w_up_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%fc1 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp:105]   --->   Operation 8 'alloca' 'fc1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 64> <FIFO>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%relu = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp:106]   --->   Operation 9 'alloca' 'relu' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 64> <FIFO>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%fc1 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp:105]   --->   Operation 8 'alloca' 'fc1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 64> <FIFO>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%relu = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp:106]   --->   Operation 9 'alloca' 'relu' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 64> <FIFO>
 ST_1 : Operation 10 [2/2] (0.00ns)   --->   "%call_ln120 = call void @FC1_tiled_oc_2, i8 %gmem0, i64 %in_w_up_read, i8 %norm_out_113, i8 %fc1, i13 %bias_1_0_V" [/home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp:120]   --->   Operation 10 'call' 'call_ln120' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
@@ -670,14 +670,14 @@ ret_ln127                  (ret                 ) [ 0000000]
 |----------|---------------------------|---------|---------|---------|---------|---------|
 | Operation|      Functional Unit      |   BRAM  |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|---------------------------|---------|---------|---------|---------|---------|
-|          |  grp_FC1_tiled_oc_2_fu_82 |    2    |    65   | 39.3883 |   4865  |   2413  |
+|          |  grp_FC1_tiled_oc_2_fu_82 |    1    |    65   | 35.2288 |   4865  |   2393  |
 |   call   |  grp_Relu_tiled_oc_fu_95  |    0    |    0    |    0    |    11   |    47   |
-|          | grp_FC2_tiled_oc_2_fu_101 |    2    |    18   | 12.2432 |   1468  |   1175  |
+|          | grp_FC2_tiled_oc_2_fu_101 |    1    |    18   | 10.9798 |   1468  |   1171  |
 |----------|---------------------------|---------|---------|---------|---------|---------|
 |   read   |  in_w_up_read_read_fu_70  |    0    |    0    |    0    |    0    |    0    |
 |          | in_w_down_read_read_fu_76 |    0    |    0    |    0    |    0    |    0    |
 |----------|---------------------------|---------|---------|---------|---------|---------|
-|   Total  |                           |    4    |    83   | 51.6315 |   6344  |   3635  |
+|   Total  |                           |    2    |    83   | 46.2086 |   6344  |   3611  |
 |----------|---------------------------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -702,7 +702,7 @@ N/A
 |  grp_FC1_tiled_oc_2_fu_82 |  p2  |   2  |  64  |   128  ||    9    |
 | grp_FC2_tiled_oc_2_fu_101 |  p2  |   2  |  64  |   128  ||    9    |
 |---------------------------|------|------|------|--------||---------||---------|
-|           Total           |      |      |      |   256  ||  0.854  ||    18   |
+|           Total           |      |      |      |   256  ||  0.774  ||    18   |
 |---------------------------|------|------|------|--------||---------||---------|
 
 
@@ -711,10 +711,10 @@ N/A
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  |   DSP  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |    4   |   83   |   51   |  6344  |  3635  |
+|  Function |    2   |   83   |   46   |  6344  |  3611  |
 |   Memory  |    -   |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |    0   |    -   |   18   |
 |  Register |    -   |    -   |    -   |   144  |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |    4   |   83   |   52   |  6488  |  3653  |
+|   Total   |    2   |   83   |   46   |  6488  |  3629  |
 +-----------+--------+--------+--------+--------+--------+

@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'K_linear_tiled'
 ================================================================
-* Date:           Fri Jun 19 14:57:04 2026
+* Date:           Tue Jun 23 12:33:16 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
 * Solution:       ViT_Block (Vivado IP Flow Target)
-* Product family: zynquplus
-* Target device:  xck26-sfvc784-2LV-c
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
 
 
 ================================================================
@@ -80,7 +80,7 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 0.00>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%in_w_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_w"   --->   Operation 5 'read' 'in_w_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%out_w = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:57]   --->   Operation 6 'alloca' 'out_w' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 16> <FIFO>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%out_w = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:57]   --->   Operation 6 'alloca' 'out_w' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 16> <FIFO>
 ST_1 : Operation 7 [2/2] (0.00ns)   --->   "%call_ln71 = call void @WeightTiledStreaming_3<17, 16, 16, 1, 1, 1, 1, 1, 1, ap_int<8> >.8, i8 %K, i64 %in_w_read, i8 %out_w" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:71]   --->   Operation 7 'call' 'call_ln71' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>

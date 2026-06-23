@@ -300,7 +300,7 @@ Reading output...
 31
 TLAST received at word 271
 ViT_Block simulation completed.
-Elapsed host simulation time: 35.3512 ms
+Elapsed host simulation time: 42.0462 ms
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 17408
 INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

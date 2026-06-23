@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>zynquplus</ProductFamily>
-<Part>xck26-sfvc784-2LV-c</Part>
+<ProductFamily>virtexuplus</ProductFamily>
+<Part>xcu250-figd2104-2L-e</Part>
 <TopModelName>V_linear_tiled</TopModelName>
 <TargetClockPeriod>10.00</TargetClockPeriod>
 <ClockUncertainty>2.70</ClockUncertainty>
@@ -36,18 +36,18 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>2</BRAM_18K>
+<BRAM_18K>1</BRAM_18K>
 <DSP>17</DSP>
-<FF>1191</FF>
-<LUT>1997</LUT>
+<FF>1013</FF>
+<LUT>1844</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>288</BRAM_18K>
-<DSP>1248</DSP>
-<FF>234240</FF>
-<LUT>117120</LUT>
-<URAM>64</URAM>
+<BRAM_18K>5376</BRAM_18K>
+<DSP>12288</DSP>
+<FF>3456000</FF>
+<LUT>1728000</LUT>
+<URAM>1280</URAM>
 </AvailableResources>
 </AreaEstimates>
 

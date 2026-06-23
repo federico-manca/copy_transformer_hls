@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'MultiHeadAttention_tiled'
 ================================================================
-* Date:           Fri Jun 19 14:57:28 2026
+* Date:           Tue Jun 23 12:33:54 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
 * Solution:       ViT_Block (Vivado IP Flow Target)
-* Product family: zynquplus
-* Target device:  xck26-sfvc784-2LV-c
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
 
 
 ================================================================
@@ -65,39 +65,43 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+-----------------+---------+------+--------+--------+-----+
-|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
-+-----------------+---------+------+--------+--------+-----+
-|DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|      24|    -|
-|FIFO             |        -|     -|    1782|    1206|    -|
-|Instance         |       54|   107|   59246|   56638|    0|
-|Memory           |        -|     -|       -|       -|    -|
-|Multiplexer      |        -|     -|       -|      45|    -|
-|Register         |        -|     -|       5|       -|    -|
-+-----------------+---------+------+--------+--------+-----+
-|Total            |       54|   107|   61033|   57913|    0|
-+-----------------+---------+------+--------+--------+-----+
-|Available        |      288|  1248|  234240|  117120|   64|
-+-----------------+---------+------+--------+--------+-----+
-|Utilization (%)  |       18|     8|      26|      49|    0|
-+-----------------+---------+------+--------+--------+-----+
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|       24|     -|
+|FIFO                 |        -|      -|      360|      270|     -|
+|Instance             |        4|    107|    58423|    56215|     0|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|       45|     -|
+|Register             |        -|      -|        5|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        4|    107|    58788|    56554|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |       ~0|      3|        6|       13|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |       ~0|     ~0|        1|        3|     0|
++---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
     * Instance: 
     +--------------------------------------------------+-----------------------------------------------+---------+----+-------+-------+-----+
     |                     Instance                     |                     Module                    | BRAM_18K| DSP|   FF  |  LUT  | URAM|
     +--------------------------------------------------+-----------------------------------------------+---------+----+-------+-------+-----+
-    |K_linear_tiled_U0                                 |K_linear_tiled                                 |        2|  17|   1190|   1942|    0|
-    |MM1_tiled_U0                                      |MM1_tiled                                      |       16|  12|    948|   1371|    0|
-    |MM1_tiled_7_U0                                    |MM1_tiled_7                                    |       16|  12|    947|   1362|    0|
-    |MM_tiled_U0                                       |MM_tiled                                       |        7|   6|    426|   1020|    0|
-    |MM_tiled_4_U0                                     |MM_tiled_4                                     |        7|   6|    426|   1020|    0|
-    |Out_linear_tiled_U0                               |Out_linear_tiled                               |        2|  18|   1190|   1994|    0|
-    |Q_linear_tiled_U0                                 |Q_linear_tiled                                 |        2|  17|   1189|   1996|    0|
-    |SOFTMAX_tile_U0                                   |SOFTMAX_tile                                   |        0|   0|  25800|  21277|    0|
-    |SOFTMAX_tile_5_U0                                 |SOFTMAX_tile_5                                 |        0|   0|  25800|  21277|    0|
-    |V_linear_tiled_U0                                 |V_linear_tiled                                 |        2|  17|   1191|   1997|    0|
+    |K_linear_tiled_U0                                 |K_linear_tiled                                 |        1|  17|   1010|   1829|    0|
+    |MM1_tiled_U0                                      |MM1_tiled                                      |        0|  12|    948|   1411|    0|
+    |MM1_tiled_7_U0                                    |MM1_tiled_7                                    |        0|  12|    947|   1402|    0|
+    |MM_tiled_U0                                       |MM_tiled                                       |        0|   6|    378|   1062|    0|
+    |MM_tiled_4_U0                                     |MM_tiled_4                                     |        0|   6|    378|   1062|    0|
+    |Out_linear_tiled_U0                               |Out_linear_tiled                               |        1|  18|   1013|   1841|    0|
+    |Q_linear_tiled_U0                                 |Q_linear_tiled                                 |        1|  17|   1013|   1844|    0|
+    |SOFTMAX_tile_U0                                   |SOFTMAX_tile                                   |        0|   0|  25792|  21269|    0|
+    |SOFTMAX_tile_5_U0                                 |SOFTMAX_tile_5                                 |        0|   0|  25792|  21269|    0|
+    |V_linear_tiled_U0                                 |V_linear_tiled                                 |        1|  17|   1013|   1844|    0|
     |merge_heads_U0                                    |merge_heads                                    |        0|   0|     26|    247|    0|
     |requant_ap_int_8_ap_int_8_17_17_170977_16_1_6_U0  |requant_ap_int_8_ap_int_8_17_17_170977_16_1_6  |        0|   1|     18|    215|    0|
     |requant_ap_int_8_ap_int_8_17_17_170977_16_1_U0    |requant_ap_int_8_ap_int_8_17_17_170977_16_1_s  |        0|   1|     18|    215|    0|
@@ -105,7 +109,7 @@
     |split_heads_2_U0                                  |split_heads_2                                  |        0|   0|     25|    229|    0|
     |split_heads_3_U0                                  |split_heads_3                                  |        0|   0|     26|    238|    0|
     +--------------------------------------------------+-----------------------------------------------+---------+----+-------+-------+-----+
-    |Total                                             |                                               |       54| 107|  59246|  56638|    0|
+    |Total                                             |                                               |        4| 107|  58423|  56215|    0|
     +--------------------------------------------------+-----------------------------------------------+---------+----+-------+-------+-----+
 
     * DSP: 
@@ -118,26 +122,26 @@
     +--------------+---------+----+----+-----+------+-----+---------+
     |     Name     | BRAM_18K| FF | LUT| URAM| Depth| Bits| Size:D*B|
     +--------------+---------+----+----+-----+------+-----+---------+
-    |A_0_U         |        0|  99|   0|    -|     2|    8|       16|
-    |A_1_U         |        0|  99|   0|    -|     2|    8|       16|
-    |A_s_0_U       |        0|  99|   0|    -|     2|    8|       16|
-    |A_s_1_U       |        0|  99|   0|    -|     2|    8|       16|
-    |A_sx_0_U      |        0|  99|   0|    -|     2|    8|       16|
-    |A_sx_1_U      |        0|  99|   0|    -|     2|    8|       16|
-    |K_1_0_U       |        0|  99|   0|    -|     2|    8|       16|
-    |K_1_1_U       |        0|  99|   0|    -|     2|    8|       16|
-    |Q_1_0_U       |        0|  99|   0|    -|     2|    8|       16|
-    |Q_1_1_U       |        0|  99|   0|    -|     2|    8|       16|
-    |V_1_0_U       |        0|  99|   0|    -|     2|    8|       16|
-    |V_1_1_U       |        0|  99|   0|    -|     2|    8|       16|
-    |head_out_0_U  |        0|  99|   0|    -|     2|    8|       16|
-    |head_out_1_U  |        0|  99|   0|    -|     2|    8|       16|
-    |k_lin_U       |        0|  99|   0|    -|     2|    8|       16|
-    |out_linear_U  |        0|  99|   0|    -|     2|    8|       16|
-    |q_lin_U       |        0|  99|   0|    -|     2|    8|       16|
-    |v_lin_U       |        0|  99|   0|    -|     2|    8|       16|
+    |A_0_U         |        0|  20|   0|    -|     2|    8|       16|
+    |A_1_U         |        0|  20|   0|    -|     2|    8|       16|
+    |A_s_0_U       |        0|  20|   0|    -|     2|    8|       16|
+    |A_s_1_U       |        0|  20|   0|    -|     2|    8|       16|
+    |A_sx_0_U      |        0|  20|   0|    -|     2|    8|       16|
+    |A_sx_1_U      |        0|  20|   0|    -|     2|    8|       16|
+    |K_1_0_U       |        0|  20|   0|    -|     2|    8|       16|
+    |K_1_1_U       |        0|  20|   0|    -|     2|    8|       16|
+    |Q_1_0_U       |        0|  20|   0|    -|     2|    8|       16|
+    |Q_1_1_U       |        0|  20|   0|    -|     2|    8|       16|
+    |V_1_0_U       |        0|  20|   0|    -|     2|    8|       16|
+    |V_1_1_U       |        0|  20|   0|    -|     2|    8|       16|
+    |head_out_0_U  |        0|  20|   0|    -|     2|    8|       16|
+    |head_out_1_U  |        0|  20|   0|    -|     2|    8|       16|
+    |k_lin_U       |        0|  20|   0|    -|     2|    8|       16|
+    |out_linear_U  |        0|  20|   0|    -|     2|    8|       16|
+    |q_lin_U       |        0|  20|   0|    -|     2|    8|       16|
+    |v_lin_U       |        0|  20|   0|    -|     2|    8|       16|
     +--------------+---------+----+----+-----+------+-----+---------+
-    |Total         |        0|1782|   0|    0|    36|  144|      288|
+    |Total         |        0| 360|   0|    0|    36|  144|      288|
     +--------------+---------+----+----+-----+------+-----+---------+
 
     * Expression: 
@@ -466,24 +470,24 @@ State 1 <SV = 0> <Delay = 0.00>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%in_v_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_v"   --->   Operation 17 'read' 'in_v_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%in_k_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_k"   --->   Operation 18 'read' 'in_k_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%in_q_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_q"   --->   Operation 19 'read' 'in_q_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%q_lin = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:217]   --->   Operation 20 'alloca' 'q_lin' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%k_lin = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:218]   --->   Operation 21 'alloca' 'k_lin' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%v_lin = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:219]   --->   Operation 22 'alloca' 'v_lin' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%out_linear = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:220]   --->   Operation 23 'alloca' 'out_linear' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%Q_1_0 = alloca i64 1"   --->   Operation 24 'alloca' 'Q_1_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%Q_1_1 = alloca i64 1"   --->   Operation 25 'alloca' 'Q_1_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%K_1_0 = alloca i64 1"   --->   Operation 26 'alloca' 'K_1_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%K_1_1 = alloca i64 1"   --->   Operation 27 'alloca' 'K_1_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%V_1_0 = alloca i64 1"   --->   Operation 28 'alloca' 'V_1_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%V_1_1 = alloca i64 1"   --->   Operation 29 'alloca' 'V_1_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%A_0 = alloca i64 1"   --->   Operation 30 'alloca' 'A_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%A_1 = alloca i64 1"   --->   Operation 31 'alloca' 'A_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%A_s_0 = alloca i64 1"   --->   Operation 32 'alloca' 'A_s_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%A_s_1 = alloca i64 1"   --->   Operation 33 'alloca' 'A_s_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%A_sx_0 = alloca i64 1"   --->   Operation 34 'alloca' 'A_sx_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%A_sx_1 = alloca i64 1"   --->   Operation 35 'alloca' 'A_sx_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%head_out_0 = alloca i64 1"   --->   Operation 36 'alloca' 'head_out_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
-ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%head_out_1 = alloca i64 1"   --->   Operation 37 'alloca' 'head_out_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%q_lin = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:217]   --->   Operation 20 'alloca' 'q_lin' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%k_lin = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:218]   --->   Operation 21 'alloca' 'k_lin' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%v_lin = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:219]   --->   Operation 22 'alloca' 'v_lin' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%out_linear = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:220]   --->   Operation 23 'alloca' 'out_linear' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%Q_1_0 = alloca i64 1"   --->   Operation 24 'alloca' 'Q_1_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%Q_1_1 = alloca i64 1"   --->   Operation 25 'alloca' 'Q_1_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%K_1_0 = alloca i64 1"   --->   Operation 26 'alloca' 'K_1_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%K_1_1 = alloca i64 1"   --->   Operation 27 'alloca' 'K_1_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%V_1_0 = alloca i64 1"   --->   Operation 28 'alloca' 'V_1_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%V_1_1 = alloca i64 1"   --->   Operation 29 'alloca' 'V_1_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%A_0 = alloca i64 1"   --->   Operation 30 'alloca' 'A_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%A_1 = alloca i64 1"   --->   Operation 31 'alloca' 'A_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%A_s_0 = alloca i64 1"   --->   Operation 32 'alloca' 'A_s_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%A_s_1 = alloca i64 1"   --->   Operation 33 'alloca' 'A_s_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%A_sx_0 = alloca i64 1"   --->   Operation 34 'alloca' 'A_sx_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%A_sx_1 = alloca i64 1"   --->   Operation 35 'alloca' 'A_sx_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%head_out_0 = alloca i64 1"   --->   Operation 36 'alloca' 'head_out_0' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%head_out_1 = alloca i64 1"   --->   Operation 37 'alloca' 'head_out_1' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
 ST_1 : Operation 38 [2/2] (0.00ns)   --->   "%call_ln245 = call void @Q_linear_tiled, i8 %Q, i64 %in_q_read, i8 %Q_in5, i8 %q_lin, i12 %bias_q_0_V" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:245]   --->   Operation 38 'call' 'call_ln245' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_1 : Operation 39 [2/2] (0.00ns)   --->   "%call_ln246 = call void @K_linear_tiled, i8 %K, i64 %in_k_read, i8 %K_in6, i8 %k_lin, i14 %bias_k_0_V" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:246]   --->   Operation 39 'call' 'call_ln246' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_1 : Operation 40 [2/2] (0.00ns)   --->   "%call_ln247 = call void @V_linear_tiled, i8 %V, i64 %in_v_read, i8 %V_in7, i8 %v_lin, i14 %bias_v_0_V" [/home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp:247]   --->   Operation 40 'call' 'call_ln247' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -2378,29 +2382,29 @@ ret_ln302                  (ret                 ) [ 00000000000000000]
 |----------|----------------------------------------------------------|---------|---------|---------|---------|---------|---------|
 | Operation|                      Functional Unit                     |   BRAM  |   DSP   |  Delay  |    FF   |   LUT   |   URAM  |
 |----------|----------------------------------------------------------|---------|---------|---------|---------|---------|---------|
-|          |                 grp_Q_linear_tiled_fu_240                |    2    |    17   | 12.2432 |   1459  |   1161  |    0    |
-|          |                 grp_K_linear_tiled_fu_253                |    2    |    17   | 12.2432 |   1458  |   1157  |    0    |
-|          |                 grp_V_linear_tiled_fu_266                |    2    |    17   | 12.2432 |   1459  |   1161  |    0    |
+|          |                 grp_Q_linear_tiled_fu_240                |    1    |    17   | 10.9798 |   1459  |   1157  |    0    |
+|          |                 grp_K_linear_tiled_fu_253                |    1    |    17   | 10.9798 |   1458  |   1153  |    0    |
+|          |                 grp_V_linear_tiled_fu_266                |    1    |    17   | 10.9798 |   1459  |   1157  |    0    |
 |          |                  grp_split_heads_fu_279                  |    0    |    0    |    0    |    22   |   104   |    0    |
 |          |                 grp_split_heads_2_fu_286                 |    0    |    0    |    0    |    22   |   104   |    0    |
 |          |                 grp_split_heads_3_fu_293                 |    0    |    0    |    0    |    22   |   104   |    0    |
-|          |                    grp_MM_tiled_fu_300                   |    7    |    6    |  11.347 |   547   |   687   |    0    |
-|   call   |                   grp_MM_tiled_4_fu_307                  |    7    |    6    |  11.347 |   547   |   687   |    0    |
-|          |                  grp_SOFTMAX_tile_fu_314                 |    0    |    0    | 9.25467 |  25802  |  20816  |    0    |
-|          |                 grp_SOFTMAX_tile_5_fu_322                |    0    |    0    | 9.25467 |  25802  |  20816  |    0    |
-|          | grp_requant_ap_int_8_ap_int_8_17_17_170977_16_1_s_fu_330 |    0    |    1    |  0.427  |    37   |   163   |    0    |
-|          | grp_requant_ap_int_8_ap_int_8_17_17_170977_16_1_6_fu_336 |    0    |    1    |  0.427  |    37   |   163   |    0    |
-|          |                   grp_MM1_tiled_fu_342                   |    16   |    12   |  14.84  |   1222  |   1074  |    0    |
-|          |                  grp_MM1_tiled_7_fu_349                  |    16   |    12   |  14.84  |   1222  |   1074  |    0    |
+|          |                    grp_MM_tiled_fu_300                   |    0    |    6    | 10.2263 |   499   |   729   |    0    |
+|   call   |                   grp_MM_tiled_4_fu_307                  |    0    |    6    | 10.2263 |   499   |   729   |    0    |
+|          |                  grp_SOFTMAX_tile_fu_314                 |    0    |    0    | 8.26833 |  25794  |  20816  |    0    |
+|          |                 grp_SOFTMAX_tile_5_fu_322                |    0    |    0    | 8.26833 |  25794  |  20816  |    0    |
+|          | grp_requant_ap_int_8_ap_int_8_17_17_170977_16_1_s_fu_330 |    0    |    1    |  0.387  |    37   |   163   |    0    |
+|          | grp_requant_ap_int_8_ap_int_8_17_17_170977_16_1_6_fu_336 |    0    |    1    |  0.387  |    37   |   163   |    0    |
+|          |                   grp_MM1_tiled_fu_342                   |    0    |    12   | 13.1726 |   1222  |   1114  |    0    |
+|          |                  grp_MM1_tiled_7_fu_349                  |    0    |    12   | 13.1726 |   1222  |   1114  |    0    |
 |          |                  grp_merge_heads_fu_356                  |    0    |    0    |    0    |    31   |   104   |    0    |
-|          |                grp_Out_linear_tiled_fu_363               |    2    |    18   | 12.2432 |   1460  |   1167  |    0    |
+|          |                grp_Out_linear_tiled_fu_363               |    1    |    18   | 10.9798 |   1460  |   1163  |    0    |
 |----------|----------------------------------------------------------|---------|---------|---------|---------|---------|---------|
 |          |                   in_v_read_read_fu_216                  |    0    |    0    |    0    |    0    |    0    |    0    |
 |   read   |                   in_k_read_read_fu_222                  |    0    |    0    |    0    |    0    |    0    |    0    |
 |          |                   in_q_read_read_fu_228                  |    0    |    0    |    0    |    0    |    0    |    0    |
 |          |                   in_o_read_read_fu_234                  |    0    |    0    |    0    |    0    |    0    |    0    |
 |----------|----------------------------------------------------------|---------|---------|---------|---------|---------|---------|
-|   Total  |                                                          |    54   |   107   |  120.71 |  61149  |  50542  |    0    |
+|   Total  |                                                          |    4    |   107   | 108.028 |  61037  |  50690  |    0    |
 |----------|----------------------------------------------------------|---------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -2445,7 +2449,7 @@ N/A
 |  grp_V_linear_tiled_fu_266  |  p2  |   2  |  64  |   128  ||    9    |
 | grp_Out_linear_tiled_fu_363 |  p2  |   2  |  64  |   128  ||    9    |
 |-----------------------------|------|------|------|--------||---------||---------|
-|            Total            |      |      |      |   512  ||  1.708  ||    36   |
+|            Total            |      |      |      |   512  ||  1.548  ||    36   |
 |-----------------------------|------|------|------|--------||---------||---------|
 
 
@@ -2454,10 +2458,10 @@ N/A
 +-----------+--------+--------+--------+--------+--------+--------+
 |           |  BRAM  |   DSP  |  Delay |   FF   |   LUT  |  URAM  |
 +-----------+--------+--------+--------+--------+--------+--------+
-|  Function |   54   |   107  |   120  |  61149 |  50542 |    0   |
+|  Function |    4   |   107  |   108  |  61037 |  50690 |    0   |
 |   Memory  |    -   |    -   |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |    1   |    -   |   36   |    -   |
 |  Register |    -   |    -   |    -   |   400  |    -   |    -   |
 +-----------+--------+--------+--------+--------+--------+--------+
-|   Total   |   54   |   107  |   122  |  61549 |  50578 |    0   |
+|   Total   |    4   |   107  |   109  |  61437 |  50726 |    0   |
 +-----------+--------+--------+--------+--------+--------+--------+

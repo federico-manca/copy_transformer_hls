@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'Linear_Layer_Pipeline_VITIS_LOOP_1588_17_5'
 ================================================================
-* Date:           Fri Jun 19 14:57:21 2026
+* Date:           Tue Jun 23 12:33:45 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
 * Solution:       ViT_Block (Vivado IP Flow Target)
-* Product family: zynquplus
-* Target device:  xck26-sfvc784-2LV-c
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
 
 
 ================================================================
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  5.603 ns|     2.70 ns|
+    |ap_clk  |  10.00 ns|  4.578 ns|     2.70 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -50,23 +50,27 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+-----------------+---------+------+--------+--------+-----+
-|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
-+-----------------+---------+------+--------+--------+-----+
-|DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|     221|    -|
-|FIFO             |        -|     -|       -|       -|    -|
-|Instance         |        -|     1|       0|      20|    -|
-|Memory           |        -|     -|       -|       -|    -|
-|Multiplexer      |        -|     -|       -|      45|    -|
-|Register         |        -|     -|      50|       -|    -|
-+-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     1|      50|     286|    0|
-+-----------------+---------+------+--------+--------+-----+
-|Available        |      288|  1248|  234240|  117120|   64|
-+-----------------+---------+------+--------+--------+-----+
-|Utilization (%)  |        0|    ~0|      ~0|      ~0|    0|
-+-----------------+---------+------+--------+--------+-----+
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|      221|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|      1|        0|       20|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|       45|     -|
+|Register             |        -|      -|       50|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|      1|       50|      286|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
     * Instance: 
@@ -203,49 +207,49 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 1.23>
+State 1 <SV = 0> <Delay = 1.19>
 ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%n = alloca i32 1"   --->   Operation 6 'alloca' 'n' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i32 %C_tile_V, i64 666, i64 30, i64 18446744073709551615"   --->   Operation 7 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %k_lin2, void @empty_9, i32 0, i32 0, void @empty_28, i32 0, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 9 [1/1] (0.42ns)   --->   "%store_ln0 = store i5 0, i5 %n"   --->   Operation 9 'store' 'store_ln0' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 9 [1/1] (0.38ns)   --->   "%store_ln0 = store i5 0, i5 %n"   --->   Operation 9 'store' 'store_ln0' <Predicate = true> <Delay = 0.38>
 ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%br_ln0 = br void %VITIS_LOOP_1589_18"   --->   Operation 10 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%n_3 = load i5 %n" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 11 'load' 'n_3' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 12 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 13 [1/1] (0.75ns)   --->   "%icmp_ln1588 = icmp_eq  i5 %n_3, i5 16" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 13 'icmp' 'icmp_ln1588' <Predicate = true> <Delay = 0.75> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (0.63ns)   --->   "%icmp_ln1588 = icmp_eq  i5 %n_3, i5 16" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 13 'icmp' 'icmp_ln1588' <Predicate = true> <Delay = 0.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.61> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16"   --->   Operation 14 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 15 [1/1] (0.78ns)   --->   "%add_ln1588 = add i5 %n_3, i5 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 15 'add' 'add_ln1588' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (0.70ns)   --->   "%add_ln1588 = add i5 %n_3, i5 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 15 'add' 'add_ln1588' <Predicate = true> <Delay = 0.70> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.70> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%br_ln1588 = br i1 %icmp_ln1588, void %VITIS_LOOP_1589_18.split_ifconv, void %for.inc245.exitStub" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 16 'br' 'br_ln1588' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%n_12_cast = zext i5 %n_3" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 17 'zext' 'n_12_cast' <Predicate = (!icmp_ln1588)> <Delay = 0.00>
 ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%C_tile_V_addr = getelementptr i32 %C_tile_V, i64 0, i64 %n_12_cast" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1596]   --->   Operation 18 'getelementptr' 'C_tile_V_addr' <Predicate = (!icmp_ln1588)> <Delay = 0.00>
-ST_1 : Operation 19 [2/2] (1.23ns)   --->   "%acc_V = load i4 %C_tile_V_addr" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1596]   --->   Operation 19 'load' 'acc_V' <Predicate = (!icmp_ln1588)> <Delay = 1.23> <CoreInst = "RAM_T2P_BRAM">   --->   Core 99 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 1.23> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
-ST_1 : Operation 20 [1/1] (0.42ns)   --->   "%store_ln1588 = store i5 %add_ln1588, i5 %n" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 20 'store' 'store_ln1588' <Predicate = (!icmp_ln1588)> <Delay = 0.42>
+ST_1 : Operation 19 [2/2] (1.19ns)   --->   "%acc_V = load i4 %C_tile_V_addr" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1596]   --->   Operation 19 'load' 'acc_V' <Predicate = (!icmp_ln1588)> <Delay = 1.19> <CoreInst = "RAM_T2P_BRAM">   --->   Core 99 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 1.19> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_1 : Operation 20 [1/1] (0.38ns)   --->   "%store_ln1588 = store i5 %add_ln1588, i5 %n" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 20 'store' 'store_ln1588' <Predicate = (!icmp_ln1588)> <Delay = 0.38>
 
-State 2 <SV = 1> <Delay = 4.65>
-ST_2 : Operation 21 [1/2] (1.23ns)   --->   "%acc_V = load i4 %C_tile_V_addr" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1596]   --->   Operation 21 'load' 'acc_V' <Predicate = true> <Delay = 1.23> <CoreInst = "RAM_T2P_BRAM">   --->   Core 99 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 1.23> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+State 2 <SV = 1> <Delay = 4.36>
+ST_2 : Operation 21 [1/2] (1.19ns)   --->   "%acc_V = load i4 %C_tile_V_addr" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1596]   --->   Operation 21 'load' 'acc_V' <Predicate = true> <Delay = 1.19> <CoreInst = "RAM_T2P_BRAM">   --->   Core 99 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 1.19> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%sext_ln1408 = sext i32 %acc_V" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1408]   --->   Operation 22 'sext' 'sext_ln1408' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 23 [1/1] (3.42ns)   --->   "%prod = mul i41 %sext_ln1408, i41 245" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1408]   --->   Operation 23 'mul' 'prod' <Predicate = true> <Delay = 3.42> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 3.42> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 23 [1/1] (3.17ns)   --->   "%prod = mul i41 %sext_ln1408, i41 245" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1408]   --->   Operation 23 'mul' 'prod' <Predicate = true> <Delay = 3.17> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 3.17> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i41.i32, i41 %prod, i32 40"   --->   Operation 24 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%trunc_ln1417 = trunc i41 %prod" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1417]   --->   Operation 25 'trunc' 'trunc_ln1417' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 44 'ret' 'ret_ln0' <Predicate = (icmp_ln1588)> <Delay = 0.00>
 
-State 3 <SV = 2> <Delay = 5.60>
+State 3 <SV = 2> <Delay = 4.57>
 ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%specloopname_ln1588 = specloopname void @_ssdm_op_SpecLoopName, void @empty_42" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 26 'specloopname' 'specloopname_ln1588' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 27 [1/1] (1.03ns)   --->   "%ret_V = add i39 %trunc_ln1417, i39 32768"   --->   Operation 27 'add' 'ret_V' <Predicate = (!tmp)> <Delay = 1.03> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.03> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 27 [1/1] (0.95ns)   --->   "%ret_V = add i39 %trunc_ln1417, i39 32768"   --->   Operation 27 'add' 'ret_V' <Predicate = (!tmp)> <Delay = 0.95> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i23 @_ssdm_op_PartSelect.i23.i39.i32.i32, i39 %ret_V, i32 16, i32 38" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1409]   --->   Operation 28 'partselect' 'trunc_ln' <Predicate = (!tmp)> <Delay = 0.00>
 ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%zext_ln1409 = zext i23 %trunc_ln" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1409]   --->   Operation 29 'zext' 'zext_ln1409' <Predicate = (!tmp)> <Delay = 0.00>
-ST_3 : Operation 30 [1/1] (1.03ns)   --->   "%ret_V_11 = sub i39 32768, i39 %trunc_ln1417"   --->   Operation 30 'sub' 'ret_V_11' <Predicate = (tmp)> <Delay = 1.03> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.03> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 30 [1/1] (0.95ns)   --->   "%ret_V_11 = sub i39 32768, i39 %trunc_ln1417"   --->   Operation 30 'sub' 'ret_V_11' <Predicate = (tmp)> <Delay = 0.95> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%trunc_ln7 = partselect i23 @_ssdm_op_PartSelect.i23.i39.i32.i32, i39 %ret_V_11, i32 16, i32 38" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1420]   --->   Operation 31 'partselect' 'trunc_ln7' <Predicate = (tmp)> <Delay = 0.00>
 ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%zext_ln1420 = zext i23 %trunc_ln7" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1420]   --->   Operation 32 'zext' 'zext_ln1420' <Predicate = (tmp)> <Delay = 0.00>
-ST_3 : Operation 33 [1/1] (0.92ns)   --->   "%rq_V = sub i24 0, i24 %zext_ln1420" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1420]   --->   Operation 33 'sub' 'rq_V' <Predicate = (tmp)> <Delay = 0.92> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.93> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 34 [1/1] (0.32ns)   --->   "%rq_V_10 = select i1 %tmp, i24 %rq_V, i24 %zext_ln1409"   --->   Operation 34 'select' 'rq_V_10' <Predicate = true> <Delay = 0.32> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.32> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 33 [1/1] (0.82ns)   --->   "%rq_V = sub i24 0, i24 %zext_ln1420" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1420]   --->   Operation 33 'sub' 'rq_V' <Predicate = (tmp)> <Delay = 0.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 34 [1/1] (0.36ns)   --->   "%rq_V_10 = select i1 %tmp, i24 %rq_V, i24 %zext_ln1409"   --->   Operation 34 'select' 'rq_V_10' <Predicate = true> <Delay = 0.36> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.36> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_11 = partselect i17 @_ssdm_op_PartSelect.i17.i24.i32.i32, i24 %rq_V_10, i32 7, i32 23"   --->   Operation 35 'partselect' 'tmp_11' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 36 [1/1] (1.09ns)   --->   "%icmp_ln1035 = icmp_sgt  i17 %tmp_11, i17 0"   --->   Operation 36 'icmp' 'icmp_ln1035' <Predicate = true> <Delay = 1.09> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.09> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 37 [1/1] (1.04ns)   --->   "%icmp_ln1027 = icmp_slt  i24 %rq_V_10, i24 16777088"   --->   Operation 37 'icmp' 'icmp_ln1027' <Predicate = true> <Delay = 1.04> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.04> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 36 [1/1] (0.68ns)   --->   "%icmp_ln1035 = icmp_sgt  i17 %tmp_11, i17 0"   --->   Operation 36 'icmp' 'icmp_ln1035' <Predicate = true> <Delay = 0.68> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.68> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 37 [1/1] (0.76ns)   --->   "%icmp_ln1027 = icmp_slt  i24 %rq_V_10, i24 16777088"   --->   Operation 37 'icmp' 'icmp_ln1027' <Predicate = true> <Delay = 0.76> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 38 [1/1] (0.00ns) (grouped into LUT with out node q_V)   --->   "%trunc_ln1444 = trunc i24 %rq_V_10" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 38 'trunc' 'trunc_ln1444' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 39 [1/1] (0.00ns) (grouped into LUT with out node q_V)   --->   "%select_ln1444 = select i1 %icmp_ln1035, i8 127, i8 128" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 39 'select' 'select_ln1444' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 40 [1/1] (0.00ns) (grouped into LUT with out node q_V)   --->   "%or_ln1444 = or i1 %icmp_ln1035, i1 %icmp_ln1027" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 40 'or' 'or_ln1444' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 41 [1/1] (0.39ns) (out node of the LUT)   --->   "%q_V = select i1 %or_ln1444, i8 %select_ln1444, i8 %trunc_ln1444" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 41 'select' 'q_V' <Predicate = true> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 42 [1/1] (1.83ns)   --->   "%write_ln1616 = write void @_ssdm_op_Write.ap_fifo.volatile.i8P0A, i8 %k_lin2, i8 %q_V" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1616]   --->   Operation 42 'write' 'write_ln1616' <Predicate = true> <Delay = 1.83> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
+ST_3 : Operation 39 [1/1] (0.00ns) (grouped into LUT with out node q_V)   --->   "%select_ln1444 = select i1 %icmp_ln1035, i8 127, i8 128" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 39 'select' 'select_ln1444' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.30> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 40 [1/1] (0.00ns) (grouped into LUT with out node q_V)   --->   "%or_ln1444 = or i1 %icmp_ln1035, i1 %icmp_ln1027" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 40 'or' 'or_ln1444' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.12> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 41 [1/1] (0.30ns) (out node of the LUT)   --->   "%q_V = select i1 %or_ln1444, i8 %select_ln1444, i8 %trunc_ln1444" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1444]   --->   Operation 41 'select' 'q_V' <Predicate = true> <Delay = 0.30> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.30> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 42 [1/1] (1.36ns)   --->   "%write_ln1616 = write void @_ssdm_op_Write.ap_fifo.volatile.i8P0A, i8 %k_lin2, i8 %q_V" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1616]   --->   Operation 42 'write' 'write_ln1616' <Predicate = true> <Delay = 1.36> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.36> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 2> <FIFO>
 ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%br_ln1588 = br void %VITIS_LOOP_1589_18" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1588]   --->   Operation 43 'br' 'br_ln1588' <Predicate = true> <Delay = 0.00>
 
 
@@ -1306,7 +1310,7 @@ N/A
 |------------------|------|------|------|--------||---------||---------|
 | grp_access_fu_94 |  p0  |   2  |   4  |    8   ||    9    |
 |------------------|------|------|------|--------||---------||---------|
-|       Total      |      |      |      |    8   ||  0.427  ||    9    |
+|       Total      |      |      |      |    8   ||  0.387  ||    9    |
 |------------------|------|------|------|--------||---------||---------|
 
 

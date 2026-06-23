@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_11'" level="0">
-<item name = "Date">Fri Jun 19 14:57:26 2026
+<item name = "Date">Tue Jun 23 12:33:52 2026
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">ViT_Block</item>
 <item name = "Solution">ViT_Block (Vivado IP Flow Target)</item>
-<item name = "Product family">zynquplus</item>
-<item name = "Target device">xck26-sfvc784-2LV-c</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcu250-figd2104-2L-e</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 5.345 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 4.723 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -53,12 +53,14 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 23, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 12, 770, 898, -</column>
-<column name="Memory">16, -, 16, 3, 0</column>
+<column name="Instance">-, 12, 770, 899, -</column>
+<column name="Memory">0, -, 16, 42, 0</column>
 <column name="Multiplexer">-, -, -, 438, -</column>
 <column name="Register">-, -, 161, -, -</column>
-<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
-<specialColumn name="Utilization (%)">5, ~0, ~0, 1, 0</specialColumn>
+<specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
+<specialColumn name="Utilization SLR (%)">0, ~0, ~0, ~0, 0</specialColumn>
+<specialColumn name="Available">5376, 12288, 3456000, 1728000, 1280</specialColumn>
+<specialColumn name="Utilization (%)">0, ~0, ~0, ~0, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
@@ -66,7 +68,7 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5_fu_222">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5, 0, 0, 13, 70, 0</column>
-<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6_fu_229">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6, 0, 12, 737, 678, 0</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6_fu_229">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6, 0, 12, 737, 679, 0</column>
 <column name="grp_MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1_fu_214">MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1, 0, 0, 20, 150, 0</column>
 </table>
 </item>
@@ -76,8 +78,8 @@
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
 <keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
-<column name="buff_B_V_U">MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_11_buff_B_V_RAMkbM, 16, 0, 0, 0, 136, 8, 1, 1088</column>
-<column name="tile_A_V_0_U">MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_tile_A_V_0_RAhbi, 0, 16, 3, 0, 17, 8, 1, 136</column>
+<column name="buff_B_V_U">MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_11_buff_B_V_RAMkbM, 0, 8, 33, 0, 136, 8, 1, 1088</column>
+<column name="tile_A_V_0_U">MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_tile_A_V_0_RAhbi, 0, 8, 9, 0, 17, 8, 1, 136</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">

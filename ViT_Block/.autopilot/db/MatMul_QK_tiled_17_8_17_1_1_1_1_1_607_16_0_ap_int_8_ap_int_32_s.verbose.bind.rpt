@@ -1,0 +1,650 @@
+
+
+================================================================
+== Vitis HLS Report for 'MatMul_QK_tiled_17_8_17_1_1_1_1_1_607_16_0_ap_int_8_ap_int_32_s'
+================================================================
+* Date:           Fri Jun 19 14:57:06 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        ViT_Block
+* Solution:       ViT_Block (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.345 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |      855|      855|  8.550 us|  8.550 us|  855|  855|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +------------------------------------------------------------------------+--------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |                                                                        |                                                              |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |                                Instance                                |                            Module                            |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +------------------------------------------------------------------------+--------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2_fu_54  |MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2  |      138|      138|  1.380 us|  1.380 us|  138|  138|       no|
+        |grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6_fu_62                    |MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6                    |       10|       10|  0.100 us|  0.100 us|   10|   10|       no|
+        |grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8_fu_69                    |MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8                    |       27|       27|  0.270 us|  0.270 us|   27|   27|       no|
+        +------------------------------------------------------------------------+--------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        +---------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                     |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name      |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +---------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_1678_4  |      714|      714|        42|          -|          -|    17|        no|
+        +---------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 8
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 4 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.23>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%m = alloca i32 1"   --->   Operation 9 'alloca' 'm' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (1.23ns)   --->   "%buff_K_V = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1643]   --->   Operation 10 'alloca' 'buff_K_V' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 11 [1/1] (0.67ns)   --->   "%tile_Q_V_0 = alloca i64 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1646]   --->   Operation 11 'alloca' 'tile_Q_V_0' <Predicate = true> <Delay = 0.67>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%empty = wait i32 @_ssdm_op_Wait"   --->   Operation 12 'wait' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [2/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2, i8 %buff_K_V, i8 %K_1_0"   --->   Operation 13 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 14 [1/1] (0.42ns)   --->   "%store_ln1678 = store i5 0, i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 14 'store' 'store_ln1678' <Predicate = true> <Delay = 0.42>
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 15 [1/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2, i8 %buff_K_V, i8 %K_1_0"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 16 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %Q_1_0, void @empty_9, i32 0, i32 0, void @empty_28, i32 0, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0"   --->   Operation 16 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 17 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %K_1_0, void @empty_9, i32 0, i32 0, void @empty_28, i32 0, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0"   --->   Operation 17 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 18 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %A_0, void @empty_9, i32 0, i32 0, void @empty_28, i32 0, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0"   --->   Operation 18 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 19 [1/1] (0.00ns)   --->   "%empty_219 = wait i32 @_ssdm_op_Wait"   --->   Operation 19 'wait' 'empty_219' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%br_ln1678 = br void %VITIS_LOOP_1681_5" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 20 'br' 'br_ln1678' <Predicate = true> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 1.21>
+ST_4 : Operation 21 [1/1] (0.00ns)   --->   "%m_14 = load i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 21 'load' 'm_14' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 22 [1/1] (0.75ns)   --->   "%icmp_ln1678 = icmp_eq  i5 %m_14, i5 17" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 22 'icmp' 'icmp_ln1678' <Predicate = true> <Delay = 0.75> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 23 [1/1] (0.00ns)   --->   "%empty_220 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 17, i64 17, i64 17"   --->   Operation 23 'speclooptripcount' 'empty_220' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 24 [1/1] (0.78ns)   --->   "%m_15 = add i5 %m_14, i5 1" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 24 'add' 'm_15' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 25 [1/1] (0.00ns)   --->   "%br_ln1678 = br i1 %icmp_ln1678, void %VITIS_LOOP_1681_5.split, void %for.end218" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 25 'br' 'br_ln1678' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 26 [1/1] (0.00ns)   --->   "%empty_221 = wait i32 @_ssdm_op_Wait"   --->   Operation 26 'wait' 'empty_221' <Predicate = (!icmp_ln1678)> <Delay = 0.00>
+ST_4 : Operation 27 [2/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6, i8 %tile_Q_V_0, i8 %Q_1_0"   --->   Operation 27 'call' 'call_ln0' <Predicate = (!icmp_ln1678)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 28 [1/1] (0.42ns)   --->   "%store_ln1678 = store i5 %m_15, i5 %m" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 28 'store' 'store_ln1678' <Predicate = (!icmp_ln1678)> <Delay = 0.42>
+ST_4 : Operation 29 [1/1] (0.00ns)   --->   "%ret_ln1761 = ret" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1761]   --->   Operation 29 'ret' 'ret_ln1761' <Predicate = (icmp_ln1678)> <Delay = 0.00>
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 30 [1/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6, i8 %tile_Q_V_0, i8 %Q_1_0"   --->   Operation 30 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 31 [1/1] (0.00ns)   --->   "%empty_222 = wait i32 @_ssdm_op_Wait"   --->   Operation 31 'wait' 'empty_222' <Predicate = true> <Delay = 0.00>
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 32 [1/1] (0.00ns)   --->   "%empty_223 = wait i32 @_ssdm_op_Wait"   --->   Operation 32 'wait' 'empty_223' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 33 [2/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8, i8 %tile_Q_V_0, i8 %buff_K_V, i8 %A_0"   --->   Operation 33 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 0.00>
+ST_8 : Operation 34 [1/1] (0.00ns)   --->   "%specloopname_ln1678 = specloopname void @_ssdm_op_SpecLoopName, void @empty_40" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 34 'specloopname' 'specloopname_ln1678' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 35 [1/2] (0.00ns)   --->   "%call_ln0 = call void @MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8, i8 %tile_Q_V_0, i8 %buff_K_V, i8 %A_0"   --->   Operation 35 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 36 [1/1] (0.00ns)   --->   "%br_ln1678 = br void %VITIS_LOOP_1681_5" [/home/fede/PhD/transformer-hls/hls/include/linear.h:1678]   --->   Operation 36 'br' 'br_ln1678' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+STG Binding: 
+---------------- STG Properties BEGIN ----------------
+- Is combinational: 0
+- Is one-state seq: 0
+- Is datapath-only: 0
+- Is pipelined: 0
+- Is top level: 0
+Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
+Port [ Q_1_0]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ K_1_0]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ A_0]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+---------------- STG Properties END ------------------
+
+---------------- Datapath Model BEGIN ----------------
+
+<LifeTime>
+<method=bitvector/>
+m                   (alloca           ) [ 011111111]
+buff_K_V            (alloca           ) [ 001111111]
+tile_Q_V_0          (alloca           ) [ 001111111]
+empty               (wait             ) [ 000000000]
+store_ln1678        (store            ) [ 000000000]
+call_ln0            (call             ) [ 000000000]
+specinterface_ln0   (specinterface    ) [ 000000000]
+specinterface_ln0   (specinterface    ) [ 000000000]
+specinterface_ln0   (specinterface    ) [ 000000000]
+empty_219           (wait             ) [ 000000000]
+br_ln1678           (br               ) [ 000000000]
+m_14                (load             ) [ 000000000]
+icmp_ln1678         (icmp             ) [ 000011111]
+empty_220           (speclooptripcount) [ 000000000]
+m_15                (add              ) [ 000000000]
+br_ln1678           (br               ) [ 000000000]
+empty_221           (wait             ) [ 000000000]
+store_ln1678        (store            ) [ 000000000]
+ret_ln1761          (ret              ) [ 000000000]
+call_ln0            (call             ) [ 000000000]
+empty_222           (wait             ) [ 000000000]
+empty_223           (wait             ) [ 000000000]
+specloopname_ln1678 (specloopname     ) [ 000000000]
+call_ln0            (call             ) [ 000000000]
+br_ln1678           (br               ) [ 000000000]
+</LifeTime>
+
+<model>
+
+<comp_list>
+<comp id="0" class="1000" name="Q_1_0">
+<pin_list>
+<pin id="1" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="Q_1_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="2" class="1000" name="K_1_0">
+<pin_list>
+<pin id="3" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="K_1_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="4" class="1000" name="A_0">
+<pin_list>
+<pin id="5" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="A_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="6" class="1001" name="const_6">
+<pin_list>
+<pin id="7" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="8" class="1001" name="const_8">
+<pin_list>
+<pin id="9" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="10" class="1001" name="const_10">
+<pin_list>
+<pin id="11" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_Wait"/></StgValue>
+</bind>
+</comp>
+
+<comp id="12" class="1001" name="const_12">
+<pin_list>
+<pin id="13" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2"/></StgValue>
+</bind>
+</comp>
+
+<comp id="14" class="1001" name="const_14">
+<pin_list>
+<pin id="15" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="16" class="1001" name="const_16">
+<pin_list>
+<pin id="17" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecInterface"/></StgValue>
+</bind>
+</comp>
+
+<comp id="18" class="1001" name="const_18">
+<pin_list>
+<pin id="19" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_9"/></StgValue>
+</bind>
+</comp>
+
+<comp id="20" class="1001" name="const_20">
+<pin_list>
+<pin id="21" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="22" class="1001" name="const_22">
+<pin_list>
+<pin id="23" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_28"/></StgValue>
+</bind>
+</comp>
+
+<comp id="24" class="1001" name="const_24">
+<pin_list>
+<pin id="25" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="26" class="1001" name="const_26">
+<pin_list>
+<pin id="27" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="28" class="1001" name="const_28">
+<pin_list>
+<pin id="29" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecLoopTripCount"/></StgValue>
+</bind>
+</comp>
+
+<comp id="30" class="1001" name="const_30">
+<pin_list>
+<pin id="31" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="32" class="1001" name="const_32">
+<pin_list>
+<pin id="33" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="34" class="1001" name="const_34">
+<pin_list>
+<pin id="35" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6"/></StgValue>
+</bind>
+</comp>
+
+<comp id="36" class="1001" name="const_36">
+<pin_list>
+<pin id="37" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8"/></StgValue>
+</bind>
+</comp>
+
+<comp id="38" class="1001" name="const_38">
+<pin_list>
+<pin id="39" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecLoopName"/></StgValue>
+</bind>
+</comp>
+
+<comp id="40" class="1001" name="const_40">
+<pin_list>
+<pin id="41" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_40"/></StgValue>
+</bind>
+</comp>
+
+<comp id="42" class="1004" name="m_fu_42">
+<pin_list>
+<pin id="43" dir="0" index="0" bw="1" slack="0"/>
+<pin id="44" dir="1" index="1" bw="5" slack="0"/>
+</pin_list>
+<bind>
+<opcode="alloca(26) " fcode="alloca"/>
+<opset="m/1 "/>
+</bind>
+</comp>
+
+<comp id="46" class="1004" name="buff_K_V_alloca_fu_46">
+<pin_list>
+<pin id="47" dir="0" index="0" bw="1" slack="0"/>
+<pin id="48" dir="1" index="1" bw="8" slack="0"/>
+</pin_list>
+<bind>
+<opcode="alloca(26) " fcode="alloca"/>
+<opset="buff_K_V/1 "/>
+</bind>
+</comp>
+
+<comp id="50" class="1004" name="tile_Q_V_0_alloca_fu_50">
+<pin_list>
+<pin id="51" dir="0" index="0" bw="1" slack="0"/>
+<pin id="52" dir="1" index="1" bw="8" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="alloca(26) " fcode="alloca"/>
+<opset="tile_Q_V_0/1 "/>
+</bind>
+</comp>
+
+<comp id="54" class="1004" name="grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2_fu_54">
+<pin_list>
+<pin id="55" dir="0" index="0" bw="0" slack="0"/>
+<pin id="56" dir="0" index="1" bw="8" slack="0"/>
+<pin id="57" dir="0" index="2" bw="8" slack="0"/>
+<pin id="58" dir="1" index="3" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="call(48) " fcode="call"/>
+<opset="call_ln0/1 "/>
+</bind>
+</comp>
+
+<comp id="62" class="1004" name="grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6_fu_62">
+<pin_list>
+<pin id="63" dir="0" index="0" bw="0" slack="0"/>
+<pin id="64" dir="0" index="1" bw="8" slack="2147483647"/>
+<pin id="65" dir="0" index="2" bw="8" slack="0"/>
+<pin id="66" dir="1" index="3" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="call(48) " fcode="call"/>
+<opset="call_ln0/4 "/>
+</bind>
+</comp>
+
+<comp id="69" class="1004" name="grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8_fu_69">
+<pin_list>
+<pin id="70" dir="0" index="0" bw="0" slack="0"/>
+<pin id="71" dir="0" index="1" bw="8" slack="2147483647"/>
+<pin id="72" dir="0" index="2" bw="8" slack="2147483647"/>
+<pin id="73" dir="0" index="3" bw="8" slack="0"/>
+<pin id="74" dir="1" index="4" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="call(48) " fcode="call"/>
+<opset="call_ln0/7 "/>
+</bind>
+</comp>
+
+<comp id="77" class="1004" name="store_ln1678_store_fu_77">
+<pin_list>
+<pin id="78" dir="0" index="0" bw="1" slack="0"/>
+<pin id="79" dir="0" index="1" bw="5" slack="0"/>
+<pin id="80" dir="1" index="2" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="store(28) " fcode="store"/>
+<opset="store_ln1678/1 "/>
+</bind>
+</comp>
+
+<comp id="82" class="1004" name="m_14_load_fu_82">
+<pin_list>
+<pin id="83" dir="0" index="0" bw="5" slack="3"/>
+<pin id="84" dir="1" index="1" bw="5" slack="0"/>
+</pin_list>
+<bind>
+<opcode="load(27) " fcode="load"/>
+<opset="m_14/4 "/>
+</bind>
+</comp>
+
+<comp id="85" class="1004" name="icmp_ln1678_fu_85">
+<pin_list>
+<pin id="86" dir="0" index="0" bw="5" slack="0"/>
+<pin id="87" dir="0" index="1" bw="5" slack="0"/>
+<pin id="88" dir="1" index="2" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="icmp(45) " fcode="icmp"/>
+<opset="icmp_ln1678/4 "/>
+</bind>
+</comp>
+
+<comp id="91" class="1004" name="m_15_fu_91">
+<pin_list>
+<pin id="92" dir="0" index="0" bw="5" slack="0"/>
+<pin id="93" dir="0" index="1" bw="1" slack="0"/>
+<pin id="94" dir="1" index="2" bw="5" slack="0"/>
+</pin_list>
+<bind>
+<opcode="add(8) " fcode="add"/>
+<opset="m_15/4 "/>
+</bind>
+</comp>
+
+<comp id="97" class="1004" name="store_ln1678_store_fu_97">
+<pin_list>
+<pin id="98" dir="0" index="0" bw="5" slack="0"/>
+<pin id="99" dir="0" index="1" bw="5" slack="3"/>
+<pin id="100" dir="1" index="2" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="store(28) " fcode="store"/>
+<opset="store_ln1678/4 "/>
+</bind>
+</comp>
+
+<comp id="102" class="1005" name="m_reg_102">
+<pin_list>
+<pin id="103" dir="0" index="0" bw="5" slack="0"/>
+<pin id="104" dir="1" index="1" bw="5" slack="0"/>
+</pin_list>
+<bind>
+<opset="m "/>
+</bind>
+</comp>
+
+</comp_list>
+
+<net_list>
+<net id="45"><net_src comp="6" pin="0"/><net_sink comp="42" pin=0"/></net>
+
+<net id="49"><net_src comp="8" pin="0"/><net_sink comp="46" pin=0"/></net>
+
+<net id="53"><net_src comp="8" pin="0"/><net_sink comp="50" pin=0"/></net>
+
+<net id="59"><net_src comp="12" pin="0"/><net_sink comp="54" pin=0"/></net>
+
+<net id="60"><net_src comp="46" pin="1"/><net_sink comp="54" pin=1"/></net>
+
+<net id="61"><net_src comp="2" pin="0"/><net_sink comp="54" pin=2"/></net>
+
+<net id="67"><net_src comp="34" pin="0"/><net_sink comp="62" pin=0"/></net>
+
+<net id="68"><net_src comp="0" pin="0"/><net_sink comp="62" pin=2"/></net>
+
+<net id="75"><net_src comp="36" pin="0"/><net_sink comp="69" pin=0"/></net>
+
+<net id="76"><net_src comp="4" pin="0"/><net_sink comp="69" pin=3"/></net>
+
+<net id="81"><net_src comp="14" pin="0"/><net_sink comp="77" pin=0"/></net>
+
+<net id="89"><net_src comp="82" pin="1"/><net_sink comp="85" pin=0"/></net>
+
+<net id="90"><net_src comp="26" pin="0"/><net_sink comp="85" pin=1"/></net>
+
+<net id="95"><net_src comp="82" pin="1"/><net_sink comp="91" pin=0"/></net>
+
+<net id="96"><net_src comp="32" pin="0"/><net_sink comp="91" pin=1"/></net>
+
+<net id="101"><net_src comp="91" pin="2"/><net_sink comp="97" pin=0"/></net>
+
+<net id="105"><net_src comp="42" pin="1"/><net_sink comp="102" pin=0"/></net>
+
+<net id="106"><net_src comp="102" pin="1"/><net_sink comp="77" pin=1"/></net>
+
+<net id="107"><net_src comp="102" pin="1"/><net_sink comp="82" pin=0"/></net>
+
+<net id="108"><net_src comp="102" pin="1"/><net_sink comp="97" pin=1"/></net>
+
+</net_list>
+
+</model> 
+---------------- Datapath Model END ------------------
+
+* FSMD analyzer results:
+  - Output states:
+	Port: A_0 | {7 8 }
+ - Input state : 
+	Port: MatMul_QK_tiled<17, 8, 17, 1, 1, 1, 1, 1, 607, 16, 0, ap_int<8>, ap_int<32> > : Q_1_0 | {4 5 }
+	Port: MatMul_QK_tiled<17, 8, 17, 1, 1, 1, 1, 1, 607, 16, 0, ap_int<8>, ap_int<32> > : K_1_0 | {1 2 }
+  - Chain level:
+	State 1
+		call_ln0 : 1
+		store_ln1678 : 1
+	State 2
+	State 3
+	State 4
+		icmp_ln1678 : 1
+		m_15 : 1
+		br_ln1678 : 2
+		store_ln1678 : 2
+	State 5
+	State 6
+	State 7
+	State 8
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+
+* Functional unit list:
+|----------|------------------------------------------------------------------------|---------|---------|---------|---------|
+| Operation|                             Functional Unit                            |   DSP   |  Delay  |    FF   |   LUT   |
+|----------|------------------------------------------------------------------------|---------|---------|---------|---------|
+|          | grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1656_1_VITIS_LOOP_1657_2_fu_54 |    0    |    0    |    17   |    83   |
+|   call   |          grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1682_6_fu_62          |    0    |    0    |    8    |    21   |
+|          |          grp_MatMul_QK_tiled_Pipeline_VITIS_LOOP_1701_8_fu_69          |    6    |  11.347 |   453   |   561   |
+|----------|------------------------------------------------------------------------|---------|---------|---------|---------|
+|    add   |                               m_15_fu_91                               |    0    |    0    |    0    |    12   |
+|----------|------------------------------------------------------------------------|---------|---------|---------|---------|
+|   icmp   |                            icmp_ln1678_fu_85                           |    0    |    0    |    0    |    9    |
+|----------|------------------------------------------------------------------------|---------|---------|---------|---------|
+|   Total  |                                                                        |    6    |  11.347 |   478   |   686   |
+|----------|------------------------------------------------------------------------|---------|---------|---------|---------|
+
+Memories:
++----------+--------+--------+--------+--------+
+|          |  BRAM  |   FF   |   LUT  |  URAM  |
++----------+--------+--------+--------+--------+
+| buff_K_V |    7   |    0   |    0   |    0   |
+|tile_Q_V_0|    0   |   64   |    1   |    0   |
++----------+--------+--------+--------+--------+
+|   Total  |    7   |   64   |    1   |    0   |
++----------+--------+--------+--------+--------+
+
+* Register list:
++---------+--------+
+|         |   FF   |
++---------+--------+
+|m_reg_102|    5   |
++---------+--------+
+|  Total  |    5   |
++---------+--------+
+
+* Multiplexer (MUX) list: 
+|--------|------|------|------|--------|
+|  Comp  |  Pin | Size |  BW  | S x BW |
+|--------|------|------|------|--------|
+|  Total |      |      |      |    0   |
+|--------|------|------|------|--------|
+
+
+
+* Summary:
++-----------+--------+--------+--------+--------+--------+--------+
+|           |  BRAM  |   DSP  |  Delay |   FF   |   LUT  |  URAM  |
++-----------+--------+--------+--------+--------+--------+--------+
+|  Function |    -   |    6   |   11   |   478  |   686  |    -   |
+|   Memory  |    7   |    -   |    -   |   64   |    1   |    0   |
+|Multiplexer|    -   |    -   |    -   |    -   |    -   |    -   |
+|  Register |    -   |    -   |    -   |    5   |    -   |    -   |
++-----------+--------+--------+--------+--------+--------+--------+
+|   Total   |    7   |    6   |   11   |   547  |   687  |    0   |
++-----------+--------+--------+--------+--------+--------+--------+

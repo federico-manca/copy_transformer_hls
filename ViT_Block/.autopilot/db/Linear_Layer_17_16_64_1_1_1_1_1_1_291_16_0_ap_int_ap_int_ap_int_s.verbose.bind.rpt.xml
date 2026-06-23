@@ -1,0 +1,49 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'Linear_Layer_17_16_64_1_1_1_1_1_1_291_16_0_ap_int_ap_int_ap_int_s'" level="0">
+<item name = "Date">Fri Jun 19 14:57:14 2026
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">ViT_Block</item>
+<item name = "Solution">ViT_Block (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 5.933 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">20384, 20384, 0.204 ms, 0.204 ms, 20384, 20384, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_Linear_Layer_Pipeline_VITIS_LOOP_1512_2_1_fu_60">Linear_Layer_Pipeline_VITIS_LOOP_1512_2_1, 66, 66, 0.660 us, 0.660 us, 66, 66, no</column>
+<column name="grp_Linear_Layer_Pipeline_VITIS_LOOP_1525_6_1_fu_67">Linear_Layer_Pipeline_VITIS_LOOP_1525_6_1, 1059, 1059, 10.590 us, 10.590 us, 1059, 1059, no</column>
+<column name="grp_Linear_Layer_Pipeline_VITIS_LOOP_1588_17_1_fu_76">Linear_Layer_Pipeline_VITIS_LOOP_1588_17_1, 67, 67, 0.670 us, 0.670 us, 67, 67, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_1509_1">20383, 20383, 1199, -, -, 17, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

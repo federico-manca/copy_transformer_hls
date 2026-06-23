@@ -1,0 +1,60 @@
+---
+MainSourceFile:  /home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MLP_tiled_oc.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '22:23'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '23:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '24:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '25:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '26:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '27:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '35:125'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '52:23'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '53:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '54:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '55:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '56:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '57:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '65:125'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/layers/MLP_tiled_oc.cpp
+...

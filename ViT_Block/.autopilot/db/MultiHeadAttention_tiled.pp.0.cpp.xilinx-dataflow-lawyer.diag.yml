@@ -1,0 +1,120 @@
+---
+MainSourceFile:  /home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '28:23'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '29:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '30:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '31:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '32:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '33:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '45:125'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '60:23'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '61:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '62:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '63:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '64:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '65:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '77:125'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '93:23'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '94:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '95:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '96:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '97:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '98:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '110:125'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '124:23'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '125:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '126:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '127:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '128:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-8] Static scalars and arrays declared inside a dataflow region will be treated like local variables'
+    FileOffset:      '129:26'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '141:125'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '215:9'
+    FilePath:        /home/fede/PhD/transformer-hls/hls/src/attention/MultiHeadAttention_tiled.cpp
+...

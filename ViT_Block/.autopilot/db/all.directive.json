@@ -1,0 +1,80 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "ViT_Block",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/fede\/PhD\/transformer-hls\/runs\/mnist_vit_block_20260619_144418_0b8dc3f6\/tcl\/run_hls.tcl",
+          "sourceLine": "43",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ViT_Block"
+              }]
+          }
+        },
+        {
+          "functionName": "ViT_Block",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/home\/fede\/PhD\/transformer-hls\/runs\/mnist_vit_block_20260619_144418_0b8dc3f6\/tcl\/run_hls.tcl",
+          "sourceLine": "43",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ViT_Block"
+              }]
+          }
+        },
+        {
+          "functionName": "ViT_Block",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "\/home\/fede\/PhD\/transformer-hls\/runs\/mnist_vit_block_20260619_144418_0b8dc3f6\/tcl\/run_hls.tcl",
+          "sourceLine": "43",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ViT_Block"
+              }]
+          }
+        },
+        {
+          "functionName": "ViT_Block",
+          "label": "",
+          "functionLabel": "",
+          "id": "4",
+          "sourceFile": "\/home\/fede\/PhD\/transformer-hls\/runs\/mnist_vit_block_20260619_144418_0b8dc3f6\/tcl\/run_hls.tcl",
+          "sourceLine": "43",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ViT_Block"
+              }]
+          }
+        },
+        {
+          "functionName": "ViT_Block",
+          "label": "",
+          "functionLabel": "",
+          "id": "5",
+          "sourceFile": "\/home\/fede\/PhD\/transformer-hls\/runs\/mnist_vit_block_20260619_144418_0b8dc3f6\/tcl\/run_hls.tcl",
+          "sourceLine": "43",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ViT_Block"
+              }]
+          }
+        }
+      ]
+    }]}

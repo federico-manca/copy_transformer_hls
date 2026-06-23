@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jun 19 14:58:17 2026
+# Process ID: 981362
+# Current directory: /home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/ViT_Block/xsim_script.tcl}
+# Log file: /home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/sim/verilog/xsim.log
+# Journal file: /home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/sim/verilog/xsim.jou
+# Running On: fede-ThinkBook-16p-G5-IRX, OS: Linux, CPU Frequency: 800.360 MHz, CPU Physical cores: 24, Host memory: 33339 MB
+#-----------------------------------------------------------
+source xsim.dir/ViT_Block/xsim_script.tcl
+# xsim {ViT_Block} -autoloadwcfg -tclbatch {ViT_Block.tcl}
+Time resolution is 1 ps
+source ViT_Block.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "5031785000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 5031845 ns : File "/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/sim/verilog/ViT_Block.autotb.v" Line 1331
+run: Time (s): cpu = 00:00:00.03 ; elapsed = 00:03:45 . Memory (MB): peak = 1244.176 ; gain = 0.000 ; free physical = 1630 ; free virtual = 6634
+## quit
+INFO: xsimkernel Simulation Memory Usage: 141376 KB (Peak: 178228 KB), Simulation CPU Usage: 224720 ms
+INFO: [Common 17-206] Exiting xsim at Fri Jun 19 15:02:05 2026...

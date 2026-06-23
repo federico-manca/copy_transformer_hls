@@ -1,0 +1,1457 @@
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:1457:7: warning: Added loop label VITIS_LOOP_1211_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1211_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:1457:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:2431:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:2431:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:2445:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:2445:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:2459:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:2459:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:4070:7: warning: Added loop label VITIS_LOOP_1245_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1245_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:4070:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8091:5: warning: Added loop label VITIS_LOOP_72_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < M * N; i += PE) {
+    ^~~
+    VITIS_LOOP_72_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8091:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8097:9: warning: Added loop label VITIS_LOOP_78_2:   [xilinx-label-all-loops]
+        for (int pe = 0; pe < PE; pe++) {
+        ^~~
+        VITIS_LOOP_78_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8097:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8346:9: warning: Added loop label VITIS_LOOP_327_1:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; ++l)
+        ^~~
+        VITIS_LOOP_327_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8346:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8353:9: warning: Added loop label VITIS_LOOP_334_2:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_334_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8353:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8362:9: warning: Added loop label VITIS_LOOP_343_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_343_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8362:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8371:9: warning: Added loop label VITIS_LOOP_352_4:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_352_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8371:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8384:9: warning: Added loop label VITIS_LOOP_365_5:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_365_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8384:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8387:13: warning: Added loop label VITIS_LOOP_368_6:   [xilinx-label-all-loops]
+            for (int l = 0; l < L; l++) {
+            ^~~
+            VITIS_LOOP_368_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8387:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8442:5: warning: Added loop label VITIS_LOOP_423_7:   [xilinx-label-all-loops]
+    for(int a = 0; a < A; a++){
+    ^~~
+    VITIS_LOOP_423_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8442:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8444:6: warning: Added loop label VITIS_LOOP_425_8:   [xilinx-label-all-loops]
+     for(int j=0; j < J; j++){
+     ^~~
+     VITIS_LOOP_425_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8444:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8457:9: warning: Added loop label VITIS_LOOP_438_9:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_438_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8457:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8458:13: warning: Added loop label VITIS_LOOP_439_10:   [xilinx-label-all-loops]
+            for (int j = 0; j < J; j++) {
+            ^~~
+            VITIS_LOOP_439_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8458:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8473:9: warning: Added loop label VITIS_LOOP_454_11:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_454_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8473:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8495:2: warning: Added loop label VITIS_LOOP_476_1:   [xilinx-label-all-loops]
+ for(int a=0; a<A;a++){
+ ^~~
+ VITIS_LOOP_476_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8495:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8497:3: warning: Added loop label VITIS_LOOP_478_2:   [xilinx-label-all-loops]
+  for(int l=0; l<L;l++){
+  ^~~
+  VITIS_LOOP_478_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8497:3: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8521:5: warning: Added loop label VITIS_LOOP_502_1:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a+= Ta) {
+    ^~~
+    VITIS_LOOP_502_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8521:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8522:6: warning: Added loop label VITIS_LOOP_503_2:   [xilinx-label-all-loops]
+     for(int ta =0; ta < Ta; ta++){
+     ^~~
+     VITIS_LOOP_503_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8522:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8523:7: warning: Added loop label VITIS_LOOP_504_3:   [xilinx-label-all-loops]
+      for (int l = 0; l < L/PE; l++) {
+      ^~~
+      VITIS_LOOP_504_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8523:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8529:9: warning: Added loop label VITIS_LOOP_510_4:   [xilinx-label-all-loops]
+        for (int pe = 0; pe < PE; pe++) {
+        ^~~
+        VITIS_LOOP_510_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8529:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8582:2: warning: Added loop label VITIS_LOOP_563_1:   [xilinx-label-all-loops]
+ for (int m0 = 0; m0 < M; m0 += Tm) {
+ ^~~
+ VITIS_LOOP_563_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8582:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8584:9: warning: Added loop label VITIS_LOOP_565_2:   [xilinx-label-all-loops]
+        for (int tm = 0; tm < Tm; tm++) {
+        ^~~
+        VITIS_LOOP_565_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8584:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8593:9: warning: Added loop label VITIS_LOOP_574_3:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < N; n0 += Tn) {
+        ^~~
+        VITIS_LOOP_574_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8593:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8594:13: warning: Added loop label VITIS_LOOP_575_4:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_575_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8594:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8595:17: warning: Added loop label VITIS_LOOP_576_5:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn += PE) {
+                ^~~
+                VITIS_LOOP_576_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8595:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8600:21: warning: Added loop label VITIS_LOOP_581_6:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_581_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8600:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8625:9: warning: Added loop label VITIS_LOOP_606_7:   [xilinx-label-all-loops]
+        for (int tm = 0; tm < Tm; tm++) {
+        ^~~
+        VITIS_LOOP_606_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8625:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8628:13: warning: Added loop label VITIS_LOOP_609_8:   [xilinx-label-all-loops]
+            for (int n0 = 0; n0 < N; n0 += Tn) {
+            ^~~
+            VITIS_LOOP_609_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8628:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8629:17: warning: Added loop label VITIS_LOOP_610_9:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn++) {
+                ^~~
+                VITIS_LOOP_610_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8629:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8649:9: warning: Added loop label VITIS_LOOP_630_10:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < N; n0 += Tn) {
+        ^~~
+        VITIS_LOOP_630_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8649:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8650:13: warning: Added loop label VITIS_LOOP_631_11:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_631_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8650:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8651:17: warning: Added loop label VITIS_LOOP_632_12:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn += PE) {
+                ^~~
+                VITIS_LOOP_632_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8651:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8656:21: warning: Added loop label VITIS_LOOP_637_13:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_637_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8656:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8714:5: warning: Added loop label VITIS_LOOP_695_1:   [xilinx-label-all-loops]
+    for(int i=0; i < M*N; i+=PE){
+    ^~~
+    VITIS_LOOP_695_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8714:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8719:9: warning: Added loop label VITIS_LOOP_700_2:   [xilinx-label-all-loops]
+        for(int pe=0; pe < PE; pe++){
+        ^~~
+        VITIS_LOOP_700_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8719:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8802:5: warning: Added loop label VITIS_LOOP_802_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < M * N; i += PE) {
+    ^~~
+    VITIS_LOOP_802_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8802:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8809:9: warning: Added loop label VITIS_LOOP_809_2:   [xilinx-label-all-loops]
+        for (int pe = 0; pe < PE; pe++) {
+        ^~~
+        VITIS_LOOP_809_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8809:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8897:2: warning: Added loop label VITIS_LOOP_897_1:   [xilinx-label-all-loops]
+ for (int a = 0; a < A; a++) {
+ ^~~
+ VITIS_LOOP_897_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8897:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8904:5: warning: Added loop label VITIS_LOOP_904_2:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_904_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8904:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8905:9: warning: Added loop label VITIS_LOOP_905_3:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_905_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8905:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8913:5: warning: Added loop label VITIS_LOOP_913_4:   [xilinx-label-all-loops]
+    for (int l = 0; l < L; l++) {
+    ^~~
+    VITIS_LOOP_913_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8913:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8914:9: warning: Added loop label VITIS_LOOP_914_5:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_914_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8914:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8921:5: warning: Added loop label VITIS_LOOP_921_6:   [xilinx-label-all-loops]
+    for (int a = 0; a < J; a++) {
+    ^~~
+    VITIS_LOOP_921_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8921:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8922:13: warning: Added loop label VITIS_LOOP_922_7:   [xilinx-label-all-loops]
+            for (int l = 0; l < L; l++) {
+            ^~~
+            VITIS_LOOP_922_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8922:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8931:5: warning: Added loop label VITIS_LOOP_931_8:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_931_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8931:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8932:3: warning: Added loop label VITIS_LOOP_932_9:   [xilinx-label-all-loops]
+  for (int j = 0; j < J; j++) {
+  ^~~
+  VITIS_LOOP_932_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8932:3: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8935:4: warning: Added loop label VITIS_LOOP_935_10:   [xilinx-label-all-loops]
+   for (int l = 0; l < L; l++) {
+   ^~~
+   VITIS_LOOP_935_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8935:4: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8953:5: warning: Added loop label VITIS_LOOP_953_11:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_953_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8953:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8954:9: warning: Added loop label VITIS_LOOP_954_12:   [xilinx-label-all-loops]
+        for (int j = 0; j < J; j++) {
+        ^~~
+        VITIS_LOOP_954_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8954:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8975:5: warning: Added loop label VITIS_LOOP_975_13:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_975_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8975:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8984:5: warning: Added loop label VITIS_LOOP_984_14:   [xilinx-label-all-loops]
+    for (int j = 0; j < J; j++) {
+    ^~~
+    VITIS_LOOP_984_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8984:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8985:9: warning: Added loop label VITIS_LOOP_985_15:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_985_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8985:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8988:13: warning: Added loop label VITIS_LOOP_988_16:   [xilinx-label-all-loops]
+            for (int a = 0; a < A; a++) {
+            ^~~
+            VITIS_LOOP_988_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:8988:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9007:5: warning: Added loop label VITIS_LOOP_1007_17:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_1007_17: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9007:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9008:9: warning: Added loop label VITIS_LOOP_1008_18:   [xilinx-label-all-loops]
+        for (int l = 0; l < L; l++) {
+        ^~~
+        VITIS_LOOP_1008_18: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9008:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9054:9: warning: Added loop label VITIS_LOOP_64_1:   [xilinx-label-all-loops]
+        for (int o = 0; o < C; o++) {
+        ^~~
+        VITIS_LOOP_64_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9054:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9060:9: warning: Added loop label VITIS_LOOP_70_2:   [xilinx-label-all-loops]
+        for (int e = 0; e < B; e++) {
+        ^~~
+        VITIS_LOOP_70_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9060:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9063:13: warning: Added loop label VITIS_LOOP_73_3:   [xilinx-label-all-loops]
+            for (int o = 0; o < C; o++) {
+            ^~~
+            VITIS_LOOP_73_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9063:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9072:9: warning: Added loop label VITIS_LOOP_82_4:   [xilinx-label-all-loops]
+        for (int p = 0; p < P; p++) {
+        ^~~
+        VITIS_LOOP_82_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9072:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9074:13: warning: Added loop label VITIS_LOOP_84_5:   [xilinx-label-all-loops]
+            for (int h = 0; h < D; h++) {
+            ^~~
+            VITIS_LOOP_84_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9074:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9113:9: warning: Added loop label VITIS_LOOP_123_1:   [xilinx-label-all-loops]
+        for (int o = 0; o < C; o++) {
+        ^~~
+        VITIS_LOOP_123_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9113:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9119:13: warning: Added loop label VITIS_LOOP_129_2:   [xilinx-label-all-loops]
+            for (int e = 0; e < B; e++) {
+            ^~~
+            VITIS_LOOP_129_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9119:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9122:17: warning: Added loop label VITIS_LOOP_132_3:   [xilinx-label-all-loops]
+                for (int o = 0; o < C; o++) {
+                ^~~
+                VITIS_LOOP_132_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9122:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9130:9: warning: Added loop label VITIS_LOOP_140_4:   [xilinx-label-all-loops]
+        for (int t = 0; t < A; t++) {
+        ^~~
+        VITIS_LOOP_140_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9130:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9131:13: warning: Added loop label VITIS_LOOP_141_5:   [xilinx-label-all-loops]
+            for (int h = 0; h < D; h++) {
+            ^~~
+            VITIS_LOOP_141_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9131:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9167:2: warning: Added loop label VITIS_LOOP_177_1:   [xilinx-label-all-loops]
+ for (int a = 0; a < A; a++) {
+ ^~~
+ VITIS_LOOP_177_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9167:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9168:9: warning: Added loop label VITIS_LOOP_178_2:   [xilinx-label-all-loops]
+        for (int b = 0; b < B; b++) {
+        ^~~
+        VITIS_LOOP_178_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9168:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9173:5: warning: Added loop label VITIS_LOOP_183_3:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_183_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9173:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9174:9: warning: Added loop label VITIS_LOOP_184_4:   [xilinx-label-all-loops]
+        for (int c = 0; c < C; c++) {
+        ^~~
+        VITIS_LOOP_184_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9174:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9179:5: warning: Added loop label VITIS_LOOP_189_5:   [xilinx-label-all-loops]
+    for (int c = 0; c < C; c++) {
+    ^~~
+    VITIS_LOOP_189_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9179:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9180:9: warning: Added loop label VITIS_LOOP_190_6:   [xilinx-label-all-loops]
+        for (int b = 0; b < B; b++) {
+        ^~~
+        VITIS_LOOP_190_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9180:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9182:13: warning: Added loop label VITIS_LOOP_192_7:   [xilinx-label-all-loops]
+            for (int a = 0; a < A; a++) {
+            ^~~
+            VITIS_LOOP_192_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9182:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9188:5: warning: Added loop label VITIS_LOOP_198_8:   [xilinx-label-all-loops]
+    for (int a = 0; a < A; a++) {
+    ^~~
+    VITIS_LOOP_198_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9188:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9190:2: warning: Added loop label VITIS_LOOP_200_9:   [xilinx-label-all-loops]
+ for (int c = 0; c < C; c++) {
+ ^~~
+ VITIS_LOOP_200_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9190:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9225:9: warning: Added loop label VITIS_LOOP_235_1:   [xilinx-label-all-loops]
+        for (int m = 0; m < M; m++) {
+        ^~~
+        VITIS_LOOP_235_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9225:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9260:9: warning: Added loop label VITIS_LOOP_270_1:   [xilinx-label-all-loops]
+        for (int o = 0; o < C; o++) {
+        ^~~
+        VITIS_LOOP_270_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9260:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9266:9: warning: Added loop label VITIS_LOOP_276_2:   [xilinx-label-all-loops]
+        for (int e = 0; e < B; e++) {
+        ^~~
+        VITIS_LOOP_276_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9266:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9268:13: warning: Added loop label VITIS_LOOP_278_3:   [xilinx-label-all-loops]
+            for (int o = 0; o < C; o++) {
+            ^~~
+            VITIS_LOOP_278_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9268:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9275:9: warning: Added loop label VITIS_LOOP_285_4:   [xilinx-label-all-loops]
+        for (int t = 0; t < C; t++) {
+        ^~~
+        VITIS_LOOP_285_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9275:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9317:2: warning: Added loop label VITIS_LOOP_327_1:   [xilinx-label-all-loops]
+ for(int m=0; m < M; m+=Tm){
+ ^~~
+ VITIS_LOOP_327_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9317:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9319:9: warning: Added loop label VITIS_LOOP_329_2:   [xilinx-label-all-loops]
+        for(int tm=0; tm < Tm; tm++){
+        ^~~
+        VITIS_LOOP_329_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9319:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9320:13: warning: Added loop label VITIS_LOOP_330_3:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_330_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9320:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9322:17: warning: Added loop label VITIS_LOOP_332_4:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_332_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9322:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9332:9: warning: Added loop label VITIS_LOOP_342_5:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_342_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9332:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9334:4: warning: Added loop label VITIS_LOOP_344_6:   [xilinx-label-all-loops]
+   for(int tn=0; tn < Tn/PE; tn++){
+   ^~~
+   VITIS_LOOP_344_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9334:4: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9336:5: warning: Added loop label VITIS_LOOP_346_7:   [xilinx-label-all-loops]
+    for(int tm=0; tm < Tm; tm++){
+    ^~~
+    VITIS_LOOP_346_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9336:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9337:12: warning: Added loop label VITIS_LOOP_347_8:   [xilinx-label-all-loops]
+           for(int pe=0; pe < PE; pe++){
+           ^~~
+           VITIS_LOOP_347_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9337:12: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9347:13: warning: Added loop label VITIS_LOOP_357_9:   [xilinx-label-all-loops]
+            for(int k=0; k<K; k+=Tk){
+            ^~~
+            VITIS_LOOP_357_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9347:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9348:5: warning: Added loop label VITIS_LOOP_358_10:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_358_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9348:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9349:6: warning: Added loop label VITIS_LOOP_359_11:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_359_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9349:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9351:7: warning: Added loop label VITIS_LOOP_361_12:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_361_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9351:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9352:29: warning: Added loop label VITIS_LOOP_362_13:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_362_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9352:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9354:33: warning: Added loop label VITIS_LOOP_364_14:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_364_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9354:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9371:13: warning: Added loop label VITIS_LOOP_381_15:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_381_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9371:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9372:17: warning: Added loop label VITIS_LOOP_382_16:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_382_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9372:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9378:21: warning: Added loop label VITIS_LOOP_388_17:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_388_17: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9378:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9428:13: warning: Added loop label VITIS_LOOP_438_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_438_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9428:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9440:9: warning: Added loop label VITIS_LOOP_450_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_450_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9440:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9456:5: warning: Added loop label VITIS_LOOP_466_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_466_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9456:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9457:6: warning: Added loop label VITIS_LOOP_467_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_467_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9457:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9459:7: warning: Added loop label VITIS_LOOP_469_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_469_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9459:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9460:29: warning: Added loop label VITIS_LOOP_470_6:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_470_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9460:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9462:33: warning: Added loop label VITIS_LOOP_472_7:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_472_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9462:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9479:13: warning: Added loop label VITIS_LOOP_489_8:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_489_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9479:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9480:17: warning: Added loop label VITIS_LOOP_490_9:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_490_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9480:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9486:21: warning: Added loop label VITIS_LOOP_496_10:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_496_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9486:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9527:5: warning: Added loop label VITIS_LOOP_537_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+=Tm){
+    ^~~
+    VITIS_LOOP_537_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9527:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9528:9: warning: Added loop label VITIS_LOOP_538_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_538_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9528:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9529:13: warning: Added loop label VITIS_LOOP_539_3:   [xilinx-label-all-loops]
+            for(int k=0; k<K; k+=Tk){
+            ^~~
+            VITIS_LOOP_539_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9529:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9530:5: warning: Added loop label VITIS_LOOP_540_4:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_540_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9530:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9531:6: warning: Added loop label VITIS_LOOP_541_5:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_541_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9531:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9532:7: warning: Added loop label VITIS_LOOP_542_6:   [xilinx-label-all-loops]
+      for(int kk=0; kk< SIMD; kk++){
+      ^~~
+      VITIS_LOOP_542_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9532:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9534:8: warning: Added loop label VITIS_LOOP_544_7:   [xilinx-label-all-loops]
+       for(int pe=0; pe < PE; pe++){
+       ^~~
+       VITIS_LOOP_544_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9534:8: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9559:2: warning: Added loop label VITIS_LOOP_569_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < N_beats; i++) {
+ ^~~
+ VITIS_LOOP_569_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9559:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9581:5: warning: Added loop label VITIS_LOOP_591_1:   [xilinx-label-all-loops]
+    for (int produced = 0; produced < N_out_words; ) {
+    ^~~
+    VITIS_LOOP_591_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9581:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9637:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9644:13: warning: Added loop label VITIS_LOOP_654_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_654_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9644:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9656:9: warning: Added loop label VITIS_LOOP_666_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_666_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9656:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9694:5: warning: Added loop label VITIS_LOOP_713_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_713_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9694:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9695:6: warning: Added loop label VITIS_LOOP_714_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_714_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9695:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9698:7: warning: Added loop label VITIS_LOOP_717_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_717_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9698:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9703:2: warning: Added loop label VITIS_LOOP_722_6:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_722_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9703:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9708:29: warning: Added loop label VITIS_LOOP_727_7:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_727_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9708:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9712:33: warning: Added loop label VITIS_LOOP_731_8:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_731_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9712:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9728:29: warning: Added loop label VITIS_LOOP_747_9:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_747_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9728:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9740:13: warning: Added loop label VITIS_LOOP_759_10:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_759_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9740:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9741:17: warning: Added loop label VITIS_LOOP_760_11:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_760_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9741:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9747:21: warning: Added loop label VITIS_LOOP_766_12:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_766_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9747:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9784:5: warning: Added loop label VITIS_LOOP_803_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+=Tm){
+    ^~~
+    VITIS_LOOP_803_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9784:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9785:9: warning: Added loop label VITIS_LOOP_804_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_804_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9785:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9786:13: warning: Added loop label VITIS_LOOP_805_3:   [xilinx-label-all-loops]
+            for(int tn=0; tn < Tn/PE; tn++){
+            ^~~
+            VITIS_LOOP_805_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9786:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9787:17: warning: Added loop label VITIS_LOOP_806_4:   [xilinx-label-all-loops]
+                for(int pe=0; pe < PE; pe++){
+                ^~~
+                VITIS_LOOP_806_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9787:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9853:5: warning: Added loop label VITIS_LOOP_912_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+= Tm){
+    ^~~
+    VITIS_LOOP_912_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9853:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9854:9: warning: Added loop label VITIS_LOOP_913_2:   [xilinx-label-all-loops]
+        for(int n=0; n < N; n+= Tn){
+        ^~~
+        VITIS_LOOP_913_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9854:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9855:13: warning: Added loop label VITIS_LOOP_914_3:   [xilinx-label-all-loops]
+            for(int k=0; k < K; k+= Tk){
+            ^~~
+            VITIS_LOOP_914_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9855:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9891:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9898:13: warning: Added loop label VITIS_LOOP_957_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_957_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9898:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9910:9: warning: Added loop label VITIS_LOOP_969_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_969_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9910:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9928:5: warning: Added loop label VITIS_LOOP_999_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_999_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9928:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9929:6: warning: Added loop label VITIS_LOOP_1000_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_1000_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9929:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9932:7: warning: Added loop label VITIS_LOOP_1003_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_1003_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9932:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9937:2: warning: Added loop label VITIS_LOOP_1008_6:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1008_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9937:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9942:29: warning: Added loop label VITIS_LOOP_1013_7:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_1013_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9942:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9946:33: warning: Added loop label VITIS_LOOP_1017_8:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1017_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9946:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9962:29: warning: Added loop label VITIS_LOOP_1033_9:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1033_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9962:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9974:13: warning: Added loop label VITIS_LOOP_1045_10:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1045_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9974:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9975:17: warning: Added loop label VITIS_LOOP_1046_11:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_1046_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9975:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9981:21: warning: Added loop label VITIS_LOOP_1052_12:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_1052_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:9981:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10029:13: warning: Added loop label VITIS_LOOP_1100_1:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_1100_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10029:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10041:9: warning: Added loop label VITIS_LOOP_1112_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_1112_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10041:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10061:5: warning: Added loop label VITIS_LOOP_1145_3:   [xilinx-label-all-loops]
+    for(int tn=0; tn < Tn/PE; tn++){
+    ^~~
+    VITIS_LOOP_1145_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10061:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10062:6: warning: Added loop label VITIS_LOOP_1146_4:   [xilinx-label-all-loops]
+     for(int tk=0; tk < Tk/SIMD; tk++){
+     ^~~
+     VITIS_LOOP_1146_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10062:6: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10065:7: warning: Added loop label VITIS_LOOP_1149_5:   [xilinx-label-all-loops]
+      for(int tm=0; tm < Tm; tm++){
+      ^~~
+      VITIS_LOOP_1149_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10065:7: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10071:2: warning: Added loop label VITIS_LOOP_1155_6:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1155_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10071:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10076:29: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+                            for(int kk=0; kk< SIMD; kk++){
+                            ^~~
+                            VITIS_LOOP_1160_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10076:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10080:33: warning: Added loop label VITIS_LOOP_1164_8:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1164_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10080:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10095:29: warning: Added loop label VITIS_LOOP_1179_9:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1179_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10095:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10107:13: warning: Added loop label VITIS_LOOP_1191_10:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1191_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10107:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10108:17: warning: Added loop label VITIS_LOOP_1192_11:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_1192_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10108:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10114:21: warning: Added loop label VITIS_LOOP_1198_12:   [xilinx-label-all-loops]
+                    for (int p = 0; p < PE; p++) {
+                    ^~~
+                    VITIS_LOOP_1198_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10114:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10153:5: warning: Added loop label VITIS_LOOP_1237_1:   [xilinx-label-all-loops]
+    for(int m=0; m < M; m+= Tm){
+    ^~~
+    VITIS_LOOP_1237_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10153:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10154:9: warning: Added loop label VITIS_LOOP_1238_2:   [xilinx-label-all-loops]
+        for(int k=0; k < K; k+= Tk){
+        ^~~
+        VITIS_LOOP_1238_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10154:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10155:13: warning: Added loop label VITIS_LOOP_1239_3:   [xilinx-label-all-loops]
+            for(int n=0; n < N; n+= Tn){
+            ^~~
+            VITIS_LOOP_1239_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10155:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10200:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10208:2: warning: Added loop label VITIS_LOOP_1292_1:   [xilinx-label-all-loops]
+ for(int m=0; m < M; m+=Tm){
+ ^~~
+ VITIS_LOOP_1292_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10208:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10211:9: warning: Added loop label VITIS_LOOP_1295_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_1295_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10211:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10212:13: warning: Added loop label VITIS_LOOP_1296_3:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1296_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10212:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10214:17: warning: Added loop label VITIS_LOOP_1298_4:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1298_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10214:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10215:21: warning: Added loop label VITIS_LOOP_1299_5:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1299_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10215:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10224:9: warning: Added loop label VITIS_LOOP_1308_6:   [xilinx-label-all-loops]
+        for(int k=0; k<K; k+=Tk){
+        ^~~
+        VITIS_LOOP_1308_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10224:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10226:13: warning: Added loop label VITIS_LOOP_1310_7:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1310_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10226:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10227:17: warning: Added loop label VITIS_LOOP_1311_8:   [xilinx-label-all-loops]
+                for(int tk=0; tk < Tk/SIMD; tk++){
+                ^~~
+                VITIS_LOOP_1311_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10227:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10239:13: warning: Added loop label VITIS_LOOP_1323_9:   [xilinx-label-all-loops]
+            for(int n=0; n<N; n +=Tn){
+            ^~~
+            VITIS_LOOP_1323_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10239:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10240:17: warning: Added loop label VITIS_LOOP_1324_10:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1324_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10240:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10241:21: warning: Added loop label VITIS_LOOP_1325_11:   [xilinx-label-all-loops]
+                    for(int tk=0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1325_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10241:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10246:25: warning: Added loop label VITIS_LOOP_1330_12:   [xilinx-label-all-loops]
+                        for(int tm=0; tm < Tm; tm++){
+                        ^~~
+                        VITIS_LOOP_1330_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10246:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10252:2: warning: Added loop label VITIS_LOOP_1336_13:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1336_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10252:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10257:29: warning: Added loop label VITIS_LOOP_1341_14:   [xilinx-label-all-loops]
+                            for(int s=0; s< SIMD; s++){
+                            ^~~
+                            VITIS_LOOP_1341_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10257:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10261:33: warning: Added loop label VITIS_LOOP_1345_15:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1345_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10261:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10276:29: warning: Added loop label VITIS_LOOP_1360_16:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1360_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10276:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10287:13: warning: Added loop label VITIS_LOOP_1371_17:   [xilinx-label-all-loops]
+            for(int n=0; n < N; n+=Tn){
+            ^~~
+            VITIS_LOOP_1371_17: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10287:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10288:17: warning: Added loop label VITIS_LOOP_1372_18:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_1372_18: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10288:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10289:21: warning: Added loop label VITIS_LOOP_1373_19:   [xilinx-label-all-loops]
+                    for (int tn = 0; tn < Tn/PE; tn++) {
+                    ^~~
+                    VITIS_LOOP_1373_19: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10289:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10292:25: warning: Added loop label VITIS_LOOP_1376_20:   [xilinx-label-all-loops]
+                        for (int pe = 0; pe < PE; pe++) {
+                        ^~~
+                        VITIS_LOOP_1376_20: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10292:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10373:47: error: Invalid Directive: for current device, ram_t2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=C_tile type=ram_t2p impl=bram
+                                              ^
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10381:2: warning: Added loop label VITIS_LOOP_1509_1:   [xilinx-label-all-loops]
+ for(int m=0; m < M; m+=Tm){
+ ^~~
+ VITIS_LOOP_1509_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10381:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10384:9: warning: Added loop label VITIS_LOOP_1512_2:   [xilinx-label-all-loops]
+        for(int n=0; n<N; n +=Tn){
+        ^~~
+        VITIS_LOOP_1512_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10384:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10385:13: warning: Added loop label VITIS_LOOP_1513_3:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1513_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10385:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10387:17: warning: Added loop label VITIS_LOOP_1515_4:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1515_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10387:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10388:21: warning: Added loop label VITIS_LOOP_1516_5:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1516_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10388:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10397:9: warning: Added loop label VITIS_LOOP_1525_6:   [xilinx-label-all-loops]
+        for(int k=0; k<K; k+=Tk){
+        ^~~
+        VITIS_LOOP_1525_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10397:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10399:13: warning: Added loop label VITIS_LOOP_1527_7:   [xilinx-label-all-loops]
+            for(int tm=0; tm < Tm; tm++){
+            ^~~
+            VITIS_LOOP_1527_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10399:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10400:17: warning: Added loop label VITIS_LOOP_1528_8:   [xilinx-label-all-loops]
+                for(int tk=0; tk < Tk/SIMD; tk++){
+                ^~~
+                VITIS_LOOP_1528_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10400:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10412:13: warning: Added loop label VITIS_LOOP_1540_9:   [xilinx-label-all-loops]
+            for(int n=0; n<N; n +=Tn){
+            ^~~
+            VITIS_LOOP_1540_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10412:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10413:17: warning: Added loop label VITIS_LOOP_1541_10:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1541_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10413:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10414:21: warning: Added loop label VITIS_LOOP_1542_11:   [xilinx-label-all-loops]
+                    for(int tk=0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1542_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10414:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10419:25: warning: Added loop label VITIS_LOOP_1547_12:   [xilinx-label-all-loops]
+                        for(int tm=0; tm < Tm; tm++){
+                        ^~~
+                        VITIS_LOOP_1547_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10419:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10425:2: warning: Added loop label VITIS_LOOP_1553_13:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_1553_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10425:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10430:29: warning: Added loop label VITIS_LOOP_1558_14:   [xilinx-label-all-loops]
+                            for(int s=0; s< SIMD; s++){
+                            ^~~
+                            VITIS_LOOP_1558_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10430:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10434:33: warning: Added loop label VITIS_LOOP_1562_15:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1562_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10434:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10449:29: warning: Added loop label VITIS_LOOP_1577_16:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1577_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10449:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10460:13: warning: Added loop label VITIS_LOOP_1588_17:   [xilinx-label-all-loops]
+            for(int n=0; n < N; n+=Tn){
+            ^~~
+            VITIS_LOOP_1588_17: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10460:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10461:17: warning: Added loop label VITIS_LOOP_1589_18:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_1589_18: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10461:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10462:21: warning: Added loop label VITIS_LOOP_1590_19:   [xilinx-label-all-loops]
+                    for (int tn = 0; tn < Tn/PE; tn++) {
+                    ^~~
+                    VITIS_LOOP_1590_19: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10462:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10465:25: warning: Added loop label VITIS_LOOP_1593_20:   [xilinx-label-all-loops]
+                        for (int pe = 0; pe < PE; pe++) {
+                        ^~~
+                        VITIS_LOOP_1593_20: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10465:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10528:2: warning: Added loop label VITIS_LOOP_1656_1:   [xilinx-label-all-loops]
+ for (int n = 0; n < N; n++) {
+ ^~~
+ VITIS_LOOP_1656_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10528:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10529:9: warning: Added loop label VITIS_LOOP_1657_2:   [xilinx-label-all-loops]
+        for (int k = 0; k < K; k += SIMD) {
+        ^~~
+        VITIS_LOOP_1657_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10529:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10533:13: warning: Added loop label VITIS_LOOP_1661_3:   [xilinx-label-all-loops]
+            for (int s = 0; s < SIMD; s++) {
+            ^~~
+            VITIS_LOOP_1661_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10533:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10550:5: warning: Added loop label VITIS_LOOP_1678_4:   [xilinx-label-all-loops]
+    for (int m = 0; m < M; m += Tm) {
+    ^~~
+    VITIS_LOOP_1678_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10550:5: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10553:9: warning: Added loop label VITIS_LOOP_1681_5:   [xilinx-label-all-loops]
+        for (int tm = 0; tm < Tm; tm++) {
+        ^~~
+        VITIS_LOOP_1681_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10553:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10554:13: warning: Added loop label VITIS_LOOP_1682_6:   [xilinx-label-all-loops]
+            for (int k = 0; k < K; k += SIMD) {
+            ^~~
+            VITIS_LOOP_1682_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10554:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10558:17: warning: Added loop label VITIS_LOOP_1686_7:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_1686_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10558:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10573:9: warning: Added loop label VITIS_LOOP_1701_8:   [xilinx-label-all-loops]
+        for (int n = 0; n < N; n += Tn) {
+        ^~~
+        VITIS_LOOP_1701_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10573:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10576:13: warning: Added loop label VITIS_LOOP_1704_9:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1704_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10576:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10577:17: warning: Added loop label VITIS_LOOP_1705_10:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn++) {
+                ^~~
+                VITIS_LOOP_1705_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10577:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10584:13: warning: Added loop label VITIS_LOOP_1712_11:   [xilinx-label-all-loops]
+            for (int k = 0; k < K; k += SIMD) {
+            ^~~
+            VITIS_LOOP_1712_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10584:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10585:17: warning: Added loop label VITIS_LOOP_1713_12:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_1713_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10585:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10586:21: warning: Added loop label VITIS_LOOP_1714_13:   [xilinx-label-all-loops]
+                    for (int tn = 0; tn < Tn; tn += PE) {
+                    ^~~
+                    VITIS_LOOP_1714_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10586:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10588:2: warning: Added loop label VITIS_LOOP_1716_14:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_1716_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10588:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10592:29: warning: Added loop label VITIS_LOOP_1720_15:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_1720_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10592:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10605:13: warning: Added loop label VITIS_LOOP_1733_16:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1733_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10605:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10606:17: warning: Added loop label VITIS_LOOP_1734_17:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn; tn += PE) {
+                ^~~
+                VITIS_LOOP_1734_17: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10606:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10610:21: warning: Added loop label VITIS_LOOP_1738_18:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_1738_18: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10610:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10668:9: warning: Added loop label VITIS_LOOP_1796_1:   [xilinx-label-all-loops]
+        for (int n = 0; n < N; n+=Tn) {
+        ^~~
+        VITIS_LOOP_1796_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10668:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10669:13: warning: Added loop label VITIS_LOOP_1797_2:   [xilinx-label-all-loops]
+            for(int tk=0; tk < Tk; tk++){
+            ^~~
+            VITIS_LOOP_1797_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10669:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10670:17: warning: Added loop label VITIS_LOOP_1798_3:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1798_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10670:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10672:21: warning: Added loop label VITIS_LOOP_1800_4:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1800_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10672:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10690:13: warning: Added loop label VITIS_LOOP_1818_5:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_1818_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10690:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10703:9: warning: Added loop label VITIS_LOOP_1831_6:   [xilinx-label-all-loops]
+        for(int n=0; n < N; n+=Tn){
+        ^~~
+        VITIS_LOOP_1831_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10703:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10710:2: warning: Added loop label VITIS_LOOP_1838_7:   [xilinx-label-all-loops]
+ for(int pe=0; pe < PE; pe++){
+ ^~~
+ VITIS_LOOP_1838_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10710:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10719:13: warning: Added loop label VITIS_LOOP_1847_8:   [xilinx-label-all-loops]
+            for(int k=0; k < K; k+=Tk){
+            ^~~
+            VITIS_LOOP_1847_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10719:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10721:17: warning: Added loop label VITIS_LOOP_1849_9:   [xilinx-label-all-loops]
+                for(int tm=0; tm < Tm; tm++){
+                ^~~
+                VITIS_LOOP_1849_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10721:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10723:21: warning: Added loop label VITIS_LOOP_1851_10:   [xilinx-label-all-loops]
+                    for(int tk = 0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1851_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10723:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10725:25: warning: Added loop label VITIS_LOOP_1853_11:   [xilinx-label-all-loops]
+                        for(int tn = 0; tn < Tn/PE; tn++){
+                        ^~~
+                        VITIS_LOOP_1853_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10725:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10727:2: warning: Added loop label VITIS_LOOP_1855_12:   [xilinx-label-all-loops]
+ for(int s=0; s < SIMD; s++){
+ ^~~
+ VITIS_LOOP_1855_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10727:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10728:33: warning: Added loop label VITIS_LOOP_1856_13:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_1856_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10728:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10739:13: warning: Added loop label VITIS_LOOP_1867_14:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_1867_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10739:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10740:17: warning: Added loop label VITIS_LOOP_1868_15:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_1868_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10740:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10744:21: warning: Added loop label VITIS_LOOP_1872_16:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_1872_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10744:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10797:9: warning: Added loop label VITIS_LOOP_1940_1:   [xilinx-label-all-loops]
+        for (int n = 0; n < N; n+=Tn) {
+        ^~~
+        VITIS_LOOP_1940_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10797:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10798:13: warning: Added loop label VITIS_LOOP_1941_2:   [xilinx-label-all-loops]
+            for(int tk=0; tk < Tk; tk++){
+            ^~~
+            VITIS_LOOP_1941_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10798:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10799:17: warning: Added loop label VITIS_LOOP_1942_3:   [xilinx-label-all-loops]
+                for(int tn=0; tn < Tn/PE; tn++){
+                ^~~
+                VITIS_LOOP_1942_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10799:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10801:21: warning: Added loop label VITIS_LOOP_1944_4:   [xilinx-label-all-loops]
+                    for(int pe=0; pe < PE; pe++){
+                    ^~~
+                    VITIS_LOOP_1944_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10801:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10819:13: warning: Added loop label VITIS_LOOP_1962_5:   [xilinx-label-all-loops]
+            for(int k=0; k < K/SIMD; k++){
+            ^~~
+            VITIS_LOOP_1962_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10819:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10832:9: warning: Added loop label VITIS_LOOP_1975_6:   [xilinx-label-all-loops]
+        for(int n=0; n < N; n+=Tn){
+        ^~~
+        VITIS_LOOP_1975_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10832:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10839:2: warning: Added loop label VITIS_LOOP_1982_7:   [xilinx-label-all-loops]
+ for(int pe=0; pe < PE; pe++){
+ ^~~
+ VITIS_LOOP_1982_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10839:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10848:13: warning: Added loop label VITIS_LOOP_1991_8:   [xilinx-label-all-loops]
+            for(int k=0; k < K; k+=Tk){
+            ^~~
+            VITIS_LOOP_1991_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10848:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10850:17: warning: Added loop label VITIS_LOOP_1993_9:   [xilinx-label-all-loops]
+                for(int tm=0; tm < Tm; tm++){
+                ^~~
+                VITIS_LOOP_1993_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10850:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10852:21: warning: Added loop label VITIS_LOOP_1995_10:   [xilinx-label-all-loops]
+                    for(int tk = 0; tk < Tk/SIMD; tk++){
+                    ^~~
+                    VITIS_LOOP_1995_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10852:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10854:25: warning: Added loop label VITIS_LOOP_1997_11:   [xilinx-label-all-loops]
+                        for(int tn = 0; tn < Tn/PE; tn++){
+                        ^~~
+                        VITIS_LOOP_1997_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10854:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10856:2: warning: Added loop label VITIS_LOOP_1999_12:   [xilinx-label-all-loops]
+ for(int s=0; s < SIMD; s++){
+ ^~~
+ VITIS_LOOP_1999_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10856:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10857:33: warning: Added loop label VITIS_LOOP_2000_13:   [xilinx-label-all-loops]
+                                for(int pe=0; pe < PE; pe++){
+                                ^~~
+                                VITIS_LOOP_2000_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10857:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10868:13: warning: Added loop label VITIS_LOOP_2011_14:   [xilinx-label-all-loops]
+            for (int tm = 0; tm < Tm; tm++) {
+            ^~~
+            VITIS_LOOP_2011_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10868:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10869:17: warning: Added loop label VITIS_LOOP_2012_15:   [xilinx-label-all-loops]
+                for (int tn = 0; tn < Tn/PE; tn++) {
+                ^~~
+                VITIS_LOOP_2012_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10869:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10873:21: warning: Added loop label VITIS_LOOP_2016_16:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_2016_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10873:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10969:9: warning: Added loop label VITIS_LOOP_2112_1:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < N; n0 += Tn) {
+        ^~~
+        VITIS_LOOP_2112_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10969:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10970:13: warning: Added loop label VITIS_LOOP_2113_2:   [xilinx-label-all-loops]
+            for (int tk = 0; tk < Tk; tk++) {
+            ^~~
+            VITIS_LOOP_2113_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10970:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10971:17: warning: Added loop label VITIS_LOOP_2114_3:   [xilinx-label-all-loops]
+                for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                ^~~
+                VITIS_LOOP_2114_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10971:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10975:21: warning: Added loop label VITIS_LOOP_2118_4:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_2118_4: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10975:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10997:9: warning: Added loop label VITIS_LOOP_2140_5:   [xilinx-label-all-loops]
+        for (int tn = 0; tn < Tn; tn++) {
+        ^~~
+        VITIS_LOOP_2140_5: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10997:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10998:13: warning: Added loop label VITIS_LOOP_2141_6:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2141_6: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:10998:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11002:17: warning: Added loop label VITIS_LOOP_2145_7:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_2145_7: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11002:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11027:13: warning: Added loop label VITIS_LOOP_2170_8:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2170_8: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11027:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11031:17: warning: Added loop label VITIS_LOOP_2174_9:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_2174_9: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11031:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11057:13: warning: Added loop label VITIS_LOOP_2200_10:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2200_10: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11057:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11059:2: warning: Added loop label VITIS_LOOP_2202_11:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2202_11: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11059:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11077:17: warning: Added loop label VITIS_LOOP_2220_12:   [xilinx-label-all-loops]
+                for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                ^~~
+                VITIS_LOOP_2220_12: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11077:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11079:2: warning: Added loop label VITIS_LOOP_2222_13:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_2222_13: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11079:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11091:17: warning: Added loop label VITIS_LOOP_2234_14:   [xilinx-label-all-loops]
+                for (int tm = 0; tm < Tm; tm++) {
+                ^~~
+                VITIS_LOOP_2234_14: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11091:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11092:21: warning: Added loop label VITIS_LOOP_2235_15:   [xilinx-label-all-loops]
+                    for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                    ^~~
+                    VITIS_LOOP_2235_15: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11092:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11093:25: warning: Added loop label VITIS_LOOP_2236_16:   [xilinx-label-all-loops]
+                        for (int tk_pack = 0; tk_pack < Tk / SIMD; tk_pack++) {
+                        ^~~
+                        VITIS_LOOP_2236_16: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11093:25: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11095:2: warning: Added loop label VITIS_LOOP_2238_17:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2238_17: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11095:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11100:33: warning: Added loop label VITIS_LOOP_2243_18:   [xilinx-label-all-loops]
+                                for (int pe = 0; pe < PE; pe++) {
+                                ^~~
+                                VITIS_LOOP_2243_18: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11100:33: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11161:21: warning: Added loop label VITIS_LOOP_2304_19:   [xilinx-label-all-loops]
+                    for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+                    ^~~
+                    VITIS_LOOP_2304_19: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11161:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11163:2: warning: Added loop label VITIS_LOOP_2306_20:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2306_20: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11163:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11179:17: warning: Added loop label VITIS_LOOP_2329_21:   [xilinx-label-all-loops]
+                for (int tn_pack = 0; tn_pack < Tn / PE; tn_pack++) {
+                ^~~
+                VITIS_LOOP_2329_21: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11179:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11185:2: warning: Added loop label VITIS_LOOP_2335_22:   [xilinx-label-all-loops]
+ for (int pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_2335_22: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11185:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11198:21: warning: Added loop label VITIS_LOOP_2348_23:   [xilinx-label-all-loops]
+                    for (int pe = 0; pe < PE; pe++) {
+                    ^~~
+                    VITIS_LOOP_2348_23: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11198:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11204:21: warning: Added loop label VITIS_LOOP_2354_24:   [xilinx-label-all-loops]
+                    for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+                    ^~~
+                    VITIS_LOOP_2354_24: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11204:21: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11206:2: warning: Added loop label VITIS_LOOP_2356_25:   [xilinx-label-all-loops]
+ for (int s = 0; s < SIMD; s++) {
+ ^~~
+ VITIS_LOOP_2356_25: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11206:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11212:29: warning: Added loop label VITIS_LOOP_2362_26:   [xilinx-label-all-loops]
+                            for (int pe = 0; pe < PE; pe++) {
+                            ^~~
+                            VITIS_LOOP_2362_26: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11212:29: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11238:13: warning: Added loop label VITIS_LOOP_2388_27:   [xilinx-label-all-loops]
+            for (int k_pack = 0; k_pack < K / SIMD; k_pack++) {
+            ^~~
+            VITIS_LOOP_2388_27: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11238:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11242:17: warning: Added loop label VITIS_LOOP_2392_28:   [xilinx-label-all-loops]
+                for (int s = 0; s < SIMD; s++) {
+                ^~~
+                VITIS_LOOP_2392_28: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11242:17: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11505:2: warning: Added loop label VITIS_LOOP_156_1:   [xilinx-label-all-loops]
+ for (int t = 0; t < 16 + 1; t++) {
+ ^~~
+ VITIS_LOOP_156_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11505:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11506:9: warning: Added loop label VITIS_LOOP_157_2:   [xilinx-label-all-loops]
+        for (int h = 0; h < 2; h++) {
+        ^~~
+        VITIS_LOOP_157_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11506:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11507:13: warning: Added loop label VITIS_LOOP_158_3:   [xilinx-label-all-loops]
+            for (int i = 0; i < 8 / FC2Cfg::PE; i++) {
+            ^~~
+            VITIS_LOOP_158_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11507:13: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11527:2: warning: Added loop label VITIS_LOOP_178_1:   [xilinx-label-all-loops]
+ for (int t = 0; t < 16 + 1; t++) {
+ ^~~
+ VITIS_LOOP_178_1: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11527:2: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11528:9: warning: Added loop label VITIS_LOOP_179_2:   [xilinx-label-all-loops]
+        for (int h = 0; h < 2; h++) {
+        ^~~
+        VITIS_LOOP_179_2: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11528:9: note: FIX-IT applied suggested code changes
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11529:13: warning: Added loop label VITIS_LOOP_180_3:   [xilinx-label-all-loops]
+            for (int i = 0; i < 8 / FC2Cfg::PE ; i++) {
+            ^~~
+            VITIS_LOOP_180_3: 
+/home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/.autopilot/db/MultiHeadAttention_tiled.pp.0.cpp:11529:13: note: FIX-IT applied suggested code changes

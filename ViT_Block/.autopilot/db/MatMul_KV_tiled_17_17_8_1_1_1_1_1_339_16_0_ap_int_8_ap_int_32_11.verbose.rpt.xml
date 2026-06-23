@@ -1,0 +1,186 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_11'" level="0">
+<item name = "Date">Fri Jun 19 14:57:26 2026
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">ViT_Block</item>
+<item name = "Solution">ViT_Block (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 5.345 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1008, 1008, 10.080 us, 10.080 us, 1008, 1008, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1_fu_214">MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1, 138, 138, 1.380 us, 1.380 us, 138, 138, no</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5_fu_222">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5, 19, 19, 0.190 us, 0.190 us, 19, 19, no</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6_fu_229">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6, 19, 19, 0.190 us, 0.190 us, 19, 19, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- matmul_core">867, 867, 51, -, -, 17, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 23, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, 12, 770, 898, -</column>
+<column name="Memory">16, -, 16, 3, 0</column>
+<column name="Multiplexer">-, -, -, 438, -</column>
+<column name="Register">-, -, 161, -, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">5, ~0, ~0, 1, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5_fu_222">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5, 0, 0, 13, 70, 0</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6_fu_229">MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6, 0, 12, 737, 678, 0</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1_fu_214">MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1, 0, 0, 20, 150, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="buff_B_V_U">MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_11_buff_B_V_RAMkbM, 16, 0, 0, 0, 136, 8, 1, 1088</column>
+<column name="tile_A_V_0_U">MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_s_tile_A_V_0_RAhbi, 0, 16, 3, 0, 17, 8, 1, 136</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="m_17_fu_269_p2">+, 0, 0, 12, 5, 1</column>
+<column name="icmp_ln1813_fu_263_p2">icmp, 0, 0, 9, 5, 5</column>
+<column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="A_sx_1_read">9, 2, 1, 2</column>
+<column name="V_1_1_read">9, 2, 1, 2</column>
+<column name="ap_NS_fsm">81, 17, 1, 17</column>
+<column name="ap_done">9, 2, 1, 2</column>
+<column name="buff_B_V_address0">14, 3, 8, 24</column>
+<column name="buff_B_V_ce0">14, 3, 1, 3</column>
+<column name="buff_B_V_ce1">9, 2, 1, 2</column>
+<column name="buff_B_V_ce10">9, 2, 1, 2</column>
+<column name="buff_B_V_ce11">9, 2, 1, 2</column>
+<column name="buff_B_V_ce12">9, 2, 1, 2</column>
+<column name="buff_B_V_ce13">9, 2, 1, 2</column>
+<column name="buff_B_V_ce14">9, 2, 1, 2</column>
+<column name="buff_B_V_ce15">9, 2, 1, 2</column>
+<column name="buff_B_V_ce16">9, 2, 1, 2</column>
+<column name="buff_B_V_ce2">9, 2, 1, 2</column>
+<column name="buff_B_V_ce3">9, 2, 1, 2</column>
+<column name="buff_B_V_ce4">9, 2, 1, 2</column>
+<column name="buff_B_V_ce5">9, 2, 1, 2</column>
+<column name="buff_B_V_ce6">9, 2, 1, 2</column>
+<column name="buff_B_V_ce7">9, 2, 1, 2</column>
+<column name="buff_B_V_ce8">9, 2, 1, 2</column>
+<column name="buff_B_V_ce9">9, 2, 1, 2</column>
+<column name="buff_B_V_we0">9, 2, 1, 2</column>
+<column name="head_out_1_write">9, 2, 1, 2</column>
+<column name="m_fu_74">9, 2, 5, 10</column>
+<column name="tile_A_V_0_address0">59, 11, 5, 55</column>
+<column name="tile_A_V_0_address1">49, 9, 5, 45</column>
+<column name="tile_A_V_0_ce0">14, 3, 1, 3</column>
+<column name="tile_A_V_0_we0">9, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">16, 0, 16, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1818_5_fu_222_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6_fu_229_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1_fu_214_ap_start_reg">1, 0, 1, 0</column>
+<column name="m_fu_74">5, 0, 5, 0</column>
+<column name="tile_A_V_0_load_10_reg_425">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_11_reg_430">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_12_reg_435">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_13_reg_440">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_14_reg_445">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_15_reg_450">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_16_reg_455">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_1_reg_380">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_2_reg_385">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_3_reg_390">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_4_reg_395">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_5_reg_400">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_6_reg_405">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_7_reg_410">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_8_reg_415">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_9_reg_420">8, 0, 8, 0</column>
+<column name="tile_A_V_0_load_reg_375">8, 0, 8, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, MatMul_KV_tiled&lt;17, 17, 8, 1, 1, 1, 1, 1, 339, 16, 0, ap_int&lt;8&gt;, ap_int&lt;32&gt; &gt;.11, return value</column>
+<column name="A_sx_1_dout">in, 8, ap_fifo, A_sx_1, pointer</column>
+<column name="A_sx_1_num_data_valid">in, 2, ap_fifo, A_sx_1, pointer</column>
+<column name="A_sx_1_fifo_cap">in, 2, ap_fifo, A_sx_1, pointer</column>
+<column name="A_sx_1_empty_n">in, 1, ap_fifo, A_sx_1, pointer</column>
+<column name="A_sx_1_read">out, 1, ap_fifo, A_sx_1, pointer</column>
+<column name="V_1_1_dout">in, 8, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_num_data_valid">in, 2, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_fifo_cap">in, 2, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_empty_n">in, 1, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_read">out, 1, ap_fifo, V_1_1, pointer</column>
+<column name="head_out_1_din">out, 8, ap_fifo, head_out_1, pointer</column>
+<column name="head_out_1_num_data_valid">in, 2, ap_fifo, head_out_1, pointer</column>
+<column name="head_out_1_fifo_cap">in, 2, ap_fifo, head_out_1, pointer</column>
+<column name="head_out_1_full_n">in, 1, ap_fifo, head_out_1, pointer</column>
+<column name="head_out_1_write">out, 1, ap_fifo, head_out_1, pointer</column>
+</table>
+</item>
+</section>
+</profile>

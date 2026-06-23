@@ -1,3 +1,0 @@
-4 errors generated.
-Error while processing /home/fede/PhD/transformer-hls/ViT_Block/ViT_Block/.autopilot/db/MM_tiled.pp.0.cpp.
-clang-tidy applied 283 of 283 suggested fixes.

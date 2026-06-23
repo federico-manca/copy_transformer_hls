@@ -1,0 +1,7 @@
+Running: xsim.dir/ViT_Block/xsimk -simmode gui -wdb ViT_Block.wdb -simrunnum 0 -socket 58533
+Design successfully loaded
+Design Loading Memory Usage: 38960 KB (Peak: 39092 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 141376 KB (Peak: 178228 KB)
+Simulation CPU Usage: 224720 ms

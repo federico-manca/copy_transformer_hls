@@ -1,0 +1,123 @@
+# This script segment is generated automatically by AutoPilot
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler ViT_Block_MatMul_KV_tiled_17_17_8_1_1_1_1_1_339_16_0_ap_int_8_ap_int_32_11_buff_B_V_RAMkbM BINDTYPE {storage} TYPE {ram_1wnr} IMPL {auto} LATENCY 2 ALLOW_PRAGMA 1
+}
+
+
+# clear list
+if {${::AESL::PGuard_autoexp_gen}} {
+    cg_default_interface_gen_dc_begin
+    cg_default_interface_gen_bundle_begin
+    AESL_LIB_XILADAPTER::native_axis_begin
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 332 \
+    name A_sx_1 \
+    type fifo \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_A_sx_1 \
+    op interface \
+    ports { A_sx_1_dout { I 8 vector } A_sx_1_num_data_valid { I 2 vector } A_sx_1_fifo_cap { I 2 vector } A_sx_1_empty_n { I 1 bit } A_sx_1_read { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 333 \
+    name V_1_1 \
+    type fifo \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_V_1_1 \
+    op interface \
+    ports { V_1_1_dout { I 8 vector } V_1_1_num_data_valid { I 2 vector } V_1_1_fifo_cap { I 2 vector } V_1_1_empty_n { I 1 bit } V_1_1_read { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 334 \
+    name head_out_1 \
+    type fifo \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_head_out_1 \
+    op interface \
+    ports { head_out_1_din { O 8 vector } head_out_1_num_data_valid { I 2 vector } head_out_1_fifo_cap { I 2 vector } head_out_1_full_n { I 1 bit } head_out_1_write { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id -1 \
+    name ap_ctrl \
+    type ap_ctrl \
+    reset_level 1 \
+    sync_rst true \
+    corename ap_ctrl \
+    op interface \
+    ports { ap_start { I 1 bit } ap_ready { O 1 bit } ap_done { O 1 bit } ap_idle { O 1 bit } ap_continue { I 1 bit } } \
+} "
+}
+
+
+# Adapter definition:
+set PortName ap_clk
+set DataWd 1 
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc cg_default_interface_gen_clock] == "cg_default_interface_gen_clock"} {
+eval "cg_default_interface_gen_clock { \
+    id -2 \
+    name ${PortName} \
+    reset_level 1 \
+    sync_rst true \
+    corename apif_ap_clk \
+    data_wd ${DataWd} \
+    op interface \
+}"
+} else {
+puts "@W \[IMPL-113\] Cannot find bus interface model in the library. Ignored generation of bus interface for '${PortName}'"
+}
+}
+
+
+# Adapter definition:
+set PortName ap_rst
+set DataWd 1 
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc cg_default_interface_gen_reset] == "cg_default_interface_gen_reset"} {
+eval "cg_default_interface_gen_reset { \
+    id -3 \
+    name ${PortName} \
+    reset_level 1 \
+    sync_rst true \
+    corename apif_ap_rst \
+    data_wd ${DataWd} \
+    op interface \
+}"
+} else {
+puts "@W \[IMPL-114\] Cannot find bus interface model in the library. Ignored generation of bus interface for '${PortName}'"
+}
+}
+
+
+
+# merge
+if {${::AESL::PGuard_autoexp_gen}} {
+    cg_default_interface_gen_dc_end
+    cg_default_interface_gen_bundle_end
+    AESL_LIB_XILADAPTER::native_axis_end
+}
+
+

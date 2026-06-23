@@ -1,0 +1,139 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'MatMul_KV_tiled_11_Pipeline_load_B_VITIS_LOOP_1796_1'" level="0">
+<item name = "Date">Fri Jun 19 14:57:25 2026
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">ViT_Block</item>
+<item name = "Solution">ViT_Block (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 3.205 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">138, 138, 1.380 us, 1.380 us, 138, 138, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- load_B_VITIS_LOOP_1796_1">136, 136, 2, 1, 1, 136, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 87, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, -, -, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 63, -</column>
+<column name="Register">-, -, 20, -, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln1795_1_fu_110_p2">+, 0, 0, 15, 8, 1</column>
+<column name="add_ln1795_fu_127_p2">+, 0, 0, 12, 5, 1</column>
+<column name="add_ln1796_fu_178_p2">+, 0, 0, 12, 4, 1</column>
+<column name="add_ln1803_fu_167_p2">+, 0, 0, 15, 8, 8</column>
+<column name="ap_block_pp0_stage0_11001">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln1795_fu_104_p2">icmp, 0, 0, 11, 8, 8</column>
+<column name="icmp_ln1796_fu_133_p2">icmp, 0, 0, 9, 4, 5</column>
+<column name="select_ln1795_1_fu_147_p3">select, 0, 0, 5, 1, 5</column>
+<column name="select_ln1795_fu_139_p3">select, 0, 0, 4, 1, 1</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="V_1_1_blk_n">9, 2, 1, 2</column>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_sig_allocacmp_indvar_flatten_load">9, 2, 8, 16</column>
+<column name="indvar_flatten_fu_62">9, 2, 8, 16</column>
+<column name="k_fu_58">9, 2, 5, 10</column>
+<column name="n_fu_54">9, 2, 4, 8</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="indvar_flatten_fu_62">8, 0, 8, 0</column>
+<column name="k_fu_58">5, 0, 5, 0</column>
+<column name="n_fu_54">4, 0, 4, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, MatMul_KV_tiled.11_Pipeline_load_B_VITIS_LOOP_1796_1, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, MatMul_KV_tiled.11_Pipeline_load_B_VITIS_LOOP_1796_1, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, MatMul_KV_tiled.11_Pipeline_load_B_VITIS_LOOP_1796_1, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, MatMul_KV_tiled.11_Pipeline_load_B_VITIS_LOOP_1796_1, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, MatMul_KV_tiled.11_Pipeline_load_B_VITIS_LOOP_1796_1, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, MatMul_KV_tiled.11_Pipeline_load_B_VITIS_LOOP_1796_1, return value</column>
+<column name="V_1_1_dout">in, 8, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_num_data_valid">in, 2, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_fifo_cap">in, 2, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_empty_n">in, 1, ap_fifo, V_1_1, pointer</column>
+<column name="V_1_1_read">out, 1, ap_fifo, V_1_1, pointer</column>
+<column name="buff_B_V_address0">out, 8, ap_memory, buff_B_V, array</column>
+<column name="buff_B_V_ce0">out, 1, ap_memory, buff_B_V, array</column>
+<column name="buff_B_V_we0">out, 1, ap_memory, buff_B_V, array</column>
+<column name="buff_B_V_d0">out, 8, ap_memory, buff_B_V, array</column>
+</table>
+</item>
+</section>
+</profile>

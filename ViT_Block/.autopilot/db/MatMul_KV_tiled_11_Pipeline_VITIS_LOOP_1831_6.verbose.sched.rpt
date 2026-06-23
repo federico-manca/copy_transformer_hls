@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MatMul_KV_tiled_11_Pipeline_VITIS_LOOP_1831_6'
 ================================================================
-* Date:           Tue Jun 23 12:33:24 2026
+* Date:           Tue Jun 23 12:41:24 2026
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        ViT_Block
@@ -448,7 +448,7 @@ The critical path consists of the following:
 	'sub' operation ('rq.V', /home/fede/PhD/transformer-hls/hls/include/linear.h:1420) [222]  (0.735 ns)
 	'select' operation ('rq.V') [223]  (0.299 ns)
 	'icmp' operation ('icmp_ln1035') [225]  (0.637 ns)
-	'or' operation ('or_ln1444', /home/fede/PhD/transformer-hls/hls/include/linear.h:1444) [229]  (0 ns)
+	'select' operation ('select_ln1444', /home/fede/PhD/transformer-hls/hls/include/linear.h:1444) [228]  (0 ns)
 	'select' operation ('q.V', /home/fede/PhD/transformer-hls/hls/include/linear.h:1444) [230]  (0.303 ns)
 	fifo write operation ('write_ln1890', /home/fede/PhD/transformer-hls/hls/include/linear.h:1890) on port 'head_out_1' (/home/fede/PhD/transformer-hls/hls/include/linear.h:1890) [231]  (1.36 ns)
 

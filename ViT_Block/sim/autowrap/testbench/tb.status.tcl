@@ -1,1 +1,0 @@
-set ::AESL_AUTOSIM::gTopFileName /home/fede/PhD/transformer-hls/runs/mnist_vit_block_20260619_144418_0b8dc3f6/build/ViT_Block/ViT_Block/./sim/autowrap/testbench/ViT_Block.cpp_pre.cpp.tb.cpp

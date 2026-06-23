@@ -1,23 +1,25 @@
-Tue Jun 23 12:32:28 2026: Running xcd server. This server was built by gradle.
-Tue Jun 23 12:32:28 2026: Server was asked to start on port: '42701'
-Tue Jun 23 12:32:28 2026: Server is using token UUID: '988d486b-b2ad-430b-a8ba-665dcb33160c'
-Tue Jun 23 12:32:28 2026: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
-Tue Jun 23 12:32:28 2026: Attempting to start server on port '42701'
-Tue Jun 23 12:32:28 2026: XCD main fifo: created main fifo '/tmp/xcdmain988d486b-b2ad-430b-a8ba-665dcb33160c', fd read = 13
-Tue Jun 23 12:32:28 2026: Running Dispatch Server
-Tue Jun 23 12:32:28 2026: Version 2.2.0
-Tue Jun 23 12:32:38 2026: Dispatch Server: Accepted socket connection from client
-Tue Jun 23 12:32:38 2026: Starting Socket connection
-Tue Jun 23 12:32:38 2026: EXCHANGE_TOKEN received, server token: 988d486b-b2ad-430b-a8ba-665dcb33160c, passed token: 988d486b-b2ad-430b-a8ba-665dcb33160c
-Tue Jun 23 12:32:38 2026: SESSION_MGR: creating session with session uuid: 'e14014c3-6c0f-457b-8b28-c2588d49c95c' and name 'vitis_hls'
-Tue Jun 23 12:32:38 2026: KERNEL_SVC: creating session with uuid: 'e14014c3-6c0f-457b-8b28-c2588d49c95c' and name 'vitis_hls'
-Tue Jun 23 12:32:38 2026: GUIDANCE_SMGR: creating guidance session with uuid: 'e14014c3-6c0f-457b-8b28-c2588d49c95c' and name 'vitis_hls'
-Tue Jun 23 12:35:36 2026: Dispatch Server: do_await_stop
-Tue Jun 23 12:35:36 2026: Dispatch Server: stopping mainFifo_
-Tue Jun 23 12:35:36 2026: XCD main fifo: Stopping
-Tue Jun 23 12:35:36 2026: XCD main fifo: do_read error code: Operation canceled
-Tue Jun 23 12:35:36 2026: XCD main fifo: bytes_transferred: 0
-Tue Jun 23 12:35:36 2026: SERVER: destructor for server bound to port 42701
-Tue Jun 23 12:35:36 2026: XCD main fifo: Good unlink of /tmp/xcdmain988d486b-b2ad-430b-a8ba-665dcb33160c
-Tue Jun 23 12:35:36 2026: Server exiting with status 0.
-Tue Jun 23 12:35:36 2026: Closing log file.
+Tue Jun 23 12:40:41 2026: Running xcd server. This server was built by gradle.
+Tue Jun 23 12:40:41 2026: Server was asked to start on port: '44571'
+Tue Jun 23 12:40:41 2026: Server is using token UUID: '783c5416-487b-4df4-bdcf-e7605e726062'
+Tue Jun 23 12:40:41 2026: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Jun 23 12:40:41 2026: Attempting to start server on port '44571'
+Tue Jun 23 12:40:41 2026: XCD main fifo: created main fifo '/tmp/xcdmain783c5416-487b-4df4-bdcf-e7605e726062', fd read = 13
+Tue Jun 23 12:40:41 2026: Running Dispatch Server
+Tue Jun 23 12:40:41 2026: Version 2.2.0
+Tue Jun 23 12:40:51 2026: Dispatch Server: Accepted socket connection from client
+Tue Jun 23 12:40:51 2026: Starting Socket connection
+Tue Jun 23 12:40:51 2026: EXCHANGE_TOKEN received, server token: 783c5416-487b-4df4-bdcf-e7605e726062, passed token: 783c5416-487b-4df4-bdcf-e7605e726062
+Tue Jun 23 12:40:51 2026: SESSION_MGR: creating session with session uuid: '58c9b6ce-7572-4a42-bdd4-f185d9738206' and name 'vitis_hls'
+Tue Jun 23 12:40:51 2026: KERNEL_SVC: creating session with uuid: '58c9b6ce-7572-4a42-bdd4-f185d9738206' and name 'vitis_hls'
+Tue Jun 23 12:40:51 2026: GUIDANCE_SMGR: creating guidance session with uuid: '58c9b6ce-7572-4a42-bdd4-f185d9738206' and name 'vitis_hls'
+Tue Jun 23 12:42:42 2026: STOP_SERVER received, server token: 783c5416-487b-4df4-bdcf-e7605e726062, passed token: 783c5416-487b-4df4-bdcf-e7605e726062
+Tue Jun 23 12:42:42 2026: Socket received request to stop server.
+Tue Jun 23 12:42:42 2026: Dispatch Server: do_await_stop
+Tue Jun 23 12:42:42 2026: Dispatch Server: stopping mainFifo_
+Tue Jun 23 12:42:42 2026: XCD main fifo: Stopping
+Tue Jun 23 12:42:42 2026: XCD main fifo: do_read error code: Operation canceled
+Tue Jun 23 12:42:42 2026: XCD main fifo: bytes_transferred: 0
+Tue Jun 23 12:42:42 2026: SERVER: destructor for server bound to port 44571
+Tue Jun 23 12:42:42 2026: XCD main fifo: Good unlink of /tmp/xcdmain783c5416-487b-4df4-bdcf-e7605e726062
+Tue Jun 23 12:42:42 2026: Server exiting with status 0.
+Tue Jun 23 12:42:42 2026: Closing log file.
